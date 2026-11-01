@@ -1,0 +1,252 @@
+{
+ "id": "r3-short-vowels",
+ "title": "Short vowels",
+ "ar": "الحَرَكَات",
+ "goal": "Read any letter with fatḥa, kasra or ḍamma, and read short words built from them.",
+ "noAutoVocab": true,
+ "words": [],
+ "understand": [
+  {
+   "p": "Arabic writes its three short vowels as small marks called <strong>ḥarakāt</strong>. Everyday print leaves them out, but the Quran, children's books and this course always show them, so you can read every word correctly."
+  },
+  {
+   "table": {
+    "headers": [
+     "Mark",
+     "Name",
+     "Sound",
+     "Example"
+    ],
+    "ar": [
+     3
+    ],
+    "rows": [
+     [
+      "slash above",
+      "fatḥa",
+      "a",
+      "بَ  تَ  كَ"
+     ],
+     [
+      "slash below",
+      "kasra",
+      "i",
+      "بِ  تِ  كِ"
+     ],
+     [
+      "small wāw above",
+      "ḍamma",
+      "u",
+      "بُ  تُ  كُ"
+     ]
+    ]
+   }
+  },
+  {
+   "examples": [
+    {
+     "ar": "بَ بِ بُ",
+     "en": "ba · bi · bu"
+    },
+    {
+     "ar": "دَ دِ دُ",
+     "en": "da · di · du"
+    },
+    {
+     "ar": "قَ قِ قُ",
+     "en": "qa · qi · qu"
+    }
+   ]
+  },
+  {
+   "rule": "Every letter with a vowel mark makes its <strong>consonant first, then the vowel</strong>: <span class='ar'>كَ</span> = ka. Read a word right to left, one letter+vowel at a time."
+  },
+  {
+   "examples": [
+    {
+     "ar": "كَتَبَ",
+     "en": "ka-ta-ba"
+    },
+    {
+     "ar": "دَرَسَ",
+     "en": "da-ra-sa"
+    },
+    {
+     "ar": "ذَهَبَ",
+     "en": "dha-ha-ba"
+    },
+    {
+     "ar": "كُتِبَ",
+     "en": "ku-ti-ba"
+    },
+    {
+     "ar": "فَهِمَ",
+     "en": "fa-hi-ma"
+    }
+   ]
+  },
+  {
+   "tip": "Next to heavy letters (<span class='ar'>ص ض ط ظ ق خ غ</span>), fatḥa sounds deeper, closer to the u in “sun”. Compare <span class='ar'>سَ</span> sa with <span class='ar'>صَ</span> ṣa."
+  }
+ ],
+ "practice": [
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "ba",
+    "bi",
+    "bu",
+    "b"
+   ],
+   "a": 1,
+   "ar": "بِ",
+   "why": "The mark is below: kasra = i."
+  },
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "ma",
+    "mi",
+    "mu",
+    "am"
+   ],
+   "a": 2,
+   "ar": "مُ",
+   "why": "Small wāw above: ḍamma = u."
+  },
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "kataba",
+    "kutiba",
+    "kitaba",
+    "kaduba"
+   ],
+   "a": 0,
+   "ar": "كَتَبَ",
+   "why": "Three fatḥas: ka-ta-ba."
+  },
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "dhahaba",
+    "dhuhiba",
+    "dahaba",
+    "zahaba"
+   ],
+   "a": 0,
+   "ar": "ذَهَبَ"
+  },
+  {
+   "t": "mcq",
+   "q": "Which one is “bu”?",
+   "opts": [
+    "بَ",
+    "بِ",
+    "بُ",
+    "تُ"
+   ],
+   "a": 2
+  }
+ ],
+ "check": [
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "ta",
+    "ti",
+    "tu",
+    "at"
+   ],
+   "a": 0,
+   "ar": "تَ"
+  },
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "sa",
+    "si",
+    "su",
+    "ṣi"
+   ],
+   "a": 1,
+   "ar": "سِ"
+  },
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "darasa",
+    "durisa",
+    "darisa",
+    "darusa"
+   ],
+   "a": 0,
+   "ar": "دَرَسَ"
+  },
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "fahama",
+    "fahima",
+    "fuhima",
+    "fahuma"
+   ],
+   "a": 1,
+   "ar": "فَهِمَ"
+  },
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "kataba",
+    "kutiba",
+    "kutuba",
+    "katiba"
+   ],
+   "a": 1,
+   "ar": "كُتِبَ"
+  },
+  {
+   "t": "mcq",
+   "q": "Which one is “qi”?",
+   "opts": [
+    "قَ",
+    "قِ",
+    "قُ",
+    "كِ"
+   ],
+   "a": 1
+  },
+  {
+   "t": "mcq",
+   "q": "Which one is “ḍa”?",
+   "opts": [
+    "دَ",
+    "ضَ",
+    "ذَ",
+    "صَ"
+   ],
+   "a": 1
+  },
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "jalasa",
+    "jalisa",
+    "julisa",
+    "jalusa"
+   ],
+   "a": 0,
+   "ar": "جَلَسَ"
+  }
+ ]
+}

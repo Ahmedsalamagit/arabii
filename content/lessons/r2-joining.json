@@ -1,0 +1,362 @@
+{
+ "id": "r2-joining",
+ "title": "How letters join",
+ "ar": "الحُرُوفُ المُتَّصِلَة",
+ "goal": "Recognize letters in their joined shapes and spot where words break.",
+ "noAutoVocab": true,
+ "words": [],
+ "understand": [
+  {
+   "p": "In handwriting and print, Arabic letters <strong>join</strong> to the letter after them, the way cursive does. So most letters have a start, a middle and an end shape. The core of the letter stays, and usually only the tail changes."
+  },
+  {
+   "examples": [
+    {
+     "ar": "ب ← بـ ـبـ ـب",
+     "en": "bāʾ: alone, start, middle, end"
+    },
+    {
+     "ar": "ع ← عـ ـعـ ـع",
+     "en": "ʿayn changes the most"
+    },
+    {
+     "ar": "ه ← هـ ـهـ ـه",
+     "en": "hāʾ also changes a lot"
+    }
+   ]
+  },
+  {
+   "rule": "Six letters join only to the letter <em>before</em> them, never to the one after: <span class='ar'>ا د ذ ر ز و</span>. After one of these, the next letter starts fresh, which is why words seem to have gaps."
+  },
+  {
+   "examples": [
+    {
+     "ar": "بَيْت",
+     "en": "all joined: bayt"
+    },
+    {
+     "ar": "دَار",
+     "en": "د and ا don't join forward: dār"
+    },
+    {
+     "ar": "وَرْد",
+     "en": "no joins at all: ward"
+    }
+   ]
+  },
+  {
+   "tip": "Reading tip: find the <strong>dots first</strong>. In a joined word the bodies blur together, but the dots tell you which letter you're looking at."
+  },
+  {
+   "h": "Tap to see the joined shapes"
+  },
+  {
+   "letters": [
+    {
+     "ar": "ا",
+     "name": "alif",
+     "sound": "ā"
+    },
+    {
+     "ar": "ب",
+     "name": "bāʾ",
+     "sound": "b"
+    },
+    {
+     "ar": "ت",
+     "name": "tāʾ",
+     "sound": "t"
+    },
+    {
+     "ar": "ث",
+     "name": "thāʾ",
+     "sound": "th"
+    },
+    {
+     "ar": "ج",
+     "name": "jīm",
+     "sound": "j"
+    },
+    {
+     "ar": "ح",
+     "name": "ḥāʾ",
+     "sound": "ḥ"
+    },
+    {
+     "ar": "خ",
+     "name": "khāʾ",
+     "sound": "kh"
+    },
+    {
+     "ar": "د",
+     "name": "dāl",
+     "sound": "d"
+    },
+    {
+     "ar": "ذ",
+     "name": "dhāl",
+     "sound": "dh"
+    },
+    {
+     "ar": "ر",
+     "name": "rāʾ",
+     "sound": "r"
+    },
+    {
+     "ar": "ز",
+     "name": "zāy",
+     "sound": "z"
+    },
+    {
+     "ar": "س",
+     "name": "sīn",
+     "sound": "s"
+    },
+    {
+     "ar": "ش",
+     "name": "shīn",
+     "sound": "sh"
+    },
+    {
+     "ar": "ص",
+     "name": "ṣād",
+     "sound": "ṣ"
+    },
+    {
+     "ar": "ض",
+     "name": "ḍād",
+     "sound": "ḍ"
+    },
+    {
+     "ar": "ط",
+     "name": "ṭāʾ",
+     "sound": "ṭ"
+    },
+    {
+     "ar": "ظ",
+     "name": "ẓāʾ",
+     "sound": "ẓ"
+    },
+    {
+     "ar": "ع",
+     "name": "ʿayn",
+     "sound": "ʿ"
+    },
+    {
+     "ar": "غ",
+     "name": "ghayn",
+     "sound": "gh"
+    },
+    {
+     "ar": "ف",
+     "name": "fāʾ",
+     "sound": "f"
+    },
+    {
+     "ar": "ق",
+     "name": "qāf",
+     "sound": "q"
+    },
+    {
+     "ar": "ك",
+     "name": "kāf",
+     "sound": "k"
+    },
+    {
+     "ar": "ل",
+     "name": "lām",
+     "sound": "l"
+    },
+    {
+     "ar": "م",
+     "name": "mīm",
+     "sound": "m"
+    },
+    {
+     "ar": "ن",
+     "name": "nūn",
+     "sound": "n"
+    },
+    {
+     "ar": "ه",
+     "name": "hāʾ",
+     "sound": "h"
+    },
+    {
+     "ar": "و",
+     "name": "wāw",
+     "sound": "w"
+    },
+    {
+     "ar": "ي",
+     "name": "yāʾ",
+     "sound": "y"
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "t": "mcq",
+   "q": "Which letter is at the start (far right) of this word?",
+   "opts": [
+    "ب",
+    "ت",
+    "ن",
+    "ي"
+   ],
+   "a": 0,
+   "ar": "بَيْت",
+   "why": "The first letter on the right has one dot below: bāʾ."
+  },
+  {
+   "t": "mcq",
+   "q": "Which of these letters never joins to the letter after it?",
+   "opts": [
+    "ب",
+    "م",
+    "د",
+    "س"
+   ],
+   "a": 2,
+   "why": "دَال is one of the six: ا د ذ ر ز و."
+  },
+  {
+   "t": "mcq",
+   "q": "How many separate pieces is this word written in?",
+   "opts": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "a": 2,
+   "ar": "وَرْد",
+   "why": "و, ر and د join to nothing after them, so each stands alone: 3 pieces."
+  },
+  {
+   "t": "mcq",
+   "q": "Which letter is in the middle of this word?",
+   "opts": [
+    "ل",
+    "م",
+    "ن",
+    "ك"
+   ],
+   "a": 1,
+   "ar": "قَمَر",
+   "why": "ق + م + ر. The middle letter is mīm."
+  },
+  {
+   "t": "mcq",
+   "q": "Which letter ends this word?",
+   "opts": [
+    "ب",
+    "ت",
+    "ن",
+    "ي"
+   ],
+   "a": 1,
+   "ar": "بَيْت",
+   "why": "The final letter has two dots above: tāʾ."
+  }
+ ],
+ "check": [
+  {
+   "t": "mcq",
+   "q": "Which letter starts this word?",
+   "opts": [
+    "ك",
+    "ل",
+    "ق",
+    "ف"
+   ],
+   "a": 0,
+   "ar": "كَتَب"
+  },
+  {
+   "t": "mcq",
+   "q": "Which letter ends this word?",
+   "opts": [
+    "ب",
+    "ت",
+    "ن",
+    "م"
+   ],
+   "a": 2,
+   "ar": "مِن"
+  },
+  {
+   "t": "mcq",
+   "q": "Which group never joins forward?",
+   "opts": [
+    "ب ت ث",
+    "ا د ر و",
+    "س ش ص",
+    "ف ق ك"
+   ],
+   "a": 1
+  },
+  {
+   "t": "mcq",
+   "q": "How many separate pieces is this word written in?",
+   "opts": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "a": 1,
+   "ar": "دَار",
+   "why": "د stands alone, then ار: 2 pieces."
+  },
+  {
+   "t": "mcq",
+   "q": "Which letter starts this word?",
+   "opts": [
+    "ج",
+    "ح",
+    "خ",
+    "ع"
+   ],
+   "a": 1,
+   "ar": "حَمَل"
+  },
+  {
+   "t": "mcq",
+   "q": "Which letter is in the middle of this word?",
+   "opts": [
+    "س",
+    "ش",
+    "ص",
+    "ض"
+   ],
+   "a": 1,
+   "ar": "عَشَر"
+  },
+  {
+   "t": "mcq",
+   "q": "Which letter ends this word?",
+   "opts": [
+    "ل",
+    "م",
+    "ن",
+    "ه"
+   ],
+   "a": 0,
+   "ar": "جَبَل"
+  },
+  {
+   "t": "mcq",
+   "q": "Which letter starts this word?",
+   "opts": [
+    "ع",
+    "غ",
+    "ف",
+    "ق"
+   ],
+   "a": 0,
+   "ar": "عَلَم"
+  }
+ ]
+}

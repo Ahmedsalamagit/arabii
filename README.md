@@ -1,15 +1,13 @@
-# Arabii — مدخل إلى الفصحى
+# Arabii — Arabic from A to Z · عربي
 
-Ahmed's Fuṣḥā (Modern Standard Arabic) course, originally built as a Claude artifact.
+A structured self-study Fuṣḥā course. Learn to read first, then build the language one rule at a time, in the order the Madinah books teach it.
 
-**Live site:** https://ahmedsalamagit.github.io/arabii/
+**Live:** https://ahmedsalamagit.github.io/arabii/
 
-## What's here
-- `index.html` — the whole course in one self-contained page (bundled React app): lessons, drills, flashcards. Progress is saved in the browser's localStorage.
-- `.github/workflows/pages.yml` — deploys to GitHub Pages on every push to `main`.
+- **Stage 0 · Reading:** 7 lessons in the order of al-Qāʿida an-Nūrāniyya
+- **Stage 1 · The nominal sentence:** 12 lessons following Madinah Book 1's sequence
+- **Roadmap:** Madinah Book 2 → Ājurrūmiyya → real texts
 
-## AI features
-A few extras (glosses for words outside the built-in glossary, generated drills, writing feedback) call Claude. Inside claude.ai they use the artifact runtime; elsewhere the page checks for a `/api/claude` endpoint and quietly disables those features if it isn't there. On GitHub Pages they're off; everything else works.
+Every lesson: **Learn → Understand → Read → Practice → Check.** Passing the check (80%) unlocks the next lesson and adds its words to spaced review. A content check runs before every deploy and fails the build if any passage or exercise uses a word that hasn't been taught yet.
 
-## Run locally
-`python3 -m http.server 8000`, then open http://localhost:8000
+Run locally: `python3 -m http.server 8000`. Contributing lessons: see `CLAUDE.md`.

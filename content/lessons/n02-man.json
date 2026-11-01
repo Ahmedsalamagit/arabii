@@ -1,0 +1,341 @@
+{
+ "id": "n02-man",
+ "title": "Who is this?",
+ "ar": "مَنْ هَذَا؟",
+ "goal": "Ask who someone is, ask yes/no questions, and answer them.",
+ "words": [
+  {
+   "ar": "مَنْ",
+   "tr": "man",
+   "en": "who?",
+   "note": "Asks about people."
+  },
+  {
+   "ar": "أَ",
+   "tr": "a-",
+   "en": "(turns a sentence into a yes/no question)",
+   "note": "Joined to the next word: أَهَذَا = is this…?",
+   "noQuiz": true,
+   "noCard": true
+  },
+  {
+   "ar": "نَعَمْ",
+   "tr": "naʿam",
+   "en": "yes"
+  },
+  {
+   "ar": "لَا",
+   "tr": "lā",
+   "en": "no"
+  },
+  {
+   "ar": "طَالِبٌ",
+   "tr": "ṭālibun",
+   "en": "a student"
+  },
+  {
+   "ar": "مُدَرِّسٌ",
+   "tr": "mudarrisun",
+   "en": "a teacher"
+  },
+  {
+   "ar": "طَبِيبٌ",
+   "tr": "ṭabībun",
+   "en": "a doctor"
+  },
+  {
+   "ar": "تَاجِرٌ",
+   "tr": "tājirun",
+   "en": "a merchant"
+  },
+  {
+   "ar": "رَجُلٌ",
+   "tr": "rajulun",
+   "en": "a man"
+  },
+  {
+   "ar": "وَلَدٌ",
+   "tr": "waladun",
+   "en": "a boy; a child"
+  },
+  {
+   "ar": "مُهَنْدِسٌ",
+   "tr": "muhandisun",
+   "en": "an engineer"
+  }
+ ],
+ "understand": [
+  {
+   "examples": [
+    {
+     "ar": "مَنْ هَذَا؟",
+     "en": "Who is this?"
+    },
+    {
+     "ar": "هَذَا طَالِبٌ.",
+     "en": "This is a student."
+    },
+    {
+     "ar": "مَنْ هَذَا؟ هَذَا مُدَرِّسٌ.",
+     "en": "Who is this? This is a teacher."
+    }
+   ]
+  },
+  {
+   "rule": "Use <span class='ar'>مَنْ</span> for <strong>people</strong> and <span class='ar'>مَا</span> for <strong>things</strong>."
+  },
+  {
+   "h": "Yes/no questions"
+  },
+  {
+   "p": "Put <span class='ar'>أَ</span> in front of any sentence and it becomes a yes/no question:"
+  },
+  {
+   "examples": [
+    {
+     "ar": "أَهَذَا بَيْتٌ؟",
+     "en": "Is this a house?"
+    },
+    {
+     "ar": "نَعَمْ، هَذَا بَيْتٌ.",
+     "en": "Yes, this is a house."
+    },
+    {
+     "ar": "أَهَذَا مَسْجِدٌ؟",
+     "en": "Is this a mosque?"
+    },
+    {
+     "ar": "لَا، هَذَا بَيْتٌ.",
+     "en": "No, this is a house."
+    }
+   ]
+  },
+  {
+   "h": "Names"
+  },
+  {
+   "p": "Arabic boys' names take tanwīn just like nouns, even though they're names. You'll meet these people throughout the course:"
+  },
+  {
+   "table": {
+    "headers": [
+     "Name",
+     "Say it"
+    ],
+    "ar": [
+     0
+    ],
+    "rows": [
+     [
+      "مُحَمَّدٌ",
+      "Muḥammadun"
+     ],
+     [
+      "حَامِدٌ",
+      "Ḥāmidun"
+     ],
+     [
+      "عَلِيٌّ",
+      "ʿAliyyun"
+     ],
+     [
+      "خَالِدٌ",
+      "Khālidun"
+     ],
+     [
+      "يَاسِرٌ",
+      "Yāsirun"
+     ]
+    ]
+   }
+  },
+  {
+   "examples": [
+    {
+     "ar": "مَنْ هَذَا؟ هَذَا مُحَمَّدٌ.",
+     "en": "Who is this? This is Muhammad."
+    },
+    {
+     "ar": "أَهَذَا حَامِدٌ؟ لَا، هَذَا عَلِيٌّ.",
+     "en": "Is this Hamid? No, this is Ali."
+    }
+   ]
+  }
+ ],
+ "read": {
+  "lines": [
+   {
+    "who": "Ḥāmid",
+    "ar": "مَنْ هَذَا؟",
+    "en": "Who is this?"
+   },
+   {
+    "who": "Yāsir",
+    "ar": "هَذَا مُدَرِّسٌ.",
+    "en": "This is a teacher."
+   },
+   {
+    "who": "Ḥāmid",
+    "ar": "أَهَذَا طَبِيبٌ؟",
+    "en": "Is this a doctor?"
+   },
+   {
+    "who": "Yāsir",
+    "ar": "لَا، هَذَا تَاجِرٌ.",
+    "en": "No, this is a merchant."
+   },
+   {
+    "who": "Ḥāmid",
+    "ar": "أَهَذَا مُحَمَّدٌ؟",
+    "en": "Is this Muhammad?"
+   },
+   {
+    "who": "Yāsir",
+    "ar": "نَعَمْ، هَذَا مُحَمَّدٌ. هَذَا طَالِبٌ.",
+    "en": "Yes, this is Muhammad. He's a student."
+   },
+   {
+    "who": "Ḥāmid",
+    "ar": "مَا هَذَا؟",
+    "en": "What is this?"
+   },
+   {
+    "who": "Yāsir",
+    "ar": "هَذَا مَسْجِدٌ.",
+    "en": "This is a mosque."
+   }
+  ],
+  "intro": "Ḥāmid and Yāsir at the university gate."
+ },
+ "practice": [
+  {
+   "t": "match",
+   "pairs": [
+    [
+     "طَالِبٌ",
+     "a student"
+    ],
+    [
+     "مُدَرِّسٌ",
+     "a teacher"
+    ],
+    [
+     "طَبِيبٌ",
+     "a doctor"
+    ],
+    [
+     "تَاجِرٌ",
+     "a merchant"
+    ],
+    [
+     "وَلَدٌ",
+     "a boy"
+    ]
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "You point at a man. Which question fits?",
+   "opts": [
+    "مَا هَذَا؟",
+    "مَنْ هَذَا؟"
+   ],
+   "a": 1,
+   "why": "People → مَنْ."
+  },
+  {
+   "t": "mcq",
+   "q": "You point at a chair. Which question fits?",
+   "opts": [
+    "مَا هَذَا؟",
+    "مَنْ هَذَا؟"
+   ],
+   "a": 0,
+   "why": "Things → مَا."
+  },
+  {
+   "t": "mcq",
+   "q": "What does this mean?",
+   "opts": [
+    "This is a doctor.",
+    "Is this a doctor?",
+    "Who is the doctor?",
+    "No, a doctor."
+   ],
+   "a": 1,
+   "ar": "أَهَذَا طَبِيبٌ؟"
+  },
+  {
+   "t": "build",
+   "en": "Is this an engineer?",
+   "words": [
+    "أَهَذَا",
+    "مُهَنْدِسٌ؟"
+   ]
+  },
+  {
+   "t": "build",
+   "en": "No, this is a merchant.",
+   "words": [
+    "لَا،",
+    "هَذَا",
+    "تَاجِرٌ."
+   ]
+  }
+ ],
+ "check": [
+  {
+   "t": "build",
+   "en": "Who is this?",
+   "words": [
+    "مَنْ",
+    "هَذَا؟"
+   ],
+   "extra": [
+    "مَا"
+   ]
+  },
+  {
+   "t": "build",
+   "en": "Yes, this is a student.",
+   "words": [
+    "نَعَمْ،",
+    "هَذَا",
+    "طَالِبٌ."
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "Answer: أَهَذَا قَلَمٌ؟ (it IS a pen)",
+   "opts": [
+    "نَعَمْ، هَذَا قَلَمٌ.",
+    "لَا، هَذَا قَلَمٌ.",
+    "مَنْ هَذَا؟",
+    "مَا هَذَا؟"
+   ],
+   "a": 0
+  },
+  {
+   "t": "mcq",
+   "q": "Answer: أَهَذَا مُدَرِّسٌ؟ (it's actually a doctor)",
+   "opts": [
+    "نَعَمْ، هَذَا طَبِيبٌ.",
+    "لَا، هَذَا طَبِيبٌ.",
+    "لَا، هَذَا مُدَرِّسٌ.",
+    "مَنْ طَبِيبٌ؟"
+   ],
+   "a": 1
+  },
+  {
+   "t": "mcq",
+   "q": "Which word turns a sentence into a yes/no question?",
+   "opts": [
+    "مَا",
+    "مَنْ",
+    "أَ",
+    "لَا"
+   ],
+   "a": 2
+  }
+ ]
+}

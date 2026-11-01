@@ -1,0 +1,298 @@
+{
+ "id": "n01-hadha",
+ "title": "This is a book",
+ "ar": "هَذَا كِتَابٌ",
+ "goal": "Point at things and name them, and ask “what is this?”",
+ "words": [
+  {
+   "ar": "هَذَا",
+   "tr": "hādhā",
+   "en": "this (masculine)",
+   "note": "The first alif is pronounced but often not written in full."
+  },
+  {
+   "ar": "مَا",
+   "tr": "mā",
+   "en": "what?",
+   "note": "Asks about things, not people."
+  },
+  {
+   "ar": "كِتَابٌ",
+   "tr": "kitābun",
+   "en": "a book"
+  },
+  {
+   "ar": "قَلَمٌ",
+   "tr": "qalamun",
+   "en": "a pen"
+  },
+  {
+   "ar": "بَيْتٌ",
+   "tr": "baytun",
+   "en": "a house"
+  },
+  {
+   "ar": "مَسْجِدٌ",
+   "tr": "masjidun",
+   "en": "a mosque"
+  },
+  {
+   "ar": "بَابٌ",
+   "tr": "bābun",
+   "en": "a door"
+  },
+  {
+   "ar": "كُرْسِيٌّ",
+   "tr": "kursiyyun",
+   "en": "a chair"
+  },
+  {
+   "ar": "مَكْتَبٌ",
+   "tr": "maktabun",
+   "en": "a desk; an office"
+  },
+  {
+   "ar": "سَرِيرٌ",
+   "tr": "sarīrun",
+   "en": "a bed"
+  },
+  {
+   "ar": "مِفْتَاحٌ",
+   "tr": "miftāḥun",
+   "en": "a key"
+  },
+  {
+   "ar": "قَمِيصٌ",
+   "tr": "qamīṣun",
+   "en": "a shirt"
+  }
+ ],
+ "understand": [
+  {
+   "p": "Look at these sentences first, before any rule:"
+  },
+  {
+   "examples": [
+    {
+     "ar": "هَذَا كِتَابٌ.",
+     "en": "This is a book."
+    },
+    {
+     "ar": "هَذَا قَلَمٌ.",
+     "en": "This is a pen."
+    },
+    {
+     "ar": "هَذَا بَيْتٌ.",
+     "en": "This is a house."
+    }
+   ]
+  },
+  {
+   "p": "Arabic has <strong>no word for “is”</strong> in sentences like these. You just put the two words side by side: <span class='ar'>هَذَا</span> + <span class='ar'>كِتَابٌ</span> = “this (is) a book”. And there's no separate word for “a”: the ending <em>-un</em> (tanwīn) already means “a”."
+  },
+  {
+   "p": "Now questions:"
+  },
+  {
+   "examples": [
+    {
+     "ar": "مَا هَذَا؟",
+     "en": "What is this?"
+    },
+    {
+     "ar": "هَذَا مِفْتَاحٌ.",
+     "en": "This is a key."
+    },
+    {
+     "ar": "مَا هَذَا؟ هَذَا سَرِيرٌ.",
+     "en": "What is this? This is a bed."
+    }
+   ]
+  },
+  {
+   "rule": "<span class='ar'>هَذَا</span> points to something <strong>near</strong> and masculine. <span class='ar'>مَا</span> asks “what?” about things (not people) and goes at the start of the sentence. The Arabic question mark faces the other way: <span class='ar'>؟</span>"
+  },
+  {
+   "tip": "The nouns in this lesson are all grammatically masculine. Feminine nouns get their own word for “this” in lesson 8."
+  }
+ ],
+ "read": {
+  "lines": [
+   {
+    "who": "A",
+    "ar": "مَا هَذَا؟",
+    "en": "What is this?"
+   },
+   {
+    "who": "B",
+    "ar": "هَذَا بَيْتٌ.",
+    "en": "This is a house."
+   },
+   {
+    "who": "A",
+    "ar": "مَا هَذَا؟",
+    "en": "What is this?"
+   },
+   {
+    "who": "B",
+    "ar": "هَذَا بَابٌ.",
+    "en": "This is a door."
+   },
+   {
+    "who": "A",
+    "ar": "مَا هَذَا؟",
+    "en": "What is this?"
+   },
+   {
+    "who": "B",
+    "ar": "هَذَا مِفْتَاحٌ.",
+    "en": "This is a key."
+   },
+   {
+    "who": "A",
+    "ar": "مَا هَذَا؟",
+    "en": "What is this?"
+   },
+   {
+    "who": "B",
+    "ar": "هَذَا مَسْجِدٌ.",
+    "en": "This is a mosque."
+   }
+  ],
+  "intro": "Two friends walk around a neighbourhood."
+ },
+ "practice": [
+  {
+   "t": "match",
+   "pairs": [
+    [
+     "كِتَابٌ",
+     "a book"
+    ],
+    [
+     "قَلَمٌ",
+     "a pen"
+    ],
+    [
+     "بَابٌ",
+     "a door"
+    ],
+    [
+     "سَرِيرٌ",
+     "a bed"
+    ],
+    [
+     "مِفْتَاحٌ",
+     "a key"
+    ]
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "What does this sentence mean?",
+   "opts": [
+    "This is a chair.",
+    "What is a chair?",
+    "This is a desk.",
+    "Is this a chair?"
+   ],
+   "a": 0,
+   "ar": "هَذَا كُرْسِيٌّ."
+  },
+  {
+   "t": "mcq",
+   "q": "What does this mean?",
+   "opts": [
+    "This is what?",
+    "What is this?",
+    "Who is this?",
+    "Where is this?"
+   ],
+   "a": 1,
+   "ar": "مَا هَذَا؟"
+  },
+  {
+   "t": "build",
+   "en": "This is a shirt.",
+   "words": [
+    "هَذَا",
+    "قَمِيصٌ."
+   ],
+   "why": "Arabic needs no “is”: هَذَا + noun."
+  },
+  {
+   "t": "build",
+   "en": "What is this?",
+   "words": [
+    "مَا",
+    "هَذَا؟"
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "Why is there no word for “a” in هَذَا كِتَابٌ?",
+   "opts": [
+    "Arabic never shows “a”",
+    "The -un ending (tanwīn) already means “a”",
+    "هَذَا includes “a”",
+    "It's left out in questions"
+   ],
+   "a": 1
+  }
+ ],
+ "check": [
+  {
+   "t": "build",
+   "en": "This is a mosque.",
+   "words": [
+    "هَذَا",
+    "مَسْجِدٌ."
+   ]
+  },
+  {
+   "t": "build",
+   "en": "This is a desk.",
+   "words": [
+    "هَذَا",
+    "مَكْتَبٌ."
+   ],
+   "extra": [
+    "مَا"
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "Choose the answer to: مَا هَذَا؟ (pointing at a key)",
+   "opts": [
+    "هَذَا مِفْتَاحٌ.",
+    "مَا مِفْتَاحٌ؟",
+    "مِفْتَاحٌ هَذَا؟",
+    "هَذَا مَا؟"
+   ],
+   "a": 0
+  },
+  {
+   "t": "mcq",
+   "q": "Which word asks “what?”",
+   "opts": [
+    "هَذَا",
+    "مَا",
+    "بَيْتٌ",
+    "بَابٌ"
+   ],
+   "a": 1
+  },
+  {
+   "t": "mcq",
+   "q": "What does this sentence mean?",
+   "opts": [
+    "This is a bed.",
+    "This is a house.",
+    "What is a bed?",
+    "This is a door."
+   ],
+   "a": 0,
+   "ar": "هَذَا سَرِيرٌ."
+  }
+ ]
+}

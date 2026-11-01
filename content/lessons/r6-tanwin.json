@@ -1,0 +1,230 @@
+{
+ "id": "r6-tanwin",
+ "title": "Tanwīn and tāʾ marbūṭa",
+ "ar": "التَّنْوِين",
+ "goal": "Read the -un / -an / -in endings and the feminine ending ة.",
+ "noAutoVocab": true,
+ "words": [],
+ "understand": [
+  {
+   "h": "Tanwīn: a vowel + n"
+  },
+  {
+   "p": "A doubled vowel mark at the end of a noun adds an <strong>n</strong> sound. This is tanwīn. For now, think of it as the “a / an” form: <span class='ar'>كِتَابٌ</span> kitābun = a book."
+  },
+  {
+   "table": {
+    "headers": [
+     "Mark",
+     "Sound",
+     "Example"
+    ],
+    "ar": [
+     2
+    ],
+    "rows": [
+     [
+      "two ḍammas",
+      "-un",
+      "كِتَابٌ"
+     ],
+     [
+      "two fatḥas (+ an extra ا)",
+      "-an",
+      "كِتَابًا"
+     ],
+     [
+      "two kasras",
+      "-in",
+      "كِتَابٍ"
+     ]
+    ]
+   }
+  },
+  {
+   "rule": "With two fatḥas, an extra <span class='ar'>ا</span> is written at the end but not pronounced as long: <span class='ar'>كِتَابًا</span> is read kitāban. (Words ending in ة don't take this extra alif.)"
+  },
+  {
+   "h": "Tāʾ marbūṭa ة"
+  },
+  {
+   "p": "The letter <span class='ar'>ة</span> (a hāʾ with two dots) appears only at the end of words and usually marks them as <strong>feminine</strong>. Say it as <em>-t</em> when a vowel follows, and as a soft <em>-ah</em> when you stop on it."
+  },
+  {
+   "examples": [
+    {
+     "ar": "مَدْرَسَةٌ",
+     "en": "madrasatun (madrasah when you stop)"
+    },
+    {
+     "ar": "سَيَّارَةٌ",
+     "en": "sayyāratun: car"
+    },
+    {
+     "ar": "غُرْفَةٌ",
+     "en": "ghurfatun: room"
+    }
+   ]
+  },
+  {
+   "tip": "When you stop at the end of a sentence, drop the final short vowel and tanwīn: <span class='ar'>كِتَابٌ</span> → kitāb. With -an, stop on a long ā: <span class='ar'>كِتَابًا</span> → kitābā."
+  }
+ ],
+ "practice": [
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "qalamu",
+    "qalamun",
+    "qalaman",
+    "qalamin"
+   ],
+   "a": 1,
+   "ar": "قَلَمٌ"
+  },
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "bābun",
+    "bāban",
+    "bābin",
+    "bābā"
+   ],
+   "a": 2,
+   "ar": "بَابٍ"
+  },
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "waladun",
+    "waladan",
+    "waladin",
+    "waladā"
+   ],
+   "a": 1,
+   "ar": "وَلَدًا",
+   "why": "Two fatḥas + the written alif: -an."
+  },
+  {
+   "t": "mcq",
+   "q": "How do you read this (in the middle of a sentence)?",
+   "opts": [
+    "sayyāratun",
+    "sayyārahun",
+    "sayyāratan",
+    "sayyārun"
+   ],
+   "a": 0,
+   "ar": "سَيَّارَةٌ"
+  },
+  {
+   "t": "mcq",
+   "q": "What does ة usually tell you about a word?",
+   "opts": [
+    "it is plural",
+    "it is feminine",
+    "it is a verb",
+    "it is a question"
+   ],
+   "a": 1
+  }
+ ],
+ "check": [
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "baytun",
+    "baytan",
+    "baytin",
+    "baytu"
+   ],
+   "a": 0,
+   "ar": "بَيْتٌ"
+  },
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "kitābun",
+    "kitāban",
+    "kitābin",
+    "kitābu"
+   ],
+   "a": 2,
+   "ar": "كِتَابٍ"
+  },
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "qalamun",
+    "qalaman",
+    "qalamin",
+    "qalamā"
+   ],
+   "a": 1,
+   "ar": "قَلَمًا"
+  },
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "ghurfatun",
+    "ghurfatan",
+    "ghurfatin",
+    "ghurfun"
+   ],
+   "a": 0,
+   "ar": "غُرْفَةٌ"
+  },
+  {
+   "t": "mcq",
+   "q": "How do you say مَدْرَسَةٌ when you stop on it?",
+   "opts": [
+    "madrasatun",
+    "madrasah",
+    "madrasan",
+    "madrasatu"
+   ],
+   "a": 1
+  },
+  {
+   "t": "mcq",
+   "q": "Which ending is -in?",
+   "opts": [
+    "ـٌ",
+    "ـً",
+    "ـٍ",
+    "ـْ"
+   ],
+   "a": 2
+  },
+  {
+   "t": "mcq",
+   "q": "Which word ends in -an?",
+   "opts": [
+    "بَابٌ",
+    "بَابًا",
+    "بَابٍ",
+    "بَابُ"
+   ],
+   "a": 1
+  },
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "masjidun",
+    "masjidan",
+    "masjidin",
+    "masjidu"
+   ],
+   "a": 2,
+   "ar": "مَسْجِدٍ"
+  }
+ ]
+}

@@ -1,0 +1,228 @@
+{
+ "id": "r4-sukun-shadda",
+ "title": "Sukūn and shadda",
+ "ar": "السُّكُونُ وَالشَّدَّة",
+ "goal": "Read letters with no vowel (sukūn) and doubled letters (shadda).",
+ "noAutoVocab": true,
+ "words": [],
+ "understand": [
+  {
+   "h": "Sukūn: no vowel"
+  },
+  {
+   "p": "A small circle <span class='ar'>ْ</span> above a letter means it has <strong>no vowel</strong>. It closes the syllable before it."
+  },
+  {
+   "examples": [
+    {
+     "ar": "مِنْ",
+     "en": "min"
+    },
+    {
+     "ar": "قُلْ",
+     "en": "qul"
+    },
+    {
+     "ar": "بَيْتُ",
+     "en": "bay-tu"
+    },
+    {
+     "ar": "كَلْبُ",
+     "en": "kal-bu"
+    },
+    {
+     "ar": "مَسْجِدُ",
+     "en": "mas-ji-du"
+    }
+   ]
+  },
+  {
+   "h": "Shadda: doubled letter"
+  },
+  {
+   "p": "A small w-shape <span class='ar'>ّ</span> above a letter means it is said <strong>twice</strong>: once closing the syllable before it, once opening the next. Hold it a moment longer. Shadda always comes with a vowel too."
+  },
+  {
+   "examples": [
+    {
+     "ar": "رَبَّ",
+     "en": "rab-ba"
+    },
+    {
+     "ar": "مُدَرِّسُ",
+     "en": "mu-dar-ri-su"
+    },
+    {
+     "ar": "عَلَّمَ",
+     "en": "ʿal-la-ma"
+    },
+    {
+     "ar": "قِطُّ",
+     "en": "qiṭ-ṭu"
+    }
+   ]
+  },
+  {
+   "rule": "Sukūn = stop the letter. Shadda = say the letter twice. Missing a shadda can change the meaning: <span class='ar'>عَلِمَ</span> ʿalima (he knew) vs <span class='ar'>عَلَّمَ</span> ʿallama (he taught)."
+  }
+ ],
+ "practice": [
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "mina",
+    "min",
+    "mun",
+    "man"
+   ],
+   "a": 1,
+   "ar": "مِنْ",
+   "why": "Sukūn on nūn: min."
+  },
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "qala",
+    "qul",
+    "qulu",
+    "qil"
+   ],
+   "a": 1,
+   "ar": "قُلْ"
+  },
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "raba",
+    "rabba",
+    "rubba",
+    "rabi"
+   ],
+   "a": 1,
+   "ar": "رَبَّ",
+   "why": "Shadda doubles the bāʾ: rab-ba."
+  },
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "masjidu",
+    "masajidu",
+    "musjidu",
+    "masjadu"
+   ],
+   "a": 0,
+   "ar": "مَسْجِدُ"
+  },
+  {
+   "t": "mcq",
+   "q": "Which word means “he taught” (with shadda)?",
+   "opts": [
+    "عَلِمَ",
+    "عَلَّمَ",
+    "عَمِلَ",
+    "عَلَمَ"
+   ],
+   "a": 1
+  }
+ ],
+ "check": [
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "kalabu",
+    "kalbu",
+    "kulbu",
+    "kilbu"
+   ],
+   "a": 1,
+   "ar": "كَلْبُ"
+  },
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "mudarisu",
+    "mudarrisu",
+    "madrasu",
+    "mudrisu"
+   ],
+   "a": 1,
+   "ar": "مُدَرِّسُ"
+  },
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "baytu",
+    "baytun",
+    "bayitu",
+    "bitu"
+   ],
+   "a": 0,
+   "ar": "بَيْتُ"
+  },
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "qiṭu",
+    "qiṭṭu",
+    "quṭṭu",
+    "qaṭṭu"
+   ],
+   "a": 1,
+   "ar": "قِطُّ"
+  },
+  {
+   "t": "mcq",
+   "q": "What does sukūn tell you?",
+   "opts": [
+    "say the letter twice",
+    "the letter has no vowel",
+    "the vowel is long",
+    "the word is feminine"
+   ],
+   "a": 1
+  },
+  {
+   "t": "mcq",
+   "q": "What does shadda tell you?",
+   "opts": [
+    "the letter has no vowel",
+    "say the letter twice",
+    "add -n to the end",
+    "the letter is silent"
+   ],
+   "a": 1
+  },
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "ʿalima",
+    "ʿallama",
+    "ʿalama",
+    "ʿullima"
+   ],
+   "a": 1,
+   "ar": "عَلَّمَ"
+  },
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "shams",
+    "shamsu",
+    "shamasu",
+    "shumsu"
+   ],
+   "a": 1,
+   "ar": "شَمْسُ"
+  }
+ ]
+}

@@ -1,0 +1,619 @@
+{
+ "id": "r1-letters",
+ "title": "The 28 letters",
+ "ar": "الحُرُوف",
+ "goal": "Recognize all 28 letters and know each one's name and sound.",
+ "learnIntro": "Arabic is written <strong>right to left</strong> and has 28 letters, all consonants (vowels come in lesson 3). Go through them slowly: say the name, then the sound. Don't try to memorize them all at once. The next step groups them into families that make them much easier.",
+ "noAutoVocab": true,
+ "words": [
+  {
+   "ar": "ا",
+   "tr": "ā",
+   "en": "alif (long ā; also carries hamza)",
+   "noQuiz": true
+  },
+  {
+   "ar": "ب",
+   "tr": "b",
+   "en": "bāʾ (b, as in boy)",
+   "noQuiz": true
+  },
+  {
+   "ar": "ت",
+   "tr": "t",
+   "en": "tāʾ (t, as in tea)",
+   "noQuiz": true
+  },
+  {
+   "ar": "ث",
+   "tr": "th",
+   "en": "thāʾ (th, as in think)",
+   "noQuiz": true
+  },
+  {
+   "ar": "ج",
+   "tr": "j",
+   "en": "jīm (j, as in jam)",
+   "noQuiz": true
+  },
+  {
+   "ar": "ح",
+   "tr": "ḥ",
+   "en": "ḥāʾ (ḥ: a breathy h from the throat)",
+   "noQuiz": true
+  },
+  {
+   "ar": "خ",
+   "tr": "kh",
+   "en": "khāʾ (kh, as in Scottish loch)",
+   "noQuiz": true
+  },
+  {
+   "ar": "د",
+   "tr": "d",
+   "en": "dāl (d, as in door)",
+   "noQuiz": true
+  },
+  {
+   "ar": "ذ",
+   "tr": "dh",
+   "en": "dhāl (dh: th as in this)",
+   "noQuiz": true
+  },
+  {
+   "ar": "ر",
+   "tr": "r",
+   "en": "rāʾ (r, lightly rolled)",
+   "noQuiz": true
+  },
+  {
+   "ar": "ز",
+   "tr": "z",
+   "en": "zāy (z, as in zoo)",
+   "noQuiz": true
+  },
+  {
+   "ar": "س",
+   "tr": "s",
+   "en": "sīn (s, as in sun)",
+   "noQuiz": true
+  },
+  {
+   "ar": "ش",
+   "tr": "sh",
+   "en": "shīn (sh, as in ship)",
+   "noQuiz": true
+  },
+  {
+   "ar": "ص",
+   "tr": "ṣ",
+   "en": "ṣād (ṣ: a heavy, deep s)",
+   "noQuiz": true
+  },
+  {
+   "ar": "ض",
+   "tr": "ḍ",
+   "en": "ḍād (ḍ: a heavy, deep d)",
+   "noQuiz": true
+  },
+  {
+   "ar": "ط",
+   "tr": "ṭ",
+   "en": "ṭāʾ (ṭ: a heavy, deep t)",
+   "noQuiz": true
+  },
+  {
+   "ar": "ظ",
+   "tr": "ẓ",
+   "en": "ẓāʾ (ẓ: a heavy dh)",
+   "noQuiz": true
+  },
+  {
+   "ar": "ع",
+   "tr": "ʿ",
+   "en": "ʿayn (ʿ: a squeeze deep in the throat)",
+   "noQuiz": true
+  },
+  {
+   "ar": "غ",
+   "tr": "gh",
+   "en": "ghayn (gh: like a French r)",
+   "noQuiz": true
+  },
+  {
+   "ar": "ف",
+   "tr": "f",
+   "en": "fāʾ (f, as in fish)",
+   "noQuiz": true
+  },
+  {
+   "ar": "ق",
+   "tr": "q",
+   "en": "qāf (q: k from the very back of the throat)",
+   "noQuiz": true
+  },
+  {
+   "ar": "ك",
+   "tr": "k",
+   "en": "kāf (k, as in kite)",
+   "noQuiz": true
+  },
+  {
+   "ar": "ل",
+   "tr": "l",
+   "en": "lām (l, as in let)",
+   "noQuiz": true
+  },
+  {
+   "ar": "م",
+   "tr": "m",
+   "en": "mīm (m, as in moon)",
+   "noQuiz": true
+  },
+  {
+   "ar": "ن",
+   "tr": "n",
+   "en": "nūn (n, as in noon)",
+   "noQuiz": true
+  },
+  {
+   "ar": "ه",
+   "tr": "h",
+   "en": "hāʾ (h, as in hat)",
+   "noQuiz": true
+  },
+  {
+   "ar": "و",
+   "tr": "w",
+   "en": "wāw (w, or long ū)",
+   "noQuiz": true
+  },
+  {
+   "ar": "ي",
+   "tr": "y",
+   "en": "yāʾ (y, or long ī)",
+   "noQuiz": true
+  }
+ ],
+ "understand": [
+  {
+   "p": "Many letters share the <strong>same body</strong> and differ only in their dots. Learn them as families: once you know the shape, you only need to count dots and see whether they sit above or below."
+  },
+  {
+   "table": {
+    "headers": [
+     "Family",
+     "Letters",
+     "How to tell them apart"
+    ],
+    "ar": [
+     1
+    ],
+    "rows": [
+     [
+      "boat",
+      "ب ت ث",
+      "1 dot below · 2 above · 3 above"
+     ],
+     [
+      "hook",
+      "ج ح خ",
+      "dot inside · no dot · dot above"
+     ],
+     [
+      "corner",
+      "د ذ",
+      "no dot · 1 dot above"
+     ],
+     [
+      "slide",
+      "ر ز",
+      "no dot · 1 dot above"
+     ],
+     [
+      "teeth",
+      "س ش",
+      "no dots · 3 dots above"
+     ],
+     [
+      "loop",
+      "ص ض",
+      "no dot · 1 dot above"
+     ],
+     [
+      "flag",
+      "ط ظ",
+      "no dot · 1 dot above"
+     ],
+     [
+      "eye",
+      "ع غ",
+      "no dot · 1 dot above"
+     ],
+     [
+      "round head",
+      "ف ق",
+      "1 dot · 2 dots (and ق dips lower)"
+     ]
+    ]
+   }
+  },
+  {
+   "p": "Then the letters with their own shape: <span class='ar'>ا ك ل م ن ه و ي</span>. Notice that <span class='ar'>ن</span> looks like a deeper boat with one dot above, and <span class='ar'>ي</span> has two dots below."
+  },
+  {
+   "tip": "The “heavy” letters <span class='ar'>ص ض ط ظ</span> and <span class='ar'>ق</span> are said with the back of the tongue raised. They make the vowels next to them sound deeper and darker. Compare <span class='ar'>س</span> s and <span class='ar'>ص</span> ṣ: same place in the mouth, but ṣ is fuller."
+  },
+  {
+   "h": "All 28 letters"
+  },
+  {
+   "letters": [
+    {
+     "ar": "ا",
+     "name": "alif",
+     "sound": "long ā; also carries hamza"
+    },
+    {
+     "ar": "ب",
+     "name": "bāʾ",
+     "sound": "b, as in boy"
+    },
+    {
+     "ar": "ت",
+     "name": "tāʾ",
+     "sound": "t, as in tea"
+    },
+    {
+     "ar": "ث",
+     "name": "thāʾ",
+     "sound": "th, as in think"
+    },
+    {
+     "ar": "ج",
+     "name": "jīm",
+     "sound": "j, as in jam"
+    },
+    {
+     "ar": "ح",
+     "name": "ḥāʾ",
+     "sound": "ḥ: a breathy h from the throat"
+    },
+    {
+     "ar": "خ",
+     "name": "khāʾ",
+     "sound": "kh, as in Scottish loch"
+    },
+    {
+     "ar": "د",
+     "name": "dāl",
+     "sound": "d, as in door"
+    },
+    {
+     "ar": "ذ",
+     "name": "dhāl",
+     "sound": "dh: th as in this"
+    },
+    {
+     "ar": "ر",
+     "name": "rāʾ",
+     "sound": "r, lightly rolled"
+    },
+    {
+     "ar": "ز",
+     "name": "zāy",
+     "sound": "z, as in zoo"
+    },
+    {
+     "ar": "س",
+     "name": "sīn",
+     "sound": "s, as in sun"
+    },
+    {
+     "ar": "ش",
+     "name": "shīn",
+     "sound": "sh, as in ship"
+    },
+    {
+     "ar": "ص",
+     "name": "ṣād",
+     "sound": "ṣ: a heavy, deep s"
+    },
+    {
+     "ar": "ض",
+     "name": "ḍād",
+     "sound": "ḍ: a heavy, deep d"
+    },
+    {
+     "ar": "ط",
+     "name": "ṭāʾ",
+     "sound": "ṭ: a heavy, deep t"
+    },
+    {
+     "ar": "ظ",
+     "name": "ẓāʾ",
+     "sound": "ẓ: a heavy dh"
+    },
+    {
+     "ar": "ع",
+     "name": "ʿayn",
+     "sound": "ʿ: a squeeze deep in the throat"
+    },
+    {
+     "ar": "غ",
+     "name": "ghayn",
+     "sound": "gh: like a French r"
+    },
+    {
+     "ar": "ف",
+     "name": "fāʾ",
+     "sound": "f, as in fish"
+    },
+    {
+     "ar": "ق",
+     "name": "qāf",
+     "sound": "q: k from the very back of the throat"
+    },
+    {
+     "ar": "ك",
+     "name": "kāf",
+     "sound": "k, as in kite"
+    },
+    {
+     "ar": "ل",
+     "name": "lām",
+     "sound": "l, as in let"
+    },
+    {
+     "ar": "م",
+     "name": "mīm",
+     "sound": "m, as in moon"
+    },
+    {
+     "ar": "ن",
+     "name": "nūn",
+     "sound": "n, as in noon"
+    },
+    {
+     "ar": "ه",
+     "name": "hāʾ",
+     "sound": "h, as in hat"
+    },
+    {
+     "ar": "و",
+     "name": "wāw",
+     "sound": "w, or long ū"
+    },
+    {
+     "ar": "ي",
+     "name": "yāʾ",
+     "sound": "y, or long ī"
+    }
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "t": "match",
+   "q": "Match each letter to its name.",
+   "pairs": [
+    [
+     "ب",
+     "bāʾ"
+    ],
+    [
+     "ت",
+     "tāʾ"
+    ],
+    [
+     "ث",
+     "thāʾ"
+    ],
+    [
+     "ن",
+     "nūn"
+    ],
+    [
+     "ي",
+     "yāʾ"
+    ]
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "Which letter is this?",
+   "opts": [
+    "jīm",
+    "ḥāʾ",
+    "khāʾ",
+    "ʿayn"
+   ],
+   "a": 2,
+   "ar": "خ",
+   "why": "خ has one dot above: khāʾ."
+  },
+  {
+   "t": "mcq",
+   "q": "Which letter is this?",
+   "opts": [
+    "dāl",
+    "dhāl",
+    "rāʾ",
+    "zāy"
+   ],
+   "a": 3,
+   "ar": "ز",
+   "why": "A slide with a dot: zāy."
+  },
+  {
+   "t": "mcq",
+   "q": "Which letter is this?",
+   "opts": [
+    "sīn",
+    "shīn",
+    "ṣād",
+    "ḍād"
+   ],
+   "a": 1,
+   "ar": "ش",
+   "why": "Teeth with 3 dots: shīn."
+  },
+  {
+   "t": "match",
+   "q": "Match each letter to its name.",
+   "pairs": [
+    [
+     "ص",
+     "ṣād"
+    ],
+    [
+     "ط",
+     "ṭāʾ"
+    ],
+    [
+     "ع",
+     "ʿayn"
+    ],
+    [
+     "ق",
+     "qāf"
+    ],
+    [
+     "ه",
+     "hāʾ"
+    ]
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "Which letter is fāʾ?",
+   "opts": [
+    "ق",
+    "ف",
+    "غ",
+    "ع"
+   ],
+   "a": 1,
+   "why": "Fāʾ has one dot; qāf has two."
+  }
+ ],
+ "check": [
+  {
+   "t": "mcq",
+   "q": "Which letter is this?",
+   "opts": [
+    "bāʾ",
+    "tāʾ",
+    "thāʾ",
+    "nūn"
+   ],
+   "a": 2,
+   "ar": "ث"
+  },
+  {
+   "t": "mcq",
+   "q": "Which letter is this?",
+   "opts": [
+    "jīm",
+    "ḥāʾ",
+    "khāʾ",
+    "ghayn"
+   ],
+   "a": 0,
+   "ar": "ج"
+  },
+  {
+   "t": "mcq",
+   "q": "Which letter is this?",
+   "opts": [
+    "ṣād",
+    "ḍād",
+    "ṭāʾ",
+    "ẓāʾ"
+   ],
+   "a": 1,
+   "ar": "ض"
+  },
+  {
+   "t": "mcq",
+   "q": "Which letter is this?",
+   "opts": [
+    "fāʾ",
+    "qāf",
+    "wāw",
+    "mīm"
+   ],
+   "a": 1,
+   "ar": "ق"
+  },
+  {
+   "t": "mcq",
+   "q": "Which letter is this?",
+   "opts": [
+    "dāl",
+    "rāʾ",
+    "dhāl",
+    "zāy"
+   ],
+   "a": 2,
+   "ar": "ذ"
+  },
+  {
+   "t": "mcq",
+   "q": "Which letter is this?",
+   "opts": [
+    "ʿayn",
+    "ghayn",
+    "ḥāʾ",
+    "hāʾ"
+   ],
+   "a": 1,
+   "ar": "غ"
+  },
+  {
+   "t": "mcq",
+   "q": "Which letter is this?",
+   "opts": [
+    "lām",
+    "kāf",
+    "alif",
+    "mīm"
+   ],
+   "a": 1,
+   "ar": "ك"
+  },
+  {
+   "t": "mcq",
+   "q": "Which letter makes a heavy, deep t?",
+   "opts": [
+    "ت",
+    "ط",
+    "ث",
+    "ظ"
+   ],
+   "a": 1
+  },
+  {
+   "t": "mcq",
+   "q": "Which letter is yāʾ?",
+   "opts": [
+    "ب",
+    "ن",
+    "ي",
+    "ت"
+   ],
+   "a": 2
+  },
+  {
+   "t": "mcq",
+   "q": "Which letter is ḥāʾ?",
+   "opts": [
+    "خ",
+    "ج",
+    "ح",
+    "ه"
+   ],
+   "a": 2
+  }
+ ]
+}

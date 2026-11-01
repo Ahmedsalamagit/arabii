@@ -1,0 +1,249 @@
+{
+ "id": "n03-dhalika",
+ "title": "That",
+ "ar": "ذَلِكَ",
+ "goal": "Point at things far away, and join two sentences with “and”.",
+ "words": [
+  {
+   "ar": "ذَلِكَ",
+   "tr": "dhālika",
+   "en": "that (masculine)",
+   "note": "The first alif is pronounced but not written in full."
+  },
+  {
+   "ar": "وَ",
+   "tr": "wa",
+   "en": "and",
+   "note": "Joined to the next word: وَذَلِكَ.",
+   "noQuiz": true,
+   "noCard": true
+  },
+  {
+   "ar": "نَجْمٌ",
+   "tr": "najmun",
+   "en": "a star"
+  },
+  {
+   "ar": "قَمَرٌ",
+   "tr": "qamarun",
+   "en": "a moon"
+  },
+  {
+   "ar": "جَبَلٌ",
+   "tr": "jabalun",
+   "en": "a mountain"
+  },
+  {
+   "ar": "حَجَرٌ",
+   "tr": "ḥajarun",
+   "en": "a stone"
+  },
+  {
+   "ar": "جَمَلٌ",
+   "tr": "jamalun",
+   "en": "a camel"
+  },
+  {
+   "ar": "حِصَانٌ",
+   "tr": "ḥiṣānun",
+   "en": "a horse"
+  },
+  {
+   "ar": "كَلْبٌ",
+   "tr": "kalbun",
+   "en": "a dog"
+  },
+  {
+   "ar": "قِطٌّ",
+   "tr": "qiṭṭun",
+   "en": "a cat"
+  },
+  {
+   "ar": "دِيكٌ",
+   "tr": "dīkun",
+   "en": "a rooster"
+  }
+ ],
+ "understand": [
+  {
+   "examples": [
+    {
+     "ar": "هَذَا حَجَرٌ.",
+     "en": "This is a stone (right here)."
+    },
+    {
+     "ar": "ذَلِكَ جَبَلٌ.",
+     "en": "That is a mountain (over there)."
+    },
+    {
+     "ar": "هَذَا قِطٌّ وَذَلِكَ كَلْبٌ.",
+     "en": "This is a cat and that is a dog."
+    }
+   ]
+  },
+  {
+   "rule": "<span class='ar'>هَذَا</span> = this (near), <span class='ar'>ذَلِكَ</span> = that (far). Both are masculine. <span class='ar'>وَ</span> (and) is written joined to the word after it."
+  },
+  {
+   "examples": [
+    {
+     "ar": "مَا ذَلِكَ؟ ذَلِكَ نَجْمٌ.",
+     "en": "What is that? That is a star."
+    },
+    {
+     "ar": "أَذَلِكَ قَمَرٌ؟ نَعَمْ، ذَلِكَ قَمَرٌ.",
+     "en": "Is that a moon? Yes, that's a moon."
+    },
+    {
+     "ar": "مَنْ ذَلِكَ؟ ذَلِكَ رَجُلٌ.",
+     "en": "Who is that? That is a man."
+    }
+   ]
+  },
+  {
+   "tip": "The question words work exactly as before: <span class='ar'>مَا ذَلِكَ؟</span> for things, <span class='ar'>مَنْ ذَلِكَ؟</span> for people, <span class='ar'>أَذَلِكَ…؟</span> for yes/no."
+  }
+ ],
+ "read": {
+  "lines": [
+   {
+    "ar": "هَذَا جَمَلٌ وَذَلِكَ حِصَانٌ.",
+    "en": "This is a camel and that is a horse."
+   },
+   {
+    "ar": "مَا ذَلِكَ؟ ذَلِكَ جَبَلٌ.",
+    "en": "What is that? That is a mountain."
+   },
+   {
+    "ar": "أَذَلِكَ قَمَرٌ؟ لَا، ذَلِكَ نَجْمٌ.",
+    "en": "Is that a moon? No, that is a star."
+   },
+   {
+    "ar": "مَنْ ذَلِكَ؟ ذَلِكَ تَاجِرٌ.",
+    "en": "Who is that? That is a merchant."
+   },
+   {
+    "ar": "هَذَا قِطٌّ وَذَلِكَ دِيكٌ.",
+    "en": "This is a cat and that is a rooster."
+   }
+  ],
+  "intro": "An evening in the desert."
+ },
+ "practice": [
+  {
+   "t": "match",
+   "pairs": [
+    [
+     "نَجْمٌ",
+     "a star"
+    ],
+    [
+     "جَبَلٌ",
+     "a mountain"
+    ],
+    [
+     "جَمَلٌ",
+     "a camel"
+    ],
+    [
+     "حِصَانٌ",
+     "a horse"
+    ],
+    [
+     "قِطٌّ",
+     "a cat"
+    ]
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "The mountain is far away. How do you say “That is a mountain”?",
+   "opts": [
+    "هَذَا جَبَلٌ.",
+    "ذَلِكَ جَبَلٌ."
+   ],
+   "a": 1
+  },
+  {
+   "t": "mcq",
+   "q": "What does this mean?",
+   "opts": [
+    "This is a dog and that is a cat.",
+    "That is a dog and this is a cat.",
+    "Is this a dog?",
+    "This dog and that cat."
+   ],
+   "a": 0,
+   "ar": "هَذَا كَلْبٌ وَذَلِكَ قِطٌّ."
+  },
+  {
+   "t": "build",
+   "en": "What is that?",
+   "words": [
+    "مَا",
+    "ذَلِكَ؟"
+   ]
+  },
+  {
+   "t": "build",
+   "en": "This is a stone and that is a mountain.",
+   "words": [
+    "هَذَا",
+    "حَجَرٌ",
+    "وَذَلِكَ",
+    "جَبَلٌ."
+   ]
+  }
+ ],
+ "check": [
+  {
+   "t": "build",
+   "en": "That is a star.",
+   "words": [
+    "ذَلِكَ",
+    "نَجْمٌ."
+   ],
+   "extra": [
+    "هَذَا"
+   ]
+  },
+  {
+   "t": "build",
+   "en": "Who is that?",
+   "words": [
+    "مَنْ",
+    "ذَلِكَ؟"
+   ]
+  },
+  {
+   "t": "build",
+   "en": "Is that a camel?",
+   "words": [
+    "أَذَلِكَ",
+    "جَمَلٌ؟"
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "Which word means “that”?",
+   "opts": [
+    "هَذَا",
+    "ذَلِكَ",
+    "مَا",
+    "مَنْ"
+   ],
+   "a": 1
+  },
+  {
+   "t": "mcq",
+   "q": "Answer: أَذَلِكَ قَمَرٌ؟ (it's a star)",
+   "opts": [
+    "نَعَمْ، ذَلِكَ قَمَرٌ.",
+    "لَا، ذَلِكَ نَجْمٌ.",
+    "لَا، هَذَا قَمَرٌ.",
+    "مَا ذَلِكَ؟"
+   ],
+   "a": 1
+  }
+ ]
+}

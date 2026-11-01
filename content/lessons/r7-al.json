@@ -1,0 +1,221 @@
+{
+ "id": "r7-al",
+ "title": "“The”: sun and moon letters",
+ "ar": "الْ الشَّمْسِيَّةُ وَالقَمَرِيَّة",
+ "goal": "Read al- correctly before any letter, and handle the silent alif when words join.",
+ "noAutoVocab": true,
+ "words": [],
+ "understand": [
+  {
+   "p": "Arabic's word for “the” is <span class='ar'>الْ</span> (al-), attached to the front of a noun. When it's added, the tanwīn goes away: <span class='ar'>قَمَرٌ</span> qamarun (a moon) → <span class='ar'>الْقَمَرُ</span> al-qamaru (the moon)."
+  },
+  {
+   "h": "Moon letters: the l is heard"
+  },
+  {
+   "examples": [
+    {
+     "ar": "الْقَمَرُ",
+     "en": "al-qamaru: the moon"
+    },
+    {
+     "ar": "الْكِتَابُ",
+     "en": "al-kitābu: the book"
+    },
+    {
+     "ar": "الْبَيْتُ",
+     "en": "al-baytu: the house"
+    },
+    {
+     "ar": "الْمَسْجِدُ",
+     "en": "al-masjidu: the mosque"
+    }
+   ]
+  },
+  {
+   "h": "Sun letters: the l disappears"
+  },
+  {
+   "examples": [
+    {
+     "ar": "الشَّمْسُ",
+     "en": "ash-shamsu: the sun"
+    },
+    {
+     "ar": "الرَّجُلُ",
+     "en": "ar-rajulu: the man"
+    },
+    {
+     "ar": "النُّورُ",
+     "en": "an-nūru: the light"
+    },
+    {
+     "ar": "الدِّينُ",
+     "en": "ad-dīnu: the religion"
+    }
+   ]
+  },
+  {
+   "rule": "Before the 14 <strong>sun letters</strong> <span class='ar'>ت ث د ذ ر ز س ش ص ض ط ظ ل ن</span>, the ل is written but silent, and the next letter gets a shadda. Before the other 14 <strong>moon letters</strong>, the ل is pronounced."
+  },
+  {
+   "tip": "Shortcut: sun letters are all made with the tip of the tongue (t, d, s, n, r…). Moon letters are made with the lips or the back of the mouth (b, m, k, q…)."
+  },
+  {
+   "h": "The silent alif when words join"
+  },
+  {
+   "p": "The alif of al- is only pronounced at the very start of speech. After another word, it's skipped and you slide straight into the l: <span class='ar'>فِي الْبَيْتِ</span> is read <em>fil-bayti</em>, not fī al-bayti."
+  }
+ ],
+ "practice": [
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "al-shamsu",
+    "ash-shamsu",
+    "as-samsu",
+    "al-shamas"
+   ],
+   "a": 1,
+   "ar": "الشَّمْسُ",
+   "why": "ش is a sun letter: the l assimilates."
+  },
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "al-qamaru",
+    "aq-qamaru",
+    "al-qamarun",
+    "qamaru"
+   ],
+   "a": 0,
+   "ar": "الْقَمَرُ"
+  },
+  {
+   "t": "mcq",
+   "q": "Is ك a sun letter or a moon letter?",
+   "opts": [
+    "sun",
+    "moon"
+   ],
+   "a": 1,
+   "why": "k is made at the back of the mouth: moon."
+  },
+  {
+   "t": "mcq",
+   "q": "Is ن a sun letter or a moon letter?",
+   "opts": [
+    "sun",
+    "moon"
+   ],
+   "a": 0,
+   "why": "n is made with the tongue tip: sun."
+  },
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "fī al-bayti",
+    "fil-bayti",
+    "fī l-baytun",
+    "fil-baytun"
+   ],
+   "a": 1,
+   "ar": "فِي الْبَيْتِ"
+  }
+ ],
+ "check": [
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "al-rajulu",
+    "ar-rajulu",
+    "arrajulun",
+    "al-rijlu"
+   ],
+   "a": 1,
+   "ar": "الرَّجُلُ"
+  },
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "al-kitābu",
+    "ak-kitābu",
+    "al-kitābun",
+    "kitābu"
+   ],
+   "a": 0,
+   "ar": "الْكِتَابُ"
+  },
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "al-nūru",
+    "an-nūru",
+    "an-nūrun",
+    "al-nawru"
+   ],
+   "a": 1,
+   "ar": "النُّورُ"
+  },
+  {
+   "t": "mcq",
+   "q": "Is ب a sun letter or a moon letter?",
+   "opts": [
+    "sun",
+    "moon"
+   ],
+   "a": 1
+  },
+  {
+   "t": "mcq",
+   "q": "Is د a sun letter or a moon letter?",
+   "opts": [
+    "sun",
+    "moon"
+   ],
+   "a": 0
+  },
+  {
+   "t": "mcq",
+   "q": "What happens to tanwīn when al- is added?",
+   "opts": [
+    "it stays",
+    "it goes away",
+    "it becomes -an",
+    "it doubles"
+   ],
+   "a": 1
+  },
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "al-masjidu",
+    "am-masjidu",
+    "al-masjidun",
+    "masjidu"
+   ],
+   "a": 0,
+   "ar": "الْمَسْجِدُ"
+  },
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "al-dīnu",
+    "ad-dīnu",
+    "ad-dīnun",
+    "al-dunu"
+   ],
+   "a": 1,
+   "ar": "الدِّينُ"
+  }
+ ]
+}

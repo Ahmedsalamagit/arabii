@@ -1,0 +1,304 @@
+{
+ "id": "n08-feminine",
+ "title": "This (feminine)",
+ "ar": "هَذِهِ وَتِلْكَ",
+ "goal": "Recognize feminine nouns and use هَذِهِ, تِلْكَ and feminine descriptions.",
+ "words": [
+  {
+   "ar": "هَذِهِ",
+   "tr": "hādhihi",
+   "en": "this (feminine)"
+  },
+  {
+   "ar": "تِلْكَ",
+   "tr": "tilka",
+   "en": "that (feminine)"
+  },
+  {
+   "ar": "سَيَّارَةٌ",
+   "tr": "sayyāratun",
+   "en": "a car"
+  },
+  {
+   "ar": "نَافِذَةٌ",
+   "tr": "nāfidhatun",
+   "en": "a window"
+  },
+  {
+   "ar": "مِلْعَقَةٌ",
+   "tr": "milʿaqatun",
+   "en": "a spoon"
+  },
+  {
+   "ar": "طَالِبَةٌ",
+   "tr": "ṭālibatun",
+   "en": "a (female) student"
+  },
+  {
+   "ar": "مُدَرِّسَةٌ",
+   "tr": "mudarrisatun",
+   "en": "a (female) teacher"
+  },
+  {
+   "ar": "طَبِيبَةٌ",
+   "tr": "ṭabībatun",
+   "en": "a (female) doctor"
+  },
+  {
+   "ar": "بِنْتٌ",
+   "tr": "bintun",
+   "en": "a girl; a daughter",
+   "note": "Feminine without ة."
+  },
+  {
+   "ar": "أُمٌّ",
+   "tr": "ummun",
+   "en": "a mother",
+   "note": "Feminine without ة."
+  },
+  {
+   "ar": "شَمْسٌ",
+   "tr": "shamsun",
+   "en": "a sun",
+   "note": "Feminine without ة."
+  }
+ ],
+ "understand": [
+  {
+   "examples": [
+    {
+     "ar": "هَذِهِ سَيَّارَةٌ.",
+     "en": "This is a car."
+    },
+    {
+     "ar": "تِلْكَ نَافِذَةٌ.",
+     "en": "That is a window."
+    },
+    {
+     "ar": "مَنْ هَذِهِ؟ هَذِهِ طَالِبَةٌ.",
+     "en": "Who is this? This is a (female) student."
+    }
+   ]
+  },
+  {
+   "rule": "Every Arabic noun is masculine or feminine. Most feminine nouns end in <span class='ar'>ة</span>. For feminine nouns, “this” is <span class='ar'>هَذِهِ</span> and “that” is <span class='ar'>تِلْكَ</span>."
+  },
+  {
+   "p": "Many words for people turn feminine just by adding <span class='ar'>ة</span>:"
+  },
+  {
+   "table": {
+    "headers": [
+     "Masculine",
+     "Feminine",
+     "Meaning"
+    ],
+    "ar": [
+     0,
+     1
+    ],
+    "rows": [
+     [
+      "طَالِبٌ",
+      "طَالِبَةٌ",
+      "student"
+     ],
+     [
+      "مُدَرِّسٌ",
+      "مُدَرِّسَةٌ",
+      "teacher"
+     ],
+     [
+      "طَبِيبٌ",
+      "طَبِيبَةٌ",
+      "doctor"
+     ]
+    ]
+   }
+  },
+  {
+   "p": "Some feminine words have no <span class='ar'>ة</span> at all. Learn them as you meet them: <span class='ar'>بِنْتٌ</span>, <span class='ar'>أُمٌّ</span>, <span class='ar'>شَمْسٌ</span>."
+  },
+  {
+   "h": "Descriptions match"
+  },
+  {
+   "rule": "When the topic is feminine, the description takes <span class='ar'>ة</span> too: <span class='ar'>الْبَابُ مَفْتُوحٌ</span> but <span class='ar'>النَّافِذَةُ مَفْتُوحَةٌ</span>."
+  },
+  {
+   "examples": [
+    {
+     "ar": "السَّيَّارَةُ جَدِيدَةٌ.",
+     "en": "The car is new."
+    },
+    {
+     "ar": "الشَّمْسُ بَعِيدَةٌ.",
+     "en": "The sun is far."
+    },
+    {
+     "ar": "الْبِنْتُ صَغِيرَةٌ.",
+     "en": "The girl is small."
+    },
+    {
+     "ar": "الْمِلْعَقَةُ نَظِيفَةٌ.",
+     "en": "The spoon is clean."
+    },
+    {
+     "ar": "هِيَ مُدَرِّسَةٌ.",
+     "en": "She is a teacher."
+    }
+   ]
+  }
+ ],
+ "read": {
+  "lines": [
+   {
+    "ar": "هَذِهِ سَيَّارَةُ الطَّبِيبَةِ.",
+    "en": "This is the (female) doctor's car."
+   },
+   {
+    "ar": "السَّيَّارَةُ جَدِيدَةٌ وَجَمِيلَةٌ.",
+    "en": "The car is new and beautiful."
+   },
+   {
+    "ar": "مَنْ تِلْكَ؟ تِلْكَ أُمُّ مُحَمَّدٍ.",
+    "en": "Who is that? That is Muhammad's mother."
+   },
+   {
+    "ar": "هِيَ مُدَرِّسَةٌ فِي الْجَامِعَةِ.",
+    "en": "She is a teacher at the university."
+   },
+   {
+    "ar": "وَمَنْ هَذِهِ؟ هَذِهِ بِنْتُ الْمُدَرِّسَةِ. هِيَ صَغِيرَةٌ.",
+    "en": "And who is this? This is the teacher's daughter. She is little."
+   }
+  ],
+  "intro": "Outside the school."
+ },
+ "practice": [
+  {
+   "t": "match",
+   "pairs": [
+    [
+     "سَيَّارَةٌ",
+     "a car"
+    ],
+    [
+     "نَافِذَةٌ",
+     "a window"
+    ],
+    [
+     "مِلْعَقَةٌ",
+     "a spoon"
+    ],
+    [
+     "بِنْتٌ",
+     "a girl"
+    ],
+    [
+     "أُمٌّ",
+     "a mother"
+    ]
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "Which goes with سَيَّارَةٌ?",
+   "opts": [
+    "هَذَا",
+    "هَذِهِ"
+   ],
+   "a": 1,
+   "why": "It ends in ة, so it's feminine."
+  },
+  {
+   "t": "mcq",
+   "q": "Fill in: النَّافِذَةُ ___ (open)",
+   "opts": [
+    "مَفْتُوحٌ",
+    "مَفْتُوحَةٌ"
+   ],
+   "a": 1
+  },
+  {
+   "t": "build",
+   "en": "That is a window.",
+   "words": [
+    "تِلْكَ",
+    "نَافِذَةٌ."
+   ]
+  },
+  {
+   "t": "build",
+   "en": "The car is broken.",
+   "words": [
+    "السَّيَّارَةُ",
+    "مَكْسُورَةٌ."
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "Which noun is feminine even without ة?",
+   "opts": [
+    "بَيْتٌ",
+    "شَمْسٌ",
+    "قَمَرٌ",
+    "بَابٌ"
+   ],
+   "a": 1
+  }
+ ],
+ "check": [
+  {
+   "t": "build",
+   "en": "This is a (female) teacher.",
+   "words": [
+    "هَذِهِ",
+    "مُدَرِّسَةٌ."
+   ],
+   "extra": [
+    "هَذَا"
+   ]
+  },
+  {
+   "t": "build",
+   "en": "The girl is beautiful.",
+   "words": [
+    "الْبِنْتُ",
+    "جَمِيلَةٌ."
+   ],
+   "extra": [
+    "جَمِيلٌ"
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "Fill in: ___ طَالِبَةٌ (that, far)",
+   "opts": [
+    "ذَلِكَ",
+    "تِلْكَ",
+    "هَذَا",
+    "هَذِهِ"
+   ],
+   "a": 1
+  },
+  {
+   "t": "mcq",
+   "q": "Which is correct?",
+   "opts": [
+    "الشَّمْسُ بَعِيدٌ.",
+    "الشَّمْسُ بَعِيدَةٌ."
+   ],
+   "a": 1
+  },
+  {
+   "t": "mcq",
+   "q": "Which is correct?",
+   "opts": [
+    "هَذِهِ قَلَمٌ.",
+    "هَذَا قَلَمٌ."
+   ],
+   "a": 1
+  }
+ ]
+}

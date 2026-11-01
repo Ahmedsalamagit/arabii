@@ -1,0 +1,234 @@
+{
+ "id": "r5-long-vowels",
+ "title": "Long vowels",
+ "ar": "حُرُوفُ المَدّ",
+ "goal": "Tell short vowels from long ones and read words with ā, ī, ū.",
+ "noAutoVocab": true,
+ "words": [],
+ "understand": [
+  {
+   "p": "A short vowel followed by its matching letter becomes <strong>long</strong>, held about twice as long. The letter itself carries no vowel; it just stretches the sound."
+  },
+  {
+   "table": {
+    "headers": [
+     "Pattern",
+     "Sound",
+     "Example"
+    ],
+    "ar": [
+     2
+    ],
+    "rows": [
+     [
+      "fatḥa + ا",
+      "ā (as in father)",
+      "بَا"
+     ],
+     [
+      "kasra + ي",
+      "ī (as in see)",
+      "بِي"
+     ],
+     [
+      "ḍamma + و",
+      "ū (as in moon)",
+      "بُو"
+     ]
+    ]
+   }
+  },
+  {
+   "examples": [
+    {
+     "ar": "بَابٌ",
+     "en": "bābun: door"
+    },
+    {
+     "ar": "نُورٌ",
+     "en": "nūrun: light"
+    },
+    {
+     "ar": "دِينٌ",
+     "en": "dīnun: religion"
+    },
+    {
+     "ar": "كِتَابٌ",
+     "en": "kitābun: book"
+    },
+    {
+     "ar": "سُوقٌ",
+     "en": "sūqun: market"
+    },
+    {
+     "ar": "كَبِيرٌ",
+     "en": "kabīrun: big"
+    }
+   ]
+  },
+  {
+   "rule": "Length changes meaning. <span class='ar'>كَتَبَ</span> kataba (he wrote) vs <span class='ar'>كَاتِبٌ</span> kātibun (writer). Read the stretch clearly."
+  },
+  {
+   "tip": "و and ي are also consonants (w, y). When they have their own vowel or sukūn after a fatḥa, they're consonants: <span class='ar'>بَيْتٌ</span> bay-tun, <span class='ar'>يَوْمٌ</span> yaw-mun."
+  }
+ ],
+ "practice": [
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "ba",
+    "bā",
+    "bī",
+    "bū"
+   ],
+   "a": 1,
+   "ar": "بَا"
+  },
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "nurun",
+    "nūrun",
+    "nārun",
+    "nīrun"
+   ],
+   "a": 1,
+   "ar": "نُورٌ"
+  },
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "kitabun",
+    "kitābun",
+    "kātibun",
+    "kutubun"
+   ],
+   "a": 1,
+   "ar": "كِتَابٌ"
+  },
+  {
+   "t": "mcq",
+   "q": "Which is “kātibun” (writer)?",
+   "opts": [
+    "كَتَبَ",
+    "كَاتِبٌ",
+    "كِتَابٌ",
+    "كُتُبٌ"
+   ],
+   "a": 1
+  },
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "bītun",
+    "baytun",
+    "bitun",
+    "biyatun"
+   ],
+   "a": 1,
+   "ar": "بَيْتٌ",
+   "why": "Yāʾ has sukūn after fatḥa, so it's a consonant: bay-tun."
+  }
+ ],
+ "check": [
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "dinun",
+    "dīnun",
+    "dūnun",
+    "dānun"
+   ],
+   "a": 1,
+   "ar": "دِينٌ"
+  },
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "suqun",
+    "sūqun",
+    "sāqun",
+    "sawqun"
+   ],
+   "a": 1,
+   "ar": "سُوقٌ"
+  },
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "kabirun",
+    "kabīrun",
+    "kābirun",
+    "kubrun"
+   ],
+   "a": 1,
+   "ar": "كَبِيرٌ"
+  },
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "babun",
+    "bābun",
+    "būbun",
+    "bibun"
+   ],
+   "a": 1,
+   "ar": "بَابٌ"
+  },
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "yawmun",
+    "yūmun",
+    "yamun",
+    "yumun"
+   ],
+   "a": 0,
+   "ar": "يَوْمٌ"
+  },
+  {
+   "t": "mcq",
+   "q": "Which pattern makes a long ū?",
+   "opts": [
+    "fatḥa + ا",
+    "kasra + ي",
+    "ḍamma + و",
+    "sukūn"
+   ],
+   "a": 2
+  },
+  {
+   "t": "mcq",
+   "q": "Which word has a long ī?",
+   "opts": [
+    "قَلَمٌ",
+    "كَبِيرٌ",
+    "بَابٌ",
+    "نُورٌ"
+   ],
+   "a": 1
+  },
+  {
+   "t": "mcq",
+   "q": "How do you read this?",
+   "opts": [
+    "jamilun",
+    "jamīlun",
+    "jāmilun",
+    "jamālun"
+   ],
+   "a": 1,
+   "ar": "جَمِيلٌ"
+  }
+ ]
+}

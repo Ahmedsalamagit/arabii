@@ -1,0 +1,315 @@
+{
+ "id": "n06-idafa",
+ "title": "Muhammad's book",
+ "ar": "كِتَابُ مُحَمَّدٍ",
+ "goal": "Say whose something is by putting two nouns together.",
+ "words": [
+  {
+   "ar": "لِمَنْ",
+   "tr": "liman",
+   "en": "whose? (to whom?)",
+   "note": "لِـ (to/for) + مَنْ (who)."
+  },
+  {
+   "ar": "اسْمٌ",
+   "tr": "ismun",
+   "en": "a name",
+   "note": "Starts with a silent alif when joined: مَا اسْمُ… = mas-mu"
+  },
+  {
+   "ar": "صَدِيقٌ",
+   "tr": "ṣadīqun",
+   "en": "a friend"
+  },
+  {
+   "ar": "دَفْتَرٌ",
+   "tr": "daftarun",
+   "en": "a notebook"
+  },
+  {
+   "ar": "حَقِيبَةٌ",
+   "tr": "ḥaqībatun",
+   "en": "a bag"
+  },
+  {
+   "ar": "شَارِعٌ",
+   "tr": "shāriʿun",
+   "en": "a street"
+  },
+  {
+   "ar": "مَدِينَةٌ",
+   "tr": "madīnatun",
+   "en": "a city"
+  },
+  {
+   "ar": "سَاعَةٌ",
+   "tr": "sāʿatun",
+   "en": "a watch; a clock; an hour"
+  }
+ ],
+ "understand": [
+  {
+   "examples": [
+    {
+     "ar": "كِتَابُ مُحَمَّدٍ",
+     "en": "Muhammad's book"
+    },
+    {
+     "ar": "بَابُ الْبَيْتِ",
+     "en": "the door of the house"
+    },
+    {
+     "ar": "قَلَمُ الْمُدَرِّسِ",
+     "en": "the teacher's pen"
+    },
+    {
+     "ar": "اسْمُ الطَّالِبِ",
+     "en": "the student's name"
+    }
+   ]
+  },
+  {
+   "p": "There's no word for “of” or “'s”. Two nouns sit side by side, and their endings do the work:"
+  },
+  {
+   "rule": "<strong>Iḍāfa</strong>: the first noun (the thing owned) has <strong>no tanwīn and no <span class='ar'>الْ</span></strong>: <span class='ar'>كِتَابُ</span>. The second noun (the owner) is <strong>majrūr</strong>, ending in kasra: <span class='ar jarr'>مُحَمَّدٍ</span>, <span class='ar jarr'>الْبَيْتِ</span>. The first noun becomes definite through the second: <span class='ar'>كِتَابُ مُحَمَّدٍ</span> = <em>the</em> book of Muhammad."
+  },
+  {
+   "table": {
+    "headers": [
+     "Alone",
+     "In iḍāfa",
+     "Meaning"
+    ],
+    "ar": [
+     0,
+     1
+    ],
+    "rows": [
+     [
+      "كِتَابٌ",
+      "كِتَابُ حَامِدٍ",
+      "Hamid's book"
+     ],
+     [
+      "بَابٌ",
+      "بَابُ الْمَسْجِدِ",
+      "the door of the mosque"
+     ],
+     [
+      "اسْمٌ",
+      "اسْمُ الْمُدَرِّسِ",
+      "the teacher's name"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Whose is it?"
+  },
+  {
+   "examples": [
+    {
+     "ar": "لِمَنْ هَذَا؟",
+     "en": "Whose is this?"
+    },
+    {
+     "ar": "هَذَا قَلَمُ حَامِدٍ.",
+     "en": "This is Hamid's pen."
+    },
+    {
+     "ar": "مَا اسْمُ الطَّالِبِ؟",
+     "en": "What is the student's name?"
+    },
+    {
+     "ar": "اسْمُ الطَّالِبِ عَلِيٌّ.",
+     "en": "The student's name is Ali."
+    }
+   ]
+  },
+  {
+   "tip": "Iḍāfa can chain: <span class='ar'>بَابُ بَيْتِ الْمُدَرِّسِ</span> = the door of the teacher's house. Only the last noun may have <span class='ar'>الْ</span>."
+  }
+ ],
+ "read": {
+  "lines": [
+   {
+    "who": "Khālid",
+    "ar": "لِمَنْ هَذَا؟",
+    "en": "Whose is this?"
+   },
+   {
+    "who": "Ali",
+    "ar": "هَذَا دَفْتَرُ يَاسِرٍ.",
+    "en": "This is Yasir's notebook."
+   },
+   {
+    "who": "Khālid",
+    "ar": "وَلِمَنْ هَذَا؟",
+    "en": "And whose is this?"
+   },
+   {
+    "who": "Ali",
+    "ar": "هَذَا قَلَمُ الْمُدَرِّسِ.",
+    "en": "This is the teacher's pen."
+   },
+   {
+    "who": "Khālid",
+    "ar": "مَا اسْمُ الْمُدَرِّسِ؟",
+    "en": "What is the teacher's name?"
+   },
+   {
+    "who": "Ali",
+    "ar": "اسْمُ الْمُدَرِّسِ حَامِدٌ.",
+    "en": "The teacher's name is Hamid."
+   },
+   {
+    "who": "Khālid",
+    "ar": "أَيْنَ بَيْتُ الْمُدَرِّسِ؟",
+    "en": "Where is the teacher's house?"
+   },
+   {
+    "who": "Ali",
+    "ar": "بَيْتُ الْمُدَرِّسِ فِي شَارِعِ الْمَسْجِدِ.",
+    "en": "The teacher's house is on Mosque Street."
+   }
+  ],
+  "intro": "After class, two friends tidy up."
+ },
+ "practice": [
+  {
+   "t": "match",
+   "pairs": [
+    [
+     "صَدِيقٌ",
+     "a friend"
+    ],
+    [
+     "دَفْتَرٌ",
+     "a notebook"
+    ],
+    [
+     "حَقِيبَةٌ",
+     "a bag"
+    ],
+    [
+     "شَارِعٌ",
+     "a street"
+    ],
+    [
+     "مَدِينَةٌ",
+     "a city"
+    ]
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "Which means “the door of the house”?",
+   "opts": [
+    "الْبَابُ الْبَيْتُ",
+    "بَابُ الْبَيْتِ",
+    "بَابٌ الْبَيْتِ",
+    "الْبَابُ بَيْتٍ"
+   ],
+   "a": 1
+  },
+  {
+   "t": "mcq",
+   "q": "What does this mean?",
+   "opts": [
+    "Whose is this?",
+    "Who is this?",
+    "What is this?",
+    "Where is this?"
+   ],
+   "a": 0,
+   "ar": "لِمَنْ هَذَا؟"
+  },
+  {
+   "t": "build",
+   "en": "This is Khalid's notebook.",
+   "words": [
+    "هَذَا",
+    "دَفْتَرُ",
+    "خَالِدٍ."
+   ]
+  },
+  {
+   "t": "build",
+   "en": "The student's name is Ali.",
+   "words": [
+    "اسْمُ",
+    "الطَّالِبِ",
+    "عَلِيٌّ."
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "In كِتَابُ مُحَمَّدٍ, why does كِتَابُ have no tanwīn?",
+   "opts": [
+    "It's a question",
+    "The first noun of an iḍāfa never takes tanwīn",
+    "It's feminine",
+    "It's after a preposition"
+   ],
+   "a": 1
+  }
+ ],
+ "check": [
+  {
+   "t": "build",
+   "en": "This is the teacher's pen.",
+   "words": [
+    "هَذَا",
+    "قَلَمُ",
+    "الْمُدَرِّسِ."
+   ],
+   "extra": [
+    "قَلَمٌ"
+   ]
+  },
+  {
+   "t": "build",
+   "en": "What is the doctor's name?",
+   "words": [
+    "مَا",
+    "اسْمُ",
+    "الطَّبِيبِ؟"
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "Which is correct for “the mosque's door”?",
+   "opts": [
+    "بَابُ الْمَسْجِدِ",
+    "الْبَابُ الْمَسْجِدِ",
+    "بَابٌ الْمَسْجِدُ",
+    "بَابُ الْمَسْجِدُ"
+   ],
+   "a": 0
+  },
+  {
+   "t": "mcq",
+   "q": "What does this mean?",
+   "opts": [
+    "The teacher's house is near.",
+    "The house is near the teacher.",
+    "A teacher's house.",
+    "Where is the teacher's house?"
+   ],
+   "a": 0,
+   "ar": "بَيْتُ الْمُدَرِّسِ قَرِيبٌ."
+  },
+  {
+   "t": "mcq",
+   "q": "The second noun of an iḍāfa (the owner) is…",
+   "opts": [
+    "marfūʿ (ḍamma)",
+    "majrūr (kasra)",
+    "always with tanwīn -an",
+    "always without al-"
+   ],
+   "a": 1
+  }
+ ]
+}

@@ -1,0 +1,326 @@
+{
+ "id": "n05-ayna",
+ "title": "Where?",
+ "ar": "أَيْنَ؟",
+ "goal": "Ask where things are and answer with “in” and “on”.",
+ "words": [
+  {
+   "ar": "أَيْنَ",
+   "tr": "ayna",
+   "en": "where?"
+  },
+  {
+   "ar": "فِي",
+   "tr": "fī",
+   "en": "in"
+  },
+  {
+   "ar": "عَلَى",
+   "tr": "ʿalā",
+   "en": "on"
+  },
+  {
+   "ar": "هُنَا",
+   "tr": "hunā",
+   "en": "here"
+  },
+  {
+   "ar": "هُنَاكَ",
+   "tr": "hunāka",
+   "en": "there"
+  },
+  {
+   "ar": "غُرْفَةٌ",
+   "tr": "ghurfatun",
+   "en": "a room"
+  },
+  {
+   "ar": "مَطْبَخٌ",
+   "tr": "maṭbakhun",
+   "en": "a kitchen"
+  },
+  {
+   "ar": "حَمَّامٌ",
+   "tr": "ḥammāmun",
+   "en": "a bathroom"
+  },
+  {
+   "ar": "سُوقٌ",
+   "tr": "sūqun",
+   "en": "a market"
+  },
+  {
+   "ar": "جَامِعَةٌ",
+   "tr": "jāmiʿatun",
+   "en": "a university"
+  },
+  {
+   "ar": "فَصْلٌ",
+   "tr": "faṣlun",
+   "en": "a classroom"
+  }
+ ],
+ "understand": [
+  {
+   "examples": [
+    {
+     "ar": "أَيْنَ الْكِتَابُ؟",
+     "en": "Where is the book?"
+    },
+    {
+     "ar": "الْكِتَابُ عَلَى الْمَكْتَبِ.",
+     "en": "The book is on the desk."
+    },
+    {
+     "ar": "أَيْنَ مُحَمَّدٌ؟",
+     "en": "Where is Muhammad?"
+    },
+    {
+     "ar": "مُحَمَّدٌ فِي الْمَسْجِدِ.",
+     "en": "Muhammad is in the mosque."
+    }
+   ]
+  },
+  {
+   "p": "Look at the last letter: <span class='ar raf'>الْمَكْتَبُ</span> on its own, but <span class='ar jarr'>الْمَكْتَبِ</span> after <span class='ar'>عَلَى</span>. The ḍamma turned into a <strong>kasra</strong>."
+  },
+  {
+   "rule": "A preposition such as <span class='ar'>فِي</span> or <span class='ar'>عَلَى</span> makes the noun after it <em>majrūr</em>: it ends in kasra (-i), or in -in if it has tanwīn. This ending is called <em>jarr</em>."
+  },
+  {
+   "table": {
+    "headers": [
+     "Plain (rafʿ)",
+     "After a preposition (jarr)",
+     "Meaning"
+    ],
+    "ar": [
+     0,
+     1
+    ],
+    "rows": [
+     [
+      "الْبَيْتُ",
+      "فِي الْبَيْتِ",
+      "in the house"
+     ],
+     [
+      "الْغُرْفَةُ",
+      "فِي الْغُرْفَةِ",
+      "in the room"
+     ],
+     [
+      "الْمَكْتَبُ",
+      "عَلَى الْمَكْتَبِ",
+      "on the desk"
+     ],
+     [
+      "بَيْتٌ",
+      "فِي بَيْتٍ",
+      "in a house"
+     ]
+    ]
+   }
+  },
+  {
+   "examples": [
+    {
+     "ar": "الْقَلَمُ هُنَا.",
+     "en": "The pen is here."
+    },
+    {
+     "ar": "الطَّبِيبُ هُنَاكَ.",
+     "en": "The doctor is there."
+    },
+    {
+     "ar": "أَيْنَ الطَّالِبُ؟ الطَّالِبُ فِي الْفَصْلِ.",
+     "en": "Where is the student? The student is in the classroom."
+    }
+   ]
+  },
+  {
+   "tip": "Remember the silent alif: <span class='ar'>فِي الْبَيْتِ</span> is read <em>fil-bayti</em>, and <span class='ar'>عَلَى الْمَكْتَبِ</span> is <em>ʿalal-maktabi</em>."
+  }
+ ],
+ "read": {
+  "lines": [
+   {
+    "who": "Mother",
+    "ar": "أَيْنَ مُحَمَّدٌ؟",
+    "en": "Where is Muhammad?"
+   },
+   {
+    "who": "Ali",
+    "ar": "مُحَمَّدٌ فِي الْغُرْفَةِ.",
+    "en": "Muhammad is in the room."
+   },
+   {
+    "who": "Mother",
+    "ar": "أَيْنَ الْمِفْتَاحُ؟",
+    "en": "Where is the key?"
+   },
+   {
+    "who": "Ali",
+    "ar": "الْمِفْتَاحُ عَلَى السَّرِيرِ.",
+    "en": "The key is on the bed."
+   },
+   {
+    "who": "Mother",
+    "ar": "وَأَيْنَ الْقَمِيصُ؟",
+    "en": "And where is the shirt?"
+   },
+   {
+    "who": "Ali",
+    "ar": "الْقَمِيصُ هُنَا، عَلَى الْكُرْسِيِّ.",
+    "en": "The shirt is here, on the chair."
+   },
+   {
+    "who": "Mother",
+    "ar": "أَيْنَ الطَّبِيبُ؟",
+    "en": "Where is the doctor?"
+   },
+   {
+    "who": "Ali",
+    "ar": "الطَّبِيبُ فِي الْجَامِعَةِ.",
+    "en": "The doctor is at the university."
+   }
+  ],
+  "intro": "A busy morning at home."
+ },
+ "practice": [
+  {
+   "t": "match",
+   "pairs": [
+    [
+     "فِي",
+     "in"
+    ],
+    [
+     "عَلَى",
+     "on"
+    ],
+    [
+     "أَيْنَ",
+     "where?"
+    ],
+    [
+     "هُنَا",
+     "here"
+    ],
+    [
+     "هُنَاكَ",
+     "there"
+    ]
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "Fill in: الْكِتَابُ عَلَى ___ (the desk)",
+   "opts": [
+    "الْمَكْتَبُ",
+    "الْمَكْتَبِ",
+    "الْمَكْتَبَ",
+    "مَكْتَبٌ"
+   ],
+   "a": 1,
+   "why": "After عَلَى the noun is majrūr: kasra."
+  },
+  {
+   "t": "mcq",
+   "q": "What does this mean?",
+   "opts": [
+    "Where is the kitchen?",
+    "The kitchen is here.",
+    "In the kitchen.",
+    "Who is in the kitchen?"
+   ],
+   "a": 0,
+   "ar": "أَيْنَ الْمَطْبَخُ؟"
+  },
+  {
+   "t": "build",
+   "en": "The teacher is in the classroom.",
+   "words": [
+    "الْمُدَرِّسُ",
+    "فِي",
+    "الْفَصْلِ."
+   ]
+  },
+  {
+   "t": "build",
+   "en": "Where is the market?",
+   "words": [
+    "أَيْنَ",
+    "السُّوقُ؟"
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "Why does الْبَيْتِ end in kasra in فِي الْبَيْتِ?",
+   "opts": [
+    "It's the subject",
+    "It comes after a preposition",
+    "It's feminine",
+    "It's a question"
+   ],
+   "a": 1
+  }
+ ],
+ "check": [
+  {
+   "t": "build",
+   "en": "The pen is on the bed.",
+   "words": [
+    "الْقَلَمُ",
+    "عَلَى",
+    "السَّرِيرِ."
+   ],
+   "extra": [
+    "السَّرِيرُ"
+   ]
+  },
+  {
+   "t": "build",
+   "en": "Where is the doctor?",
+   "words": [
+    "أَيْنَ",
+    "الطَّبِيبُ؟"
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "Fill in: الطَّالِبُ فِي ___ (the university)",
+   "opts": [
+    "الْجَامِعَةُ",
+    "الْجَامِعَةِ",
+    "جَامِعَةٌ",
+    "الْجَامِعَةَ"
+   ],
+   "a": 1
+  },
+  {
+   "t": "mcq",
+   "q": "Fill in: مُحَمَّدٌ فِي ___ (a room)",
+   "opts": [
+    "غُرْفَةٌ",
+    "الْغُرْفَةُ",
+    "غُرْفَةٍ",
+    "غُرْفَةً"
+   ],
+   "a": 2,
+   "why": "Indefinite + jarr = -in."
+  },
+  {
+   "t": "mcq",
+   "q": "What does this mean?",
+   "opts": [
+    "The key is there.",
+    "Where is the key?",
+    "The key is here.",
+    "This is a key."
+   ],
+   "a": 0,
+   "ar": "الْمِفْتَاحُ هُنَاكَ."
+  }
+ ]
+}

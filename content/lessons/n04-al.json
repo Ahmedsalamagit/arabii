@@ -1,0 +1,274 @@
+{
+ "id": "n04-al",
+ "title": "The house is big",
+ "ar": "البَيْتُ كَبِيرٌ",
+ "goal": "Make nouns definite and build full sentences: “the door is open”.",
+ "words": [
+  {
+   "ar": "كَبِيرٌ",
+   "tr": "kabīrun",
+   "en": "big"
+  },
+  {
+   "ar": "صَغِيرٌ",
+   "tr": "ṣaghīrun",
+   "en": "small"
+  },
+  {
+   "ar": "جَدِيدٌ",
+   "tr": "jadīdun",
+   "en": "new"
+  },
+  {
+   "ar": "قَدِيمٌ",
+   "tr": "qadīmun",
+   "en": "old (things)"
+  },
+  {
+   "ar": "جَمِيلٌ",
+   "tr": "jamīlun",
+   "en": "beautiful"
+  },
+  {
+   "ar": "مَفْتُوحٌ",
+   "tr": "maftūḥun",
+   "en": "open"
+  },
+  {
+   "ar": "مُغْلَقٌ",
+   "tr": "mughlaqun",
+   "en": "closed"
+  },
+  {
+   "ar": "قَرِيبٌ",
+   "tr": "qarībun",
+   "en": "near"
+  },
+  {
+   "ar": "بَعِيدٌ",
+   "tr": "baʿīdun",
+   "en": "far"
+  },
+  {
+   "ar": "نَظِيفٌ",
+   "tr": "naẓīfun",
+   "en": "clean"
+  },
+  {
+   "ar": "مَكْسُورٌ",
+   "tr": "maksūrun",
+   "en": "broken"
+  }
+ ],
+ "understand": [
+  {
+   "p": "You learned to read <span class='ar'>الْ</span> in Stage 0. Now use it: it means <strong>“the”</strong>, and it replaces the tanwīn."
+  },
+  {
+   "examples": [
+    {
+     "ar": "بَيْتٌ ← الْبَيْتُ",
+     "en": "a house → the house"
+    },
+    {
+     "ar": "قَلَمٌ ← الْقَلَمُ",
+     "en": "a pen → the pen"
+    },
+    {
+     "ar": "رَجُلٌ ← الرَّجُلُ",
+     "en": "a man → the man (sun letter)"
+    }
+   ]
+  },
+  {
+   "p": "Now put a <em>the</em>-noun first and a description after it:"
+  },
+  {
+   "examples": [
+    {
+     "ar": "الْبَيْتُ كَبِيرٌ.",
+     "en": "The house is big."
+    },
+    {
+     "ar": "الْبَابُ مَفْتُوحٌ.",
+     "en": "The door is open."
+    },
+    {
+     "ar": "الْقَلَمُ مَكْسُورٌ.",
+     "en": "The pen is broken."
+    },
+    {
+     "ar": "الْمَسْجِدُ قَرِيبٌ.",
+     "en": "The mosque is near."
+    },
+    {
+     "ar": "الْجَبَلُ بَعِيدٌ.",
+     "en": "The mountain is far."
+    }
+   ]
+  },
+  {
+   "rule": "A <strong>nominal sentence</strong> has two parts: the <em>mubtadaʾ</em> (the topic, usually with <span class='ar'>الْ</span>) and the <em>khabar</em> (what you say about it, usually without <span class='ar'>الْ</span>). Both end in ḍamma, <span class='ar raf'>الْبَابُ</span> <span class='ar raf'>مَفْتُوحٌ</span>. This ending is called <em>rafʿ</em>, and you'll see why it matters in lesson 5."
+  },
+  {
+   "tip": "Both kinds of sentence you know have no word for “is”: <span class='ar'>هَذَا بَيْتٌ</span> (this is a house) and <span class='ar'>الْبَيْتُ كَبِيرٌ</span> (the house is big). The second starts with a <em>the</em>-noun instead of هَذَا."
+  }
+ ],
+ "read": {
+  "lines": [
+   {
+    "ar": "هَذَا بَيْتٌ. الْبَيْتُ جَدِيدٌ.",
+    "en": "This is a house. The house is new."
+   },
+   {
+    "ar": "الْبَيْتُ كَبِيرٌ وَجَمِيلٌ.",
+    "en": "The house is big and beautiful."
+   },
+   {
+    "ar": "الْبَابُ مُغْلَقٌ.",
+    "en": "The door is closed."
+   },
+   {
+    "ar": "ذَلِكَ مَسْجِدٌ. الْمَسْجِدُ قَدِيمٌ.",
+    "en": "That is a mosque. The mosque is old."
+   },
+   {
+    "ar": "الْمَسْجِدُ قَرِيبٌ وَنَظِيفٌ.",
+    "en": "The mosque is near and clean."
+   }
+  ],
+  "intro": "Describing a street."
+ },
+ "practice": [
+  {
+   "t": "match",
+   "pairs": [
+    [
+     "كَبِيرٌ",
+     "big"
+    ],
+    [
+     "صَغِيرٌ",
+     "small"
+    ],
+    [
+     "جَدِيدٌ",
+     "new"
+    ],
+    [
+     "قَدِيمٌ",
+     "old"
+    ],
+    [
+     "مَفْتُوحٌ",
+     "open"
+    ]
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "Which is “the book”?",
+   "opts": [
+    "كِتَابٌ",
+    "الْكِتَابُ",
+    "الْكِتَابٌ",
+    "كِتَابُ"
+   ],
+   "a": 1,
+   "why": "al- replaces tanwīn: الْكِتَابُ, never الْكِتَابٌ."
+  },
+  {
+   "t": "mcq",
+   "q": "What does this mean?",
+   "opts": [
+    "The door is closed.",
+    "A closed door.",
+    "This door is closed.",
+    "Is the door closed?"
+   ],
+   "a": 0,
+   "ar": "الْبَابُ مُغْلَقٌ."
+  },
+  {
+   "t": "build",
+   "en": "The house is beautiful.",
+   "words": [
+    "الْبَيْتُ",
+    "جَمِيلٌ."
+   ]
+  },
+  {
+   "t": "build",
+   "en": "The pen is new.",
+   "words": [
+    "الْقَلَمُ",
+    "جَدِيدٌ."
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "In الْمَسْجِدُ قَرِيبٌ, which word is the khabar (the description)?",
+   "opts": [
+    "الْمَسْجِدُ",
+    "قَرِيبٌ"
+   ],
+   "a": 1
+  }
+ ],
+ "check": [
+  {
+   "t": "build",
+   "en": "The mountain is far.",
+   "words": [
+    "الْجَبَلُ",
+    "بَعِيدٌ."
+   ]
+  },
+  {
+   "t": "build",
+   "en": "The chair is broken.",
+   "words": [
+    "الْكُرْسِيُّ",
+    "مَكْسُورٌ."
+   ],
+   "extra": [
+    "كُرْسِيٌّ"
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "Which is correct?",
+   "opts": [
+    "الْبَابُ مَفْتُوحٌ.",
+    "الْبَابٌ مَفْتُوحٌ.",
+    "بَابُ الْمَفْتُوحٌ.",
+    "الْبَابُ الْمَفْتُوحٌ."
+   ],
+   "a": 0
+  },
+  {
+   "t": "mcq",
+   "q": "What does this mean?",
+   "opts": [
+    "The mosque is clean.",
+    "A clean mosque.",
+    "This is a mosque.",
+    "The mosque is near."
+   ],
+   "a": 0,
+   "ar": "الْمَسْجِدُ نَظِيفٌ."
+  },
+  {
+   "t": "mcq",
+   "q": "What ending do the mubtadaʾ and khabar both have here?",
+   "opts": [
+    "kasra (-i)",
+    "fatḥa (-a)",
+    "ḍamma (-u)",
+    "sukūn"
+   ],
+   "a": 2,
+   "ar": "الْبَيْتُ كَبِيرٌ."
+  }
+ ]
+}

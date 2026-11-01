@@ -1,0 +1,276 @@
+{
+ "id": "n10-ya",
+ "title": "Calling someone, and family",
+ "ar": "يَا مُحَمَّدُ",
+ "goal": "Call people with يَا and talk about family members.",
+ "words": [
+  {
+   "ar": "يَا",
+   "tr": "yā",
+   "en": "O… (used to call someone)"
+  },
+  {
+   "ar": "ابْنٌ",
+   "tr": "ibnun",
+   "en": "a son",
+   "note": "Starts with a silent alif when joined."
+  },
+  {
+   "ar": "أَخٌ",
+   "tr": "akhun",
+   "en": "a brother"
+  },
+  {
+   "ar": "أُخْتٌ",
+   "tr": "ukhtun",
+   "en": "a sister"
+  },
+  {
+   "ar": "جَدٌّ",
+   "tr": "jaddun",
+   "en": "a grandfather"
+  },
+  {
+   "ar": "عَمٌّ",
+   "tr": "ʿammun",
+   "en": "an uncle (father's brother)"
+  },
+  {
+   "ar": "عَائِلَةٌ",
+   "tr": "ʿāʾilatun",
+   "en": "a family"
+  },
+  {
+   "ar": "عَبْدٌ",
+   "tr": "ʿabdun",
+   "en": "a servant (of God)",
+   "note": "Common in names: عَبْدُ اللهِ."
+  },
+  {
+   "ar": "اللهُ",
+   "tr": "Allāhu",
+   "en": "God, Allah"
+  },
+  {
+   "ar": "شُكْرًا",
+   "tr": "shukran",
+   "en": "thank you"
+  },
+  {
+   "ar": "تَفَضَّلْ",
+   "tr": "tafaḍḍal",
+   "en": "please, go ahead (to a man)"
+  }
+ ],
+ "understand": [
+  {
+   "examples": [
+    {
+     "ar": "يَا مُحَمَّدُ!",
+     "en": "Muhammad! (calling him)"
+    },
+    {
+     "ar": "يَا خَالِدُ، أَيْنَ الْكِتَابُ؟",
+     "en": "Khalid, where is the book?"
+    },
+    {
+     "ar": "يَا عَبْدَ اللهِ!",
+     "en": "ʿAbdallāh!"
+    }
+   ]
+  },
+  {
+   "rule": "After <span class='ar'>يَا</span>: a <strong>name</strong> or a <strong>specific person</strong> ends in a single ḍamma with no tanwīn: <span class='ar'>يَا مُحَمَّدُ</span>, <span class='ar'>يَا طَبِيبُ</span> (doctor!). But if what follows is an <strong>iḍāfa</strong>, its first word ends in fatḥa: <span class='ar nasb'>يَا عَبْدَ</span><span class='ar'> اللهِ</span>. That fatḥa is your first taste of <em>naṣb</em>, the third case."
+  },
+  {
+   "h": "Family"
+  },
+  {
+   "examples": [
+    {
+     "ar": "هَذَا ابْنُ الْمُدَرِّسِ.",
+     "en": "This is the teacher's son."
+    },
+    {
+     "ar": "هَذِهِ أُخْتُ خَالِدٍ.",
+     "en": "This is Khalid's sister."
+    },
+    {
+     "ar": "الْعَائِلَةُ فِي الْبَيْتِ.",
+     "en": "The family is at home."
+    },
+    {
+     "ar": "جَدُّ عَلِيٍّ طَوِيلٌ.",
+     "en": "Ali's grandfather is tall."
+    },
+    {
+     "ar": "عَمُّ يَاسِرٍ تَاجِرٌ.",
+     "en": "Yasir's uncle is a merchant."
+    }
+   ]
+  },
+  {
+   "tip": "<span class='ar'>أَخٌ</span> (brother) has a special form in iḍāfa that you'll learn in Stage 3, so for now we only use it on its own: <span class='ar'>هُوَ أَخٌ</span>. <span class='ar'>اللهِ</span> after a preposition or in iḍāfa is majrūr: <span class='ar'>عَبْدُ اللهِ</span>."
+  }
+ ],
+ "read": {
+  "lines": [
+   {
+    "who": "Ḥāmid",
+    "ar": "يَا عَلِيُّ! مَنْ هَذَا؟",
+    "en": "Ali! Who is this?"
+   },
+   {
+    "who": "Ali",
+    "ar": "هَذَا جَدُّ يَاسِرٍ.",
+    "en": "This is Yasir's grandfather."
+   },
+   {
+    "who": "Ḥāmid",
+    "ar": "وَمَنْ تِلْكَ؟",
+    "en": "And who is that?"
+   },
+   {
+    "who": "Ali",
+    "ar": "تِلْكَ أُخْتُ يَاسِرٍ. هِيَ طَبِيبَةٌ.",
+    "en": "That is Yasir's sister. She's a doctor."
+   },
+   {
+    "who": "Ḥāmid",
+    "ar": "يَا عَبْدَ اللهِ، تَفَضَّلْ!",
+    "en": "ʿAbdallāh, please come in!"
+   },
+   {
+    "who": "ʿAbdallāh",
+    "ar": "شُكْرًا يَا حَامِدُ.",
+    "en": "Thank you, Hamid."
+   }
+  ],
+  "intro": "A family visit."
+ },
+ "practice": [
+  {
+   "t": "match",
+   "pairs": [
+    [
+     "ابْنٌ",
+     "a son"
+    ],
+    [
+     "أُخْتٌ",
+     "a sister"
+    ],
+    [
+     "جَدٌّ",
+     "a grandfather"
+    ],
+    [
+     "عَمٌّ",
+     "an uncle"
+    ],
+    [
+     "عَائِلَةٌ",
+     "a family"
+    ]
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "How do you call out to Khalid?",
+   "opts": [
+    "يَا خَالِدٌ",
+    "يَا خَالِدُ",
+    "يَا خَالِدِ",
+    "يَا الْخَالِدُ"
+   ],
+   "a": 1,
+   "why": "A name after يَا: single ḍamma, no tanwīn."
+  },
+  {
+   "t": "mcq",
+   "q": "How do you call out to ʿAbdallāh?",
+   "opts": [
+    "يَا عَبْدُ اللهِ",
+    "يَا عَبْدَ اللهِ",
+    "يَا عَبْدٌ اللهِ",
+    "يَا عَبْدِ اللهِ"
+   ],
+   "a": 1,
+   "why": "An iḍāfa after يَا: fatḥa on the first word."
+  },
+  {
+   "t": "build",
+   "en": "This is the doctor's son.",
+   "words": [
+    "هَذَا",
+    "ابْنُ",
+    "الطَّبِيبِ."
+   ]
+  },
+  {
+   "t": "build",
+   "en": "Thank you, Ali.",
+   "words": [
+    "شُكْرًا",
+    "يَا",
+    "عَلِيُّ."
+   ]
+  }
+ ],
+ "check": [
+  {
+   "t": "build",
+   "en": "Yasir, where is the book?",
+   "words": [
+    "يَا",
+    "يَاسِرُ،",
+    "أَيْنَ",
+    "الْكِتَابُ؟"
+   ],
+   "extra": [
+    "يَاسِرٌ"
+   ]
+  },
+  {
+   "t": "build",
+   "en": "This is Khalid's sister.",
+   "words": [
+    "هَذِهِ",
+    "أُخْتُ",
+    "خَالِدٍ."
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "Which is correct?",
+   "opts": [
+    "يَا مُدَرِّسٌ",
+    "يَا مُدَرِّسُ"
+   ],
+   "a": 1
+  },
+  {
+   "t": "mcq",
+   "q": "What does this mean?",
+   "opts": [
+    "The family is at home.",
+    "A family at home.",
+    "Where is the family?",
+    "This is a family."
+   ],
+   "a": 0,
+   "ar": "الْعَائِلَةُ فِي الْبَيْتِ."
+  },
+  {
+   "t": "mcq",
+   "q": "What ending does عَبْد get in يَا عَبْدَ اللهِ?",
+   "opts": [
+    "ḍamma",
+    "fatḥa",
+    "kasra",
+    "tanwīn"
+   ],
+   "a": 1
+  }
+ ]
+}

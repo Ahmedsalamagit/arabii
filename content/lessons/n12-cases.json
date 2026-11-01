@@ -1,0 +1,277 @@
+{
+ "id": "n12-cases",
+ "title": "The three cases",
+ "ar": "الرَّفْعُ وَالنَّصْبُ وَالجَرّ",
+ "goal": "Explain every ending you've seen: rafʿ, naṣb and jarr, plus words that never change.",
+ "words": [
+  {
+   "ar": "فَتَحَ",
+   "tr": "fataḥa",
+   "en": "he opened"
+  },
+  {
+   "ar": "أَغْلَقَ",
+   "tr": "aghlaqa",
+   "en": "he closed"
+  },
+  {
+   "ar": "قَرَأَ",
+   "tr": "qaraʾa",
+   "en": "he read"
+  },
+  {
+   "ar": "أَكَلَ",
+   "tr": "akala",
+   "en": "he ate"
+  },
+  {
+   "ar": "شَرِبَ",
+   "tr": "shariba",
+   "en": "he drank"
+  },
+  {
+   "ar": "دَرْسٌ",
+   "tr": "darsun",
+   "en": "a lesson"
+  },
+  {
+   "ar": "خُبْزٌ",
+   "tr": "khubzun",
+   "en": "bread"
+  }
+ ],
+ "understand": [
+  {
+   "examples": [
+    {
+     "ar": "فَتَحَ حَامِدٌ الْبَابَ.",
+     "en": "Hamid opened the door."
+    },
+    {
+     "ar": "قَرَأَ الطَّالِبُ الدَّرْسَ.",
+     "en": "The student read the lesson."
+    },
+    {
+     "ar": "أَكَلْتُ خُبْزًا.",
+     "en": "I ate (some) bread."
+    },
+    {
+     "ar": "شَرِبَتْ فَاطِمَةُ الشَّايَ.",
+     "en": "Fatima drank the tea."
+    }
+   ]
+  },
+  {
+   "p": "Look at what was opened, read, eaten and drunk: <span class='ar nasb'>الْبَابَ</span>, <span class='ar nasb'>الدَّرْسَ</span>, <span class='ar nasb'>خُبْزًا</span>, <span class='ar nasb'>الشَّايَ</span>. They all end in <strong>fatḥa</strong>. The thing the action happens to is the <em>mafʿūl bihi</em> (object), and it is <em>manṣūb</em>."
+  },
+  {
+   "h": "The whole picture"
+  },
+  {
+   "table": {
+    "headers": [
+     "Case",
+     "Sign",
+     "You've seen it on…"
+    ],
+    "rows": [
+     [
+      "rafʿ (marfūʿ)",
+      "ḍamma -u / -un",
+      "mubtadaʾ & khabar (L4), fāʿil (L11)"
+     ],
+     [
+      "naṣb (manṣūb)",
+      "fatḥa -a / -an",
+      "mafʿūl bihi (this lesson), يَا + iḍāfa (L10)"
+     ],
+     [
+      "jarr (majrūr)",
+      "kasra -i / -in",
+      "after a preposition (L5), 2nd noun of iḍāfa (L6)"
+     ]
+    ]
+   }
+  },
+  {
+   "rule": "A noun's ending changes with its <strong>job</strong> in the sentence. This change is called <em>iʿrāb</em>. Same word, three jobs: <span class='ar raf'>الْبَابُ</span> مَفْتُوحٌ (subject) · فَتَحْتُ <span class='ar nasb'>الْبَابَ</span> (object) · عَلَى <span class='ar jarr'>الْبَابِ</span> (after a preposition)."
+  },
+  {
+   "h": "Words that never change (mabnī)"
+  },
+  {
+   "p": "Some words keep the same ending whatever their job. They're called <em>mabnī</em>: <span class='ar'>هَذَا</span>, <span class='ar'>ذَلِكَ</span>, <span class='ar'>مَنْ</span>, <span class='ar'>مَا</span>, <span class='ar'>أَيْنَ</span>, <span class='ar'>هُوَ</span>, <span class='ar'>أَنَا</span> and the past-tense verb <span class='ar'>ذَهَبَ</span>. Words that do change are <em>muʿrab</em>."
+  },
+  {
+   "tip": "This table is the backbone of all Arabic grammar. Stages 2 and 3 add more jobs to each row, but the three cases never change."
+  }
+ ],
+ "read": {
+  "lines": [
+   {
+    "ar": "دَخَلَ الْمُدَرِّسُ الْفَصْلَ وَفَتَحَ النَّافِذَةَ.",
+    "en": "The teacher entered the classroom and opened the window."
+   },
+   {
+    "ar": "جَلَسَ الطَّالِبُ عَلَى الْكُرْسِيِّ.",
+    "en": "The student sat on the chair."
+   },
+   {
+    "ar": "قَرَأَ الطَّالِبُ الدَّرْسَ الْجَدِيدَ.",
+    "en": "The student read the new lesson."
+   },
+   {
+    "ar": "ثُمَّ أَغْلَقَ الْمُدَرِّسُ الْبَابَ.",
+    "en": "Then the teacher closed the door."
+   },
+   {
+    "ar": "وَفِي الْبَيْتِ أَكَلَ الطَّالِبُ خُبْزًا وَشَرِبَ الشَّايَ.",
+    "en": "And at home the student ate bread and drank the tea."
+   }
+  ],
+  "intro": "A class, and home afterwards. Spot every rafʿ, naṣb and jarr."
+ },
+ "practice": [
+  {
+   "t": "match",
+   "pairs": [
+    [
+     "فَتَحَ",
+     "he opened"
+    ],
+    [
+     "أَغْلَقَ",
+     "he closed"
+    ],
+    [
+     "قَرَأَ",
+     "he read"
+    ],
+    [
+     "أَكَلَ",
+     "he ate"
+    ],
+    [
+     "شَرِبَ",
+     "he drank"
+    ]
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "In فَتَحَ حَامِدٌ الْبَابَ, which word is manṣūb (the object)?",
+   "opts": [
+    "فَتَحَ",
+    "حَامِدٌ",
+    "الْبَابَ"
+   ],
+   "a": 2
+  },
+  {
+   "t": "mcq",
+   "q": "In ذَهَبَ الطَّالِبُ إِلَى الْجَامِعَةِ, which word is majrūr?",
+   "opts": [
+    "ذَهَبَ",
+    "الطَّالِبُ",
+    "الْجَامِعَةِ"
+   ],
+   "a": 2
+  },
+  {
+   "t": "mcq",
+   "q": "Fill in: قَرَأْتُ ___ (the lesson)",
+   "opts": [
+    "الدَّرْسُ",
+    "الدَّرْسَ",
+    "الدَّرْسِ"
+   ],
+   "a": 1
+  },
+  {
+   "t": "build",
+   "en": "The boy drank the water.",
+   "words": [
+    "شَرِبَ",
+    "الْوَلَدُ",
+    "الْمَاءَ."
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "Which of these words is mabnī (never changes)?",
+   "opts": [
+    "الْبَيْتُ",
+    "هَذَا",
+    "كِتَابٌ",
+    "الطَّالِبُ"
+   ],
+   "a": 1
+  }
+ ],
+ "check": [
+  {
+   "t": "build",
+   "en": "Hamid closed the window.",
+   "words": [
+    "أَغْلَقَ",
+    "حَامِدٌ",
+    "النَّافِذَةَ."
+   ],
+   "extra": [
+    "النَّافِذَةُ"
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "Fill in: أَكَلَ الْوَلَدُ ___ (bread)",
+   "opts": [
+    "خُبْزٌ",
+    "خُبْزًا",
+    "خُبْزٍ"
+   ],
+   "a": 1
+  },
+  {
+   "t": "mcq",
+   "q": "Fill in: الْكِتَابُ عَلَى ___ (the desk)",
+   "opts": [
+    "الْمَكْتَبُ",
+    "الْمَكْتَبَ",
+    "الْمَكْتَبِ"
+   ],
+   "a": 2
+  },
+  {
+   "t": "mcq",
+   "q": "Fill in: ___ مَفْتُوحٌ (the door is open)",
+   "opts": [
+    "الْبَابُ",
+    "الْبَابَ",
+    "الْبَابِ"
+   ],
+   "a": 0
+  },
+  {
+   "t": "mcq",
+   "q": "Which case does the fāʿil (doer) take?",
+   "opts": [
+    "rafʿ",
+    "naṣb",
+    "jarr"
+   ],
+   "a": 0
+  },
+  {
+   "t": "mcq",
+   "q": "What does this mean?",
+   "opts": [
+    "The student read the lesson.",
+    "The lesson read the student.",
+    "The student's lesson.",
+    "Read the lesson, student!"
+   ],
+   "a": 0,
+   "ar": "قَرَأَ الطَّالِبُ الدَّرْسَ."
+  }
+ ]
+}

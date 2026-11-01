@@ -1,0 +1,312 @@
+{
+ "id": "n07-pronouns",
+ "title": "I, you, he, she",
+ "ar": "أَنَا وَأَنْتَ",
+ "goal": "Use personal pronouns and ask where someone is from.",
+ "words": [
+  {
+   "ar": "أَنَا",
+   "tr": "anā",
+   "en": "I"
+  },
+  {
+   "ar": "أَنْتَ",
+   "tr": "anta",
+   "en": "you (to a man)"
+  },
+  {
+   "ar": "أَنْتِ",
+   "tr": "anti",
+   "en": "you (to a woman)"
+  },
+  {
+   "ar": "هُوَ",
+   "tr": "huwa",
+   "en": "he; it (masculine)"
+  },
+  {
+   "ar": "هِيَ",
+   "tr": "hiya",
+   "en": "she; it (feminine)"
+  },
+  {
+   "ar": "مِنْ",
+   "tr": "min",
+   "en": "from",
+   "note": "Before al- it becomes مِنَ: مِنَ الْهِنْدِ."
+  },
+  {
+   "ar": "الْهِنْدُ",
+   "tr": "al-Hindu",
+   "en": "India"
+  },
+  {
+   "ar": "الْيَابَانُ",
+   "tr": "al-Yābānu",
+   "en": "Japan"
+  },
+  {
+   "ar": "الصِّينُ",
+   "tr": "aṣ-Ṣīnu",
+   "en": "China"
+  },
+  {
+   "ar": "مِصْرُ",
+   "tr": "Miṣru",
+   "en": "Egypt",
+   "note": "Doesn't take kasra: مِنْ مِصْرَ (explained in Stage 3)."
+  },
+  {
+   "ar": "بَلَدٌ",
+   "tr": "baladun",
+   "en": "a country; a town"
+  }
+ ],
+ "understand": [
+  {
+   "table": {
+    "headers": [
+     "Pronoun",
+     "Meaning",
+     "Example"
+    ],
+    "ar": [
+     0,
+     2
+    ],
+    "rows": [
+     [
+      "أَنَا",
+      "I",
+      "أَنَا طَالِبٌ."
+     ],
+     [
+      "أَنْتَ",
+      "you (m)",
+      "أَنْتَ مُدَرِّسٌ."
+     ],
+     [
+      "أَنْتِ",
+      "you (f)",
+      "أَنْتِ مِنْ مِصْرَ."
+     ],
+     [
+      "هُوَ",
+      "he",
+      "هُوَ طَبِيبٌ."
+     ],
+     [
+      "هِيَ",
+      "she",
+      "هِيَ مِنَ الصِّينِ."
+     ]
+    ]
+   }
+  },
+  {
+   "rule": "Pronouns start a sentence just like <span class='ar'>الْبَيْتُ</span> did, and the description follows in rafʿ: <span class='ar'>هُوَ</span> <span class='ar raf'>مُهَنْدِسٌ</span>. Arabic marks gender even in “you”: <span class='ar'>أَنْتَ</span> to a man, <span class='ar'>أَنْتِ</span> to a woman."
+  },
+  {
+   "h": "Where are you from?"
+  },
+  {
+   "examples": [
+    {
+     "ar": "مِنْ أَيْنَ أَنْتَ؟",
+     "en": "Where are you from? (to a man)"
+    },
+    {
+     "ar": "أَنَا مِنَ الْهِنْدِ.",
+     "en": "I'm from India."
+    },
+    {
+     "ar": "مِنْ أَيْنَ هُوَ؟",
+     "en": "Where is he from?"
+    },
+    {
+     "ar": "هُوَ مِنَ الْيَابَانِ.",
+     "en": "He's from Japan."
+    }
+   ]
+  },
+  {
+   "p": "<span class='ar'>مِنْ</span> is a preposition, so the country after it is majrūr: <span class='ar jarr'>الْهِنْدِ</span>. It takes a fatḥa (<span class='ar'>مِنَ</span>) before <span class='ar'>الْ</span> so the two can join smoothly."
+  },
+  {
+   "tip": "<span class='ar'>مِنْ</span> (min, from) and <span class='ar'>مَنْ</span> (man, who) look the same without vowels. That's one reason this course always shows the vowels."
+  }
+ ],
+ "read": {
+  "lines": [
+   {
+    "who": "Khālid",
+    "ar": "أَنَا خَالِدٌ. مَنْ أَنْتَ؟",
+    "en": "I'm Khalid. Who are you?"
+   },
+   {
+    "who": "Yāsir",
+    "ar": "أَنَا يَاسِرٌ. أَنَا طَالِبٌ.",
+    "en": "I'm Yasir. I'm a student."
+   },
+   {
+    "who": "Khālid",
+    "ar": "مِنْ أَيْنَ أَنْتَ؟",
+    "en": "Where are you from?"
+   },
+   {
+    "who": "Yāsir",
+    "ar": "أَنَا مِنَ الْهِنْدِ. وَأَنْتَ؟",
+    "en": "I'm from India. And you?"
+   },
+   {
+    "who": "Khālid",
+    "ar": "أَنَا مِنْ مِصْرَ.",
+    "en": "I'm from Egypt."
+   },
+   {
+    "who": "Yāsir",
+    "ar": "مَنْ ذَلِكَ؟",
+    "en": "Who is that?"
+   },
+   {
+    "who": "Khālid",
+    "ar": "هُوَ عَلِيٌّ. هُوَ مِنَ الصِّينِ.",
+    "en": "He's Ali. He's from China."
+   }
+  ],
+  "intro": "Two new students meet."
+ },
+ "practice": [
+  {
+   "t": "match",
+   "pairs": [
+    [
+     "أَنَا",
+     "I"
+    ],
+    [
+     "أَنْتَ",
+     "you (to a man)"
+    ],
+    [
+     "أَنْتِ",
+     "you (to a woman)"
+    ],
+    [
+     "هُوَ",
+     "he"
+    ],
+    [
+     "هِيَ",
+     "she"
+    ]
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "You're talking to a woman. Which “you”?",
+   "opts": [
+    "أَنْتَ",
+    "أَنْتِ"
+   ],
+   "a": 1
+  },
+  {
+   "t": "mcq",
+   "q": "What does this mean?",
+   "opts": [
+    "Where are you from?",
+    "Who are you?",
+    "Where are you?",
+    "Are you from India?"
+   ],
+   "a": 0,
+   "ar": "مِنْ أَيْنَ أَنْتَ؟"
+  },
+  {
+   "t": "build",
+   "en": "I am from Japan.",
+   "words": [
+    "أَنَا",
+    "مِنَ",
+    "الْيَابَانِ."
+   ]
+  },
+  {
+   "t": "build",
+   "en": "He is an engineer.",
+   "words": [
+    "هُوَ",
+    "مُهَنْدِسٌ."
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "Fill in: هِيَ مِنَ ___ (China)",
+   "opts": [
+    "الصِّينُ",
+    "الصِّينِ",
+    "الصِّينَ",
+    "صِينٌ"
+   ],
+   "a": 1,
+   "why": "After مِنْ: kasra."
+  }
+ ],
+ "check": [
+  {
+   "t": "build",
+   "en": "Where is he from?",
+   "words": [
+    "مِنْ",
+    "أَيْنَ",
+    "هُوَ؟"
+   ]
+  },
+  {
+   "t": "build",
+   "en": "I am a doctor.",
+   "words": [
+    "أَنَا",
+    "طَبِيبٌ."
+   ],
+   "extra": [
+    "أَنْتَ"
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "Which pronoun means “she”?",
+   "opts": [
+    "هُوَ",
+    "هِيَ",
+    "أَنْتِ",
+    "أَنَا"
+   ],
+   "a": 1
+  },
+  {
+   "t": "mcq",
+   "q": "Answer: مِنْ أَيْنَ أَنْتَ؟ (you're from India)",
+   "opts": [
+    "أَنَا مِنَ الْهِنْدِ.",
+    "أَنْتَ مِنَ الْهِنْدِ.",
+    "هُوَ مِنَ الْهِنْدِ.",
+    "أَنَا الْهِنْدُ."
+   ],
+   "a": 0
+  },
+  {
+   "t": "mcq",
+   "q": "What does this mean?",
+   "opts": [
+    "You (f) are from Egypt.",
+    "You (m) are from Egypt.",
+    "She is from Egypt.",
+    "I am from Egypt."
+   ],
+   "a": 0,
+   "ar": "أَنْتِ مِنْ مِصْرَ."
+  }
+ ]
+}

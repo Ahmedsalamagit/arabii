@@ -1,0 +1,101 @@
+{
+  "title": "Arabic from A to Z",
+  "tagline": "Learn to read first, then build the language one rule at a time, in the order the Madinah books teach it. Every lesson teaches before it tests.",
+  "stages": [
+    {
+      "id": "reading",
+      "title": "Stage 0 · Reading",
+      "ar": "القِرَاءَة",
+      "about": "Letters, vowel marks and pronunciation, in the order of al-Qāʿida an-Nūrāniyya. After this stage you can sound out any fully voweled Arabic word.",
+      "lessons": [
+        { "id": "r1-letters", "title": "The 28 letters", "ar": "الحُرُوف", "summary": "Every letter's name and sound, learned in look-alike families." },
+        { "id": "r2-joining", "title": "How letters join", "ar": "الحُرُوفُ المُتَّصِلَة", "summary": "Start, middle and end shapes, and the six letters that never join forward." },
+        { "id": "r3-short-vowels", "title": "Short vowels", "ar": "الحَرَكَات", "summary": "Fatḥa, kasra and ḍamma: a, i, u." },
+        { "id": "r4-sukun-shadda", "title": "Sukūn and shadda", "ar": "السُّكُونُ وَالشَّدَّة", "summary": "Stopping a letter, and doubling it." },
+        { "id": "r5-long-vowels", "title": "Long vowels", "ar": "حُرُوفُ المَدّ", "summary": "ا و ي stretch a vowel: ā, ū, ī." },
+        { "id": "r6-tanwin", "title": "Tanwīn and tāʾ marbūṭa", "ar": "التَّنْوِين", "summary": "The -un / -an / -in endings, and the feminine ة." },
+        { "id": "r7-al", "title": "“The”: sun and moon letters", "ar": "الْ الشَّمْسِيَّةُ وَالقَمَرِيَّة", "summary": "Reading al- correctly, and the silent alif when words join." }
+      ]
+    },
+    {
+      "id": "nominal",
+      "title": "Stage 1 · The nominal sentence",
+      "ar": "الجُمْلَةُ الاِسْمِيَّة",
+      "about": "Follows the order of Madinah Book 1 (Durūs al-Lugha al-ʿArabiyya): pointing, asking, describing, owning, and the first verbs, ending with the three cases.",
+      "lessons": [
+        { "id": "n01-hadha", "title": "This is a book", "ar": "هَذَا كِتَابٌ", "summary": "هَذَا and مَا: naming things around you." },
+        { "id": "n02-man", "title": "Who is this?", "ar": "مَنْ هَذَا؟", "summary": "مَنْ for people, yes/no questions with أَ." },
+        { "id": "n03-dhalika", "title": "That", "ar": "ذَلِكَ", "summary": "Near and far, and joining with وَ." },
+        { "id": "n04-al", "title": "The house is big", "ar": "البَيْتُ كَبِيرٌ", "summary": "“The” and your first full sentences: subject + description." },
+        { "id": "n05-ayna", "title": "Where?", "ar": "أَيْنَ؟", "summary": "فِي and عَلَى, and the kasra they cause." },
+        { "id": "n06-idafa", "title": "Muhammad's book", "ar": "كِتَابُ مُحَمَّدٍ", "summary": "Possession by putting two nouns together (iḍāfa)." },
+        { "id": "n07-pronouns", "title": "I, you, he, she", "ar": "أَنَا وَأَنْتَ", "summary": "Personal pronouns and “where are you from?”" },
+        { "id": "n08-feminine", "title": "This (feminine)", "ar": "هَذِهِ وَتِلْكَ", "summary": "Feminine nouns, ة, and هَذِهِ / تِلْكَ." },
+        { "id": "n09-adjectives", "title": "The big house", "ar": "البَيْتُ الكَبِيرُ", "summary": "Adjectives that follow and match their noun." },
+        { "id": "n10-ya", "title": "Calling someone, and family", "ar": "يَا مُحَمَّدُ", "summary": "The vocative يَا and family words." },
+        { "id": "n11-past", "title": "He went", "ar": "ذَهَبَ", "summary": "Your first verbs: the past tense and its doer." },
+        { "id": "n12-cases", "title": "The three cases", "ar": "الرَّفْعُ وَالنَّصْبُ وَالجَرّ", "summary": "Putting it together: rafʿ, naṣb, jarr, and words that never change." }
+      ]
+    }
+  ],
+  "roadmap": [
+    {
+      "title": "Stage 2 · Verbs and plurals",
+      "ar": "الفِعْلُ وَالجَمْع",
+      "about": "Madinah Book 2's ground.",
+      "topics": [
+        "The present tense (المُضَارِع) and its conjugation",
+        "The full past-tense conjugation: we, you all, they",
+        "Duals (-āni / -ayni) and sound plurals (-ūna / -āt)",
+        "Broken plurals and their common patterns",
+        "هَؤُلَاءِ / أُولَئِكَ and plural pronouns",
+        "Commands (الأَمْر) and negation with لَا, لَمْ, لَنْ",
+        "إِنَّ and its sisters; كَانَ and its sisters",
+        "Numbers 1–10 and the comparative (أَكْبَرُ)"
+      ]
+    },
+    {
+      "title": "Stage 3 · The case system (Ājurrūmiyya)",
+      "ar": "الآجُرُّومِيَّة",
+      "about": "The classical grammar primer, read with everything you know so far.",
+      "topics": [
+        "Speech and its parts; signs of the noun, verb and particle",
+        "Iʿrāb and its signs, including the five nouns and the dual/plural endings",
+        "The nominatives: fāʿil, nāʾib al-fāʿil, mubtadaʾ and khabar",
+        "The followers: naʿt, ʿaṭf, tawkīd, badal",
+        "The accusatives: mafʿūl bihi, maṣdar, ẓarf, ḥāl, tamyīz, istithnāʾ",
+        "Verb forms I–X (الأَوْزَان) and roots"
+      ]
+    },
+    {
+      "title": "Stage 4 · Reading real Arabic",
+      "ar": "النُّصُوص",
+      "about": "Graded authentic texts with word-by-word help.",
+      "topics": [
+        "Qaṣaṣ an-Nabiyyīn (Abul-Ḥasan ʿAlī an-Nadwī), graded stories of the prophets",
+        "Selected hadith from al-Arbaʿūn an-Nawawiyya",
+        "Juzʾ ʿAmma with vocabulary and iʿrāb",
+        "Short modern prose: news and letters"
+      ]
+    }
+  ],
+  "method": {
+    "title": "How this course works",
+    "body": [
+      "<strong>Teach, then practise, then test, always in that order.</strong> Each lesson has five steps: <em>Learn</em> the new words, <em>Understand</em> the rule (examples first, rule second, the inductive way an-Naḥw al-Wāḍiḥ teaches), <em>Read</em> a short passage, <em>Practice</em> with hints where mistakes don't count, then <em>Check</em>. Score 80% on the check and the next lesson unlocks.",
+      "<strong>Nothing is tested before it's taught.</strong> A script checks every passage and exercise before the site is published. If any Arabic word in a reading or quiz hasn't appeared in that lesson's teaching or an earlier one, the site won't deploy.",
+      "<strong>Reading before grammar.</strong> Stage 0 follows the order of al-Qāʿida an-Nūrāniyya, the primer used to teach Quran reading worldwide: letters, then joined forms, short vowels, sukūn and shadda, long vowels, tanwīn, then al-. Everything after it is fully voweled, so you never have to guess.",
+      "<strong>Grammar in the Madinah order.</strong> Stage 1 follows the sequence of Madinah Book 1 by Dr. V. ʿAbdur-Raḥīm, written for non-Arab students at the Islamic University of Madinah. Each lesson adds one structure on top of the last, and every rule appears inside real sentences. The text here is original, not copied from the books, so this course pairs well with them.",
+      "<strong>Spaced review.</strong> When you pass a lesson, its words join your review deck. They come back after 1, 3, 7, 16, 35 and 90 days, sooner if you miss them. Research on second-language vocabulary consistently finds that spaced retrieval beats re-reading for long-term memory.",
+      "<strong>Fuṣḥā first.</strong> This course teaches Modern Standard Arabic, the Arabic of the Quran's language family, books and news. A dialect can be added later on this foundation."
+    ],
+    "sources": [
+      "Durūs al-Lugha al-ʿArabiyya li-Ghayr an-Nāṭiqīn bihā (the “Madinah books”), Dr. V. ʿAbdur-Raḥīm. Overview: <a href=\"https://al-dirassa.com/en/madinah-method-learn-arabic\">al-Dirassa, “Madinah Method”</a>; grammar sequence of Book 1: <a href=\"https://www.slideshare.net/slideshow/madeenahbook1grammerrules/33050508\">Madeenah Book 1 grammar rules</a>",
+      "Al-Qāʿida an-Nūrāniyya (Nūrānī Qāʿida), Shaykh Nūr Muḥammad Ḥaqqānī: <a href=\"https://earabiclearning.com/Qaida-Noorania/\">lesson order overview</a>",
+      "An-Naḥw al-Wāḍiḥ, ʿAlī al-Jārim & Muṣṭafā Amīn, and its inductive method: <a href=\"https://e-journal.metrouniv.ac.id/al-fathin/article/view/3103\">analysis of its material and method</a>",
+      "Al-Ājurrūmiyya, Ibn Ājurrūm, the classical beginner's grammar memorized after the Quran: <a href=\"https://en.wikipedia.org/wiki/Al-Ajurrumiyya\">Wikipedia</a>",
+      "Spaced repetition for vocabulary: <a href=\"https://riset.unisma.ac.id/index.php/JREALL/article/view/25562\">systematic review of 25 studies (2010–2025)</a>",
+      "MSA and dialect in Arabic teaching (Al-Kitāb's approach): <a href=\"https://www.insidehighered.com/news/2008/10/01/shifting-winds-arabic-teaching\">Inside Higher Ed</a>"
+    ]
+  }
+}

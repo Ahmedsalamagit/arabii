@@ -1,0 +1,324 @@
+{
+ "id": "n11-past",
+ "title": "He went",
+ "ar": "ذَهَبَ",
+ "goal": "Use past-tense verbs for I / you / he / she, with their doer.",
+ "words": [
+  {
+   "ar": "ذَهَبَ",
+   "tr": "dhahaba",
+   "en": "he went"
+  },
+  {
+   "ar": "خَرَجَ",
+   "tr": "kharaja",
+   "en": "he went out; left"
+  },
+  {
+   "ar": "دَخَلَ",
+   "tr": "dakhala",
+   "en": "he entered"
+  },
+  {
+   "ar": "جَلَسَ",
+   "tr": "jalasa",
+   "en": "he sat"
+  },
+  {
+   "ar": "رَجَعَ",
+   "tr": "rajaʿa",
+   "en": "he returned"
+  },
+  {
+   "ar": "كَتَبَ",
+   "tr": "kataba",
+   "en": "he wrote"
+  },
+  {
+   "ar": "إِلَى",
+   "tr": "ilā",
+   "en": "to (a place)"
+  },
+  {
+   "ar": "ثُمَّ",
+   "tr": "thumma",
+   "en": "then; after that"
+  },
+  {
+   "ar": "أَمْسِ",
+   "tr": "amsi",
+   "en": "yesterday"
+  },
+  {
+   "ar": "الْيَوْمَ",
+   "tr": "al-yawma",
+   "en": "today"
+  },
+  {
+   "ar": "مَتَى",
+   "tr": "matā",
+   "en": "when?"
+  }
+ ],
+ "understand": [
+  {
+   "examples": [
+    {
+     "ar": "ذَهَبَ مُحَمَّدٌ إِلَى الْمَسْجِدِ.",
+     "en": "Muhammad went to the mosque."
+    },
+    {
+     "ar": "خَرَجَ الْمُدَرِّسُ مِنَ الْفَصْلِ.",
+     "en": "The teacher left the classroom."
+    },
+    {
+     "ar": "جَلَسَ الْوَلَدُ عَلَى الْكُرْسِيِّ.",
+     "en": "The boy sat on the chair."
+    }
+   ]
+  },
+  {
+   "rule": "This is a <strong>verbal sentence</strong>: the verb usually comes first, then the doer (<em>fāʿil</em>), which is <span class='ar raf'>marfūʿ</span>: <span class='ar'>ذَهَبَ</span> <span class='ar raf'>مُحَمَّدٌ</span>. The basic past form <span class='ar'>ذَهَبَ</span> already means “he went”. If no doer is named, “he” is understood."
+  },
+  {
+   "h": "I, you, she"
+  },
+  {
+   "table": {
+    "headers": [
+     "Form",
+     "Meaning",
+     "Ending"
+    ],
+    "ar": [
+     0
+    ],
+    "rows": [
+     [
+      "ذَهَبْتُ",
+      "I went",
+      "-tu"
+     ],
+     [
+      "ذَهَبْتَ",
+      "you went (m)",
+      "-ta"
+     ],
+     [
+      "ذَهَبْتِ",
+      "you went (f)",
+      "-ti"
+     ],
+     [
+      "ذَهَبَ",
+      "he went",
+      "-a"
+     ],
+     [
+      "ذَهَبَتْ",
+      "she went",
+      "-at"
+     ]
+    ]
+   }
+  },
+  {
+   "p": "The ending tells you who did it, so you don't need the pronoun. Notice the sukūn on the last root letter in <span class='ar'>ذَهَبْتُ</span>."
+  },
+  {
+   "examples": [
+    {
+     "ar": "أَيْنَ ذَهَبْتَ؟",
+     "en": "Where did you go? (to a man)"
+    },
+    {
+     "ar": "ذَهَبْتُ إِلَى السُّوقِ.",
+     "en": "I went to the market."
+    },
+    {
+     "ar": "ذَهَبَتْ مَرْيَمُ إِلَى الْجَامِعَةِ.",
+     "en": "Maryam went to the university."
+    },
+    {
+     "ar": "مَتَى رَجَعْتَ؟ رَجَعْتُ أَمْسِ.",
+     "en": "When did you get back? I got back yesterday."
+    },
+    {
+     "ar": "دَخَلْتُ الْبَيْتَ ثُمَّ جَلَسْتُ.",
+     "en": "I entered the house, then I sat down."
+    }
+   ]
+  },
+  {
+   "tip": "Girls' names like <span class='ar'>مَرْيَمُ</span> and <span class='ar'>فَاطِمَةُ</span> take a single ḍamma and no tanwīn. Why comes in Stage 3. <span class='ar'>دَخَلَ</span> takes its place directly, with no preposition: <span class='ar'>دَخَلْتُ الْبَيْتَ</span>. That fatḥa is naṣb again, explained next lesson."
+  }
+ ],
+ "read": {
+  "lines": [
+   {
+    "ar": "ذَهَبَ حَامِدٌ أَمْسِ إِلَى السُّوقِ.",
+    "en": "Yesterday Hamid went to the market."
+   },
+   {
+    "ar": "ثُمَّ رَجَعَ إِلَى الْبَيْتِ وَجَلَسَ فِي الْمَطْبَخِ.",
+    "en": "Then he went back home and sat in the kitchen."
+   },
+   {
+    "who": "Mother",
+    "ar": "يَا حَامِدُ، أَيْنَ ذَهَبْتَ الْيَوْمَ؟",
+    "en": "Hamid, where did you go today?"
+   },
+   {
+    "who": "Ḥāmid",
+    "ar": "ذَهَبْتُ إِلَى الْجَامِعَةِ، ثُمَّ ذَهَبْتُ إِلَى الْمَسْجِدِ.",
+    "en": "I went to the university, then I went to the mosque."
+   },
+   {
+    "who": "Ḥāmid",
+    "ar": "وَأَيْنَ ذَهَبَتْ فَاطِمَةُ؟",
+    "en": "And where did Fatima go?"
+   },
+   {
+    "who": "Mother",
+    "ar": "خَرَجَتْ إِلَى السُّوقِ.",
+    "en": "She went out to the market."
+   }
+  ],
+  "intro": "Hamid's day."
+ },
+ "practice": [
+  {
+   "t": "match",
+   "pairs": [
+    [
+     "ذَهَبَ",
+     "he went"
+    ],
+    [
+     "جَلَسَ",
+     "he sat"
+    ],
+    [
+     "رَجَعَ",
+     "he returned"
+    ],
+    [
+     "كَتَبَ",
+     "he wrote"
+    ],
+    [
+     "خَرَجَ",
+     "he went out"
+    ]
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "What does this mean?",
+   "opts": [
+    "I went",
+    "you went (m)",
+    "she went",
+    "he went"
+   ],
+   "a": 0,
+   "ar": "ذَهَبْتُ"
+  },
+  {
+   "t": "mcq",
+   "q": "Which means “she sat”?",
+   "opts": [
+    "جَلَسَ",
+    "جَلَسْتُ",
+    "جَلَسَتْ",
+    "جَلَسْتِ"
+   ],
+   "a": 2
+  },
+  {
+   "t": "build",
+   "en": "Muhammad went to the mosque.",
+   "words": [
+    "ذَهَبَ",
+    "مُحَمَّدٌ",
+    "إِلَى",
+    "الْمَسْجِدِ."
+   ]
+  },
+  {
+   "t": "build",
+   "en": "Where did you go?",
+   "words": [
+    "أَيْنَ",
+    "ذَهَبْتَ؟"
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "In ذَهَبَ الْوَلَدُ, what is الْوَلَدُ?",
+   "opts": [
+    "the fāʿil (doer), marfūʿ",
+    "majrūr after a preposition",
+    "the khabar",
+    "an adjective"
+   ],
+   "a": 0
+  }
+ ],
+ "check": [
+  {
+   "t": "build",
+   "en": "I returned to the house.",
+   "words": [
+    "رَجَعْتُ",
+    "إِلَى",
+    "الْبَيْتِ."
+   ],
+   "extra": [
+    "رَجَعَ"
+   ]
+  },
+  {
+   "t": "build",
+   "en": "The teacher wrote.",
+   "words": [
+    "كَتَبَ",
+    "الْمُدَرِّسُ."
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "Which means “you went out” (to a woman)?",
+   "opts": [
+    "خَرَجْتَ",
+    "خَرَجْتِ",
+    "خَرَجَتْ",
+    "خَرَجْتُ"
+   ],
+   "a": 1
+  },
+  {
+   "t": "mcq",
+   "q": "Answer: مَتَى رَجَعْتَ؟",
+   "opts": [
+    "رَجَعْتُ أَمْسِ.",
+    "رَجَعَتْ أَمْسِ.",
+    "رَجَعْتَ أَمْسِ.",
+    "أَمْسِ رَجَعَ."
+   ],
+   "a": 0
+  },
+  {
+   "t": "mcq",
+   "q": "What does this mean?",
+   "opts": [
+    "The boy sat on the chair.",
+    "The boy's chair.",
+    "The boy is on the chair.",
+    "Sit on the chair, boy."
+   ],
+   "a": 0,
+   "ar": "جَلَسَ الْوَلَدُ عَلَى الْكُرْسِيِّ."
+  }
+ ]
+}

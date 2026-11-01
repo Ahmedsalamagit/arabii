@@ -1,0 +1,290 @@
+{
+ "id": "n09-adjectives",
+ "title": "The big house",
+ "ar": "البَيْتُ الكَبِيرُ",
+ "goal": "Tell “the big house” (a phrase) from “the house is big” (a sentence).",
+ "words": [
+  {
+   "ar": "طَوِيلٌ",
+   "tr": "ṭawīlun",
+   "en": "tall; long"
+  },
+  {
+   "ar": "قَصِيرٌ",
+   "tr": "qaṣīrun",
+   "en": "short"
+  },
+  {
+   "ar": "حَارٌّ",
+   "tr": "ḥārrun",
+   "en": "hot"
+  },
+  {
+   "ar": "بَارِدٌ",
+   "tr": "bāridun",
+   "en": "cold"
+  },
+  {
+   "ar": "ثَقِيلٌ",
+   "tr": "thaqīlun",
+   "en": "heavy"
+  },
+  {
+   "ar": "خَفِيفٌ",
+   "tr": "khafīfun",
+   "en": "light (weight)"
+  },
+  {
+   "ar": "مَاءٌ",
+   "tr": "māʾun",
+   "en": "water"
+  },
+  {
+   "ar": "شَايٌ",
+   "tr": "shāyun",
+   "en": "tea"
+  },
+  {
+   "ar": "لَبَنٌ",
+   "tr": "labanun",
+   "en": "milk"
+  }
+ ],
+ "understand": [
+  {
+   "p": "Compare these three carefully. The only difference is <span class='ar'>الْ</span>:"
+  },
+  {
+   "examples": [
+    {
+     "ar": "بَيْتٌ كَبِيرٌ",
+     "en": "a big house"
+    },
+    {
+     "ar": "الْبَيْتُ كَبِيرٌ.",
+     "en": "The house is big."
+    },
+    {
+     "ar": "الْبَيْتُ الْكَبِيرُ",
+     "en": "the big house"
+    }
+   ]
+  },
+  {
+   "rule": "An adjective (<em>naʿt</em>) comes <strong>after</strong> its noun and copies it: definite with definite, indefinite with indefinite, feminine with feminine, and the same case ending. If the noun has <span class='ar'>الْ</span> and the description doesn't, you have a sentence (“is”); if both have it, it's just a phrase."
+  },
+  {
+   "table": {
+    "headers": [
+     "Phrase",
+     "Meaning"
+    ],
+    "ar": [
+     0
+    ],
+    "rows": [
+     [
+      "رَجُلٌ طَوِيلٌ",
+      "a tall man"
+     ],
+     [
+      "الرَّجُلُ الطَّوِيلُ",
+      "the tall man"
+     ],
+     [
+      "سَيَّارَةٌ جَدِيدَةٌ",
+      "a new car"
+     ],
+     [
+      "السَّيَّارَةُ الْجَدِيدَةُ",
+      "the new car"
+     ],
+     [
+      "فِي الْبَيْتِ الْكَبِيرِ",
+      "in the big house (both majrūr)"
+     ]
+    ]
+   }
+  },
+  {
+   "p": "Now a phrase can be the topic of a sentence:"
+  },
+  {
+   "examples": [
+    {
+     "ar": "الرَّجُلُ الطَّوِيلُ مُدَرِّسٌ.",
+     "en": "The tall man is a teacher."
+    },
+    {
+     "ar": "الْمَاءُ الْبَارِدُ هُنَا.",
+     "en": "The cold water is here."
+    },
+    {
+     "ar": "هَذَا شَايٌ حَارٌّ.",
+     "en": "This is hot tea."
+    },
+    {
+     "ar": "الطَّالِبُ الْجَدِيدُ فِي الْفَصْلِ.",
+     "en": "The new student is in the classroom."
+    }
+   ]
+  }
+ ],
+ "read": {
+  "lines": [
+   {
+    "ar": "هَذَا بَيْتٌ كَبِيرٌ.",
+    "en": "This is a big house."
+   },
+   {
+    "ar": "فِي الْبَيْتِ الْكَبِيرِ مَطْبَخٌ جَمِيلٌ.",
+    "en": "In the big house there's a beautiful kitchen."
+   },
+   {
+    "ar": "الْمَاءُ الْبَارِدُ عَلَى الْمَكْتَبِ.",
+    "en": "The cold water is on the desk."
+   },
+   {
+    "ar": "وَالشَّايُ الْحَارُّ فِي الْمَطْبَخِ.",
+    "en": "And the hot tea is in the kitchen."
+   },
+   {
+    "ar": "الرَّجُلُ الطَّوِيلُ طَبِيبٌ، وَالْوَلَدُ الصَّغِيرُ طَالِبٌ.",
+    "en": "The tall man is a doctor, and the little boy is a student."
+   }
+  ],
+  "intro": "A visit to a big house."
+ },
+ "practice": [
+  {
+   "t": "match",
+   "pairs": [
+    [
+     "طَوِيلٌ",
+     "tall"
+    ],
+    [
+     "قَصِيرٌ",
+     "short"
+    ],
+    [
+     "حَارٌّ",
+     "hot"
+    ],
+    [
+     "بَارِدٌ",
+     "cold"
+    ],
+    [
+     "ثَقِيلٌ",
+     "heavy"
+    ]
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "Which means “the heavy book”?",
+   "opts": [
+    "الْكِتَابُ ثَقِيلٌ",
+    "الْكِتَابُ الثَّقِيلُ",
+    "كِتَابٌ الثَّقِيلُ",
+    "الْكِتَابُ ثَقِيلُ"
+   ],
+   "a": 1
+  },
+  {
+   "t": "mcq",
+   "q": "Which means “The book is heavy.”?",
+   "opts": [
+    "الْكِتَابُ ثَقِيلٌ.",
+    "الْكِتَابُ الثَّقِيلُ",
+    "كِتَابٌ ثَقِيلٌ",
+    "ثَقِيلٌ كِتَابٌ"
+   ],
+   "a": 0
+  },
+  {
+   "t": "build",
+   "en": "a new car",
+   "words": [
+    "سَيَّارَةٌ",
+    "جَدِيدَةٌ"
+   ]
+  },
+  {
+   "t": "build",
+   "en": "The cold water is here.",
+   "words": [
+    "الْمَاءُ",
+    "الْبَارِدُ",
+    "هُنَا."
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "Fill in: فِي الْبَيْتِ ___ (the small)",
+   "opts": [
+    "الصَّغِيرُ",
+    "الصَّغِيرِ",
+    "صَغِيرٌ",
+    "الصَّغِيرَ"
+   ],
+   "a": 1,
+   "why": "The adjective copies the noun's kasra."
+  }
+ ],
+ "check": [
+  {
+   "t": "build",
+   "en": "the tall man",
+   "words": [
+    "الرَّجُلُ",
+    "الطَّوِيلُ"
+   ],
+   "extra": [
+    "طَوِيلٌ"
+   ]
+  },
+  {
+   "t": "build",
+   "en": "This is hot tea.",
+   "words": [
+    "هَذَا",
+    "شَايٌ",
+    "حَارٌّ."
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "Which is a full sentence (with “is”)?",
+   "opts": [
+    "الْقَلَمُ الْجَدِيدُ",
+    "قَلَمٌ جَدِيدٌ",
+    "الْقَلَمُ جَدِيدٌ."
+   ],
+   "a": 2
+  },
+  {
+   "t": "mcq",
+   "q": "Which is correct for “a beautiful girl”?",
+   "opts": [
+    "بِنْتٌ جَمِيلٌ",
+    "بِنْتٌ جَمِيلَةٌ",
+    "الْبِنْتُ جَمِيلَةٌ",
+    "بِنْتٌ الْجَمِيلَةُ"
+   ],
+   "a": 1
+  },
+  {
+   "t": "mcq",
+   "q": "Fill in: الطَّالِبُ فِي الْفَصْلِ ___ (the big)",
+   "opts": [
+    "الْكَبِيرُ",
+    "الْكَبِيرِ",
+    "كَبِيرٌ",
+    "الْكَبِيرَةِ"
+   ],
+   "a": 1
+  }
+ ]
+}
