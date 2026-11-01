@@ -1,0 +1,27 @@
+{
+  "id": "f3-long-vowels",
+  "title": "Long Vowels & First Words",
+  "summary": "Stretching vowels with ا و ي and reading real words.",
+  "sections": [
+    { "type": "text", "body": "<p>A long vowel is a short vowel followed by its matching letter. The letter stretches the sound to about twice as long:</p>" },
+    { "type": "table", "headers": ["Example", "Pattern", "Sound"], "arCols": [0], "rows": [
+      ["بَا", "fatḥa + alif", "bā (long a, as in father)"],
+      ["بِي", "kasra + yāʼ", "bī (long i, as in bee)"],
+      ["بُو", "ḍamma + wāw", "bū (long u, as in boot)"]
+    ] },
+    { "type": "note", "body": "Short vs long changes meaning. Compare <span class='ar' lang='ar' style='font-size:1.5rem'>كَتَبَ</span> kataba (he wrote) with <span class='ar' lang='ar' style='font-size:1.5rem'>كَاتِب</span> kātib (writer)." },
+    { "type": "text", "body": "<p>Now read the words below. Cover the transliteration, sound each one out letter by letter, then check yourself and press ▶ to listen.</p>" }
+  ],
+  "vocab": [
+    { "ar": "بَاب", "tr": "bāb", "en": "door" },
+    { "ar": "كِتَاب", "tr": "kitāb", "en": "book" },
+    { "ar": "نُور", "tr": "nūr", "en": "light" },
+    { "ar": "دِين", "tr": "dīn", "en": "religion; way of life" },
+    { "ar": "كَاتِب", "tr": "kātib", "en": "writer" },
+    { "ar": "سُوق", "tr": "sūq", "en": "market" },
+    { "ar": "كَبِير", "tr": "kabīr", "en": "big" },
+    { "ar": "صَغِير", "tr": "ṣaghīr", "en": "small" },
+    { "ar": "جَمِيل", "tr": "jamīl", "en": "beautiful" },
+    { "ar": "طَعَام", "tr": "ṭaʿām", "en": "food" }
+  ]
+}

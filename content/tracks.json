@@ -1,0 +1,46 @@
+{
+  "title": "Learn Arabic, one step at a time",
+  "tagline": "Start with the alphabet, then branch into Quranic Arabic, Modern Standard Arabic, and everyday spoken Arabic. Every lesson's words feed your daily review deck.",
+  "tracks": [
+    {
+      "id": "foundations",
+      "title": "Foundations",
+      "ar": "الأساس",
+      "description": "The alphabet, vowel marks, and reading your first words. Start here.",
+      "lessons": [
+        { "id": "f1-alphabet", "title": "The Alphabet", "summary": "All 28 letters, their names, sounds, and joined forms." },
+        { "id": "f2-short-vowels", "title": "Short Vowels (Harakat)", "summary": "Fatha, kasra, damma, sukun, shadda, and tanween." },
+        { "id": "f3-long-vowels", "title": "Long Vowels & First Words", "summary": "Stretching vowels with ا و ي and reading real words." }
+      ]
+    },
+    {
+      "id": "quranic",
+      "title": "Quranic Arabic",
+      "ar": "عربية القرآن",
+      "description": "Understand what you recite, starting with the words that appear most often.",
+      "lessons": [
+        { "id": "q1-fatiha", "title": "Al-Fatiha, Word by Word", "summary": "Every word of the opening surah and what it means." },
+        { "id": "q2-common-words", "title": "High-Frequency Quranic Words", "summary": "Small words that unlock a large share of the Quran." }
+      ]
+    },
+    {
+      "id": "msa",
+      "title": "Modern Standard Arabic",
+      "ar": "الفصحى",
+      "description": "The formal Arabic of books, news, and writing across the Arab world.",
+      "lessons": [
+        { "id": "m1-greetings", "title": "Greetings & Introductions", "summary": "Saying hello, asking how someone is, and introducing yourself." },
+        { "id": "m2-nouns", "title": "Nouns, Gender & “the”", "summary": "The definite article ال, sun and moon letters, and feminine ة." }
+      ]
+    },
+    {
+      "id": "dialect",
+      "title": "Spoken Arabic (Egyptian)",
+      "ar": "العامية المصرية",
+      "description": "Everyday conversational Arabic. Egyptian is the most widely understood dialect.",
+      "lessons": [
+        { "id": "d1-everyday", "title": "Everyday Phrases", "summary": "The small words you'll hear in every conversation." }
+      ]
+    }
+  ]
+}

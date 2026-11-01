@@ -1,0 +1,41 @@
+{
+  "id": "m1-greetings",
+  "title": "Greetings & Introductions",
+  "summary": "Saying hello, asking how someone is, and introducing yourself.",
+  "sections": [
+    { "type": "text", "body": "<p>Arabic greetings often come in <strong>pairs</strong>: a set greeting and a set reply. Learn them together.</p>" },
+    { "type": "table", "headers": ["Greeting", "Reply", "Meaning"], "arCols": [0, 1], "rows": [
+      ["السَّلَامُ عَلَيْكُمْ", "وَعَلَيْكُمُ السَّلَامُ", "Peace be upon you / And upon you peace"],
+      ["صَبَاحُ الْخَيْرِ", "صَبَاحُ النُّورِ", "Good morning / Morning of light"],
+      ["مَسَاءُ الْخَيْرِ", "مَسَاءُ النُّورِ", "Good evening / Evening of light"]
+    ] },
+    { "type": "note", "body": "Arabic marks gender in “you”: <span class='ar' lang='ar' style='font-size:1.4rem'>أَنْتَ</span> anta to a man, <span class='ar' lang='ar' style='font-size:1.4rem'>أَنْتِ</span> anti to a woman. The same ending shows up in questions: <span class='ar' lang='ar' style='font-size:1.4rem'>كَيْفَ حَالُكَ</span> (to a man) and <span class='ar' lang='ar' style='font-size:1.4rem'>كَيْفَ حَالُكِ</span> (to a woman)." },
+    { "type": "heading", "text": "A short dialogue" },
+    { "type": "table", "headers": ["Arabic", "English"], "arCols": [0], "rows": [
+      ["السَّلَامُ عَلَيْكُمْ. اسْمِي أَحْمَد. مَا اسْمُكَ؟", "Peace be upon you. My name is Ahmed. What's your name?"],
+      ["وَعَلَيْكُمُ السَّلَامُ. اسْمِي يُوسُف.", "And upon you peace. My name is Yusuf."],
+      ["كَيْفَ حَالُكَ؟", "How are you?"],
+      ["بِخَيْرٍ، الْحَمْدُ لِلَّهِ. وَأَنْتَ؟", "Fine, praise be to God. And you?"]
+    ] }
+  ],
+  "vocab": [
+    { "ar": "السَّلَامُ عَلَيْكُمْ", "tr": "as-salāmu ʿalaykum", "en": "peace be upon you" },
+    { "ar": "وَعَلَيْكُمُ السَّلَامُ", "tr": "wa-ʿalaykumu s-salām", "en": "and upon you peace" },
+    { "ar": "مَرْحَبًا", "tr": "marḥaban", "en": "hello" },
+    { "ar": "أَهْلًا وَسَهْلًا", "tr": "ahlan wa-sahlan", "en": "welcome" },
+    { "ar": "صَبَاحُ الْخَيْرِ", "tr": "ṣabāḥu l-khayr", "en": "good morning" },
+    { "ar": "مَسَاءُ الْخَيْرِ", "tr": "masāʾu l-khayr", "en": "good evening" },
+    { "ar": "كَيْفَ حَالُكَ؟", "tr": "kayfa ḥāluka?", "en": "how are you? (to a man)" },
+    { "ar": "بِخَيْرٍ", "tr": "bi-khayr", "en": "fine; well" },
+    { "ar": "اسْمِي", "tr": "ismī", "en": "my name is" },
+    { "ar": "مَا اسْمُكَ؟", "tr": "mā smuka?", "en": "what's your name? (to a man)" },
+    { "ar": "أَنَا", "tr": "anā", "en": "I" },
+    { "ar": "أَنْتَ", "tr": "anta", "en": "you (to a man)" },
+    { "ar": "أَنْتِ", "tr": "anti", "en": "you (to a woman)" },
+    { "ar": "شُكْرًا", "tr": "shukran", "en": "thank you" },
+    { "ar": "عَفْوًا", "tr": "ʿafwan", "en": "you're welcome" },
+    { "ar": "نَعَمْ", "tr": "naʿam", "en": "yes" },
+    { "ar": "لَا", "tr": "lā", "en": "no" },
+    { "ar": "مَعَ السَّلَامَةِ", "tr": "maʿa s-salāma", "en": "goodbye" }
+  ]
+}

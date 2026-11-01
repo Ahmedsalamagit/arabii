@@ -1,0 +1,34 @@
+{
+  "id": "d1-everyday",
+  "title": "Everyday Phrases",
+  "summary": "The small words you'll hear in every conversation.",
+  "sections": [
+    { "type": "text", "body": "<p>Spoken Arabic differs from the formal Arabic of books. Egyptian is the most widely understood dialect thanks to decades of Egyptian film and TV, so it's a good first choice. Dialect is usually written without vowel marks, so lean on the transliteration and the ▶ button.</p>" },
+    { "type": "note", "body": "Sound shift to know: in Cairo, the formal <span class='ar' lang='ar' style='font-size:1.4rem'>ق</span> is usually pronounced as a catch in the throat (ʾ), so <em>qalb</em> (heart) becomes <em>ʾalb</em>. And <span class='ar' lang='ar' style='font-size:1.4rem'>ج</span> is a hard g: <em>gamīl</em> instead of <em>jamīl</em>." },
+    { "type": "heading", "text": "Formal vs Egyptian" },
+    { "type": "table", "headers": ["Formal (MSA)", "Egyptian", "Meaning"], "arCols": [0, 1], "rows": [
+      ["كَيْفَ حَالُكَ؟", "إزيك؟", "How are you? (to a man)"],
+      ["مَاذَا؟", "إيه؟", "What?"],
+      ["أَيْنَ؟", "فين؟", "Where?"],
+      ["الْآن", "دلوقتي", "Now"]
+    ] }
+  ],
+  "vocab": [
+    { "ar": "إزيك؟", "tr": "izzayyak?", "en": "how are you? (to a man)" },
+    { "ar": "عامل إيه؟", "tr": "ʿāmil ēh?", "en": "how are you doing? (to a man)" },
+    { "ar": "كويس", "tr": "kwayyis", "en": "good; fine" },
+    { "ar": "تمام", "tr": "tamām", "en": "okay; perfect" },
+    { "ar": "أيوه", "tr": "aywa", "en": "yes" },
+    { "ar": "لأ", "tr": "laʾ", "en": "no" },
+    { "ar": "إيه؟", "tr": "ēh?", "en": "what?" },
+    { "ar": "فين؟", "tr": "fēn?", "en": "where?" },
+    { "ar": "إمتى؟", "tr": "imta?", "en": "when?" },
+    { "ar": "ليه؟", "tr": "lēh?", "en": "why?" },
+    { "ar": "بكام؟", "tr": "bi-kām?", "en": "how much (does it cost)?" },
+    { "ar": "عايز", "tr": "ʿāyiz", "en": "I want (said by a man)" },
+    { "ar": "دلوقتي", "tr": "dilwaʾti", "en": "now" },
+    { "ar": "شوية", "tr": "shwayya", "en": "a little" },
+    { "ar": "يلا", "tr": "yalla", "en": "let's go; come on" },
+    { "ar": "معلش", "tr": "maʿlesh", "en": "never mind; sorry" }
+  ]
+}
