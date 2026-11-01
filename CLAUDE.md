@@ -1,32 +1,16 @@
 # Arabii
 
-A self-study Arabic course for Ahmed, hosted on GitHub Pages. Static site: no build step, no framework, no dependencies.
+Ahmed's Fuṣḥā (MSA) course, hosted on GitHub Pages at https://ahmedsalamagit.github.io/arabii/
 
-## Layout
-- `index.html` — shell page
-- `assets/app.js` — everything: hash router, lesson renderer, quiz, spaced-repetition review
-- `assets/style.css` — styles (light + dark via `prefers-color-scheme`)
-- `content/tracks.json` — the course index: tracks and their ordered lessons
-- `content/lessons/<id>.json` — one file per lesson
-- `scripts/check_content.py` — validates content; runs in CI before every deploy
-- `.github/workflows/pages.yml` — deploys to GitHub Pages on every push to `main`
+## Source of truth
+The course was built as a claude.ai artifact: https://claude.ai/artifact/PHeSquPcNV6Pc7hyQ1Y5Cr
+`index.html` is that artifact's page, extracted from claude.ai's wrapper. It is a **compiled bundle** (React inlined, minified) — there is no separate source in this repo.
 
-## Tracks
-`foundations` (alphabet, harakat, reading) → `quranic`, `msa`, `dialect` (Egyptian for now; the dialect choice can change).
+- To change the course: edit the artifact, then re-export it here (read the artifact, take the inner `<!doctype html>…</html>` document, replace `index.html`). Don't hand-edit the minified bundle except for tiny fixes.
+- Progress lives in localStorage under `fusha-v2` (and `fusha-gloss` for cached glosses). Don't rename these keys or Ahmed loses his progress.
 
-## Adding a lesson
-1. Create `content/lessons/<id>.json` (ids: `f#-`, `q#-`, `m#-`, `d#-` prefix + short slug).
-2. Add `{ "id", "title", "summary" }` to the right track in `content/tracks.json`.
-3. Run `python3 scripts/check_content.py`.
+## AI features
+The page calls Claude via `window.claude.use("sample")` inside claude.ai. Elsewhere it probes `GET /api/claude/health` and `POST /api/claude` (`{prompt, tier}` → `{text}`); if absent, AI extras disable themselves. Hosting on Azure Static Web Apps with an `/api/claude` Function holding an Anthropic API key would re-enable them.
 
-Lesson fields: `id`, `title`, `summary`, `sections[]`, `vocab[]` (`ar`, `tr`, `en`), and optional `quranic: true` (Amiri Quran font), `quizMode: "ar-en" | "en-ar"` (default mixed), `hideVocab: true`.
-Section types: `text` / `note` (trusted HTML in `body`; use single quotes for attributes inside JSON), `heading` (`text`), `letters` (`items`: ar/name/sound), `table` (`headers`, `rows`, `arCols`), `ayat` (`items`: n/ar/en).
-
-## Rules
-- **Don't reorder or remove existing `vocab` items.** Flashcards are keyed `lessonId:index` in localStorage; append new words at the end.
-- Arabic content: include full harakat for Foundations, Quranic, and MSA lessons; dialect lessons are written without them.
-- Quranic text must be copied exactly (Uthmani-style with harakat). Translations are meaning aids, not tafsir.
-- Keep it dependency-free unless there's a clear reason.
-
-## Run locally
-`python3 -m http.server 8000` then open http://localhost:8000 (fetch() needs a server; opening the file directly won't load content).
+## Deploy
+Every push to `main` deploys via `.github/workflows/pages.yml`.
