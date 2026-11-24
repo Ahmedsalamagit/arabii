@@ -90,6 +90,19 @@ for st in course.get("stages", []):
         seen.add(lid)
         order.append((st.get("id"), lid))
 
+# Phrases: course UI text (questions, feedback) that switches to Arabic from lesson `from` on.
+# Every word in a phrase must be taught by the end of that lesson.
+phrases = course.get("phrases", {})
+lesson_ids = {lid for _, lid in order}
+phrases_from = {}
+for key, ph in phrases.items():
+    if not all(ph.get(k) for k in ("en", "ar", "from")):
+        errors.append(f"course.json phrase '{key}' needs en, ar and from")
+    elif ph["from"] not in lesson_ids:
+        errors.append(f"course.json phrase '{key}': unknown lesson '{ph['from']}'")
+    else:
+        phrases_from.setdefault(ph["from"], []).append(key)
+
 taught = set()
 for stage_id, lid in order:
     path = CONTENT / "lessons" / f"{lid}.json"
@@ -131,6 +144,11 @@ for stage_id, lid in order:
         for tok in arabic_tokens(s):
             taught.update(candidates(tok))
 
+    for key in phrases_from.get(lid, []):
+        for tok in arabic_tokens(phrases[key]["ar"].replace("{x}", "")):
+            if not candidates(tok) & taught:
+                errors.append(f"phrase '{key}' (from {lid}): “{tok}” isn't taught by then")
+
     if stage_id == "reading":
         continue
     for part in ("read", "practice", "check"):
@@ -170,4 +188,4 @@ except (OSError, ValueError) as e:
 if errors:
     print("Content problems:\n  " + "\n  ".join(dict.fromkeys(errors)))
     sys.exit(1)
-print(f"Content OK: {len(order)} lessons, {len(taught)} taught word forms, nothing tested before it's taught. {qcount} Qur'an words.")
+print(f"Content OK: {len(order)} lessons, {len(taught)} taught word forms, nothing tested before it's taught. {len(phrases)} Arabic UI phrases. {qcount} Qur'an words.")

@@ -65,6 +65,12 @@
    "ar": "قَمِيصٌ",
    "tr": "qamīṣun",
    "en": "a shirt"
+  },
+  {
+   "ar": "مَعْنًى",
+   "tr": "maʿnan",
+   "en": "a meaning",
+   "note": "مَا مَعْنَى هَذَا؟ = What does this mean?"
   }
  ],
  "understand": [
@@ -114,6 +120,9 @@
   },
   {
    "tip": "The nouns in this lesson are all grammatically masculine. Feminine nouns get their own word for “this” in lesson 8."
+  },
+  {
+   "tip": "From now on the course asks <span class='ar'>مَا مَعْنَى هَذَا؟</span> (What does this mean?) in Arabic. Tap <b>EN</b> next to a question if you need the English."
   }
  ],
  "read": {

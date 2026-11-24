@@ -215,3 +215,9 @@ td.ar { font-size: 1.6rem; text-align: right; }
   .topbar nav a { position: relative; }
   .topbar nav .badge { position: absolute; top: -6px; right: -4px; padding: 0 5px; font-size: .62rem; line-height: 1.5; }
 }
+
+.q-arq { font-size: 1.45rem; }
+.en-toggle { font: 600 .7rem/1 Inter, system-ui, sans-serif; letter-spacing: .04em; color: var(--muted); background: var(--sunk); border: 1px solid var(--line); border-radius: 6px; padding: 4px 6px; cursor: pointer; vertical-align: middle; }
+.en-text { display: block; margin-top: 4px; font-size: .95rem; color: var(--muted); direction: ltr; }
+.q:has(.q-arq) { direction: rtl; text-align: right; }
+.q-x { font-family: Inter, system-ui, sans-serif; font-size: 1rem; font-weight: 600; }

@@ -53,6 +53,32 @@
     return lessons[id];
   }
   const indexOf = id => course.order.findIndex(l => l.id === id);
+  // ---------- Arabic UI phrases ----------
+  // course.json "phrases": text that switches to Arabic from lesson `from` on (checked by
+  // scripts/check_content.py to use only words taught by then). Only lesson pages use them.
+  let curLesson = -1;
+  const phraseOn = key => {
+    const ph = course?.phrases?.[key];
+    return !!ph && curLesson >= 0 && curLesson >= indexOf(ph.from);
+  };
+  const phraseKeyFor = en => Object.keys(course?.phrases || {}).find(k => course.phrases[k].en === en);
+  // a question or heading: Arabic (with an EN toggle) once taught, otherwise the English
+  function qHTML(en, key = phraseKeyFor(en), x = '') {
+    const fill = s => s.replace('{x}', x);
+    if (!key || !phraseOn(key)) return esc(fill(en || course?.phrases?.[key]?.en || ''));
+    const ph = course.phrases[key];
+    const arText = esc(ph.ar).replace('{x}', `<bdi lang="en" class="q-x">${esc(x)}</bdi>`);
+    return `<span class="ar q-arq" lang="ar" dir="rtl">${arText}</span> <button class="en-toggle" type="button" data-en="${esc(fill(ph.en))}" aria-label="Show in English">EN</button>`;
+  }
+  const label = key => phraseOn(key) ? `<span class="ar" lang="ar">${esc(course.phrases[key].ar)}</span>` : esc(course?.phrases?.[key]?.en || key);
+  document.addEventListener('click', e => {
+    const b = e.target.closest('.en-toggle');
+    if (!b) return;
+    const shown = b.nextElementSibling?.classList.contains('en-text');
+    if (shown) b.nextElementSibling.remove();
+    else b.insertAdjacentHTML('afterend', `<span class="en-text">${esc(b.dataset.en)}</span>`);
+  });
+
   const nextLessonId = () => (course.order.find(l => !S.done[l.id]) || {}).id;
 
   // ---------- speech ----------
@@ -154,6 +180,7 @@
   // =========================================================
   async function renderLesson(id, stepId) {
     await getCourse();
+    curLesson = indexOf(id);
     const L = await getLesson(id);
     const meta = course.order[indexOf(id)];
     const steps = STEPS.filter(s => s.id !== 'read' || L.read);
@@ -168,7 +195,7 @@
 
     app.innerHTML = `
       <div class="lesson-nav">
-        <div class="crumb"><a href="#/">Path</a> › ${esc(meta.stage.title)} · Lesson ${li + 1}</div>
+        <div class="crumb"><a href="#/">Path</a> › ${esc(meta.stage.title)} · ${phraseOn('lesson') ? `<span class="ar" lang="ar">${esc(course.phrases.lesson.ar.replace('{x}', li + 1))}</span>` : `Lesson ${li + 1}`}</div>
         <div class="jump">
           ${prevL ? `<a class="btn ghost sm" href="#/lesson/${prevL.id}" title="${esc(prevL.title)}" aria-label="Previous lesson">‹</a>` : ''}
           <select id="jump" aria-label="Jump to lesson">${course.stages.map(st => `<optgroup label="${esc(st.title)}">${st.lessons.map(l =>
@@ -257,7 +284,7 @@
       const opts = shuffle([w, ...distract]);
       return Math.random() < 0.65
         ? { t: 'mcq', q: 'What does this mean?', ar: w.ar, opts: opts.map(o => o.en), a: opts.indexOf(w), why: `${w.ar} (${w.tr}) means “${w.en}”.` }
-        : { t: 'mcq', q: `Which word means “${w.en}”?`, opts: opts.map(o => o.ar), a: opts.indexOf(w), why: `“${w.en}” is ${w.ar} (${w.tr}).` };
+        : { t: 'mcq', q: `Which word means “${w.en}”?`, qk: 'inArabic', qx: w.en, opts: opts.map(o => o.ar), a: opts.indexOf(w), why: `“${w.en}” is ${w.ar} (${w.tr}).` };
     });
   }
 
@@ -303,7 +330,7 @@
       const body = box.querySelector('#body'), fb = box.querySelector('#fb');
       const finish = (ok, why, missText) => {
         results[i] = ok; if (ok) score++; else if (missText) misses.push(missText);
-        fb.innerHTML = `<div class="feedback ${ok ? 'ok' : 'no'}"><b>${ok ? 'Correct' : 'Not quite'}</b>${why ? `<span>${why}</span>` : ''}</div>`;
+        fb.innerHTML = `<div class="feedback ${ok ? 'ok' : 'no'}"><b>${label(ok ? 'correct' : 'wrong')}</b>${why ? `<span>${why}</span>` : ''}</div>`;
         box.querySelector('#go').hidden = false;
         box.querySelector('#cont').focus();
         box.querySelector('#cont').addEventListener('click', () => { i++; show(); });
@@ -318,7 +345,7 @@
 
   function mcq(body, ex, finish) {
     const arOpts = ex.opts.every(isArabic);
-    body.innerHTML = `<div class="q">${esc(ex.q)}</div>${ex.ar ? `<div class="q-ar" lang="ar">${esc(ex.ar)}</div>` : ''}
+    body.innerHTML = `<div class="q">${qHTML(ex.q, ex.qk || phraseKeyFor(ex.q), ex.qx || '')}</div>${ex.ar ? `<div class="q-ar" lang="ar">${esc(ex.ar)}</div>` : ''}
       <div class="opts">${ex.opts.map((o, k) => `<button class="opt ${arOpts ? 'arabic' : ''}" data-k="${k}" ${arOpts ? 'lang="ar"' : ''}>${esc(o)}</button>`).join('')}</div>`;
     const bs = [...body.querySelectorAll('.opt')];
     bs.forEach(b => b.addEventListener('click', () => {
@@ -334,7 +361,7 @@
     const target = ex.words;
     const bank = shuffle([...target, ...(ex.extra || [])].map((w, k) => ({ w, k })));
     const placed = [];
-    body.innerHTML = `<div class="q">${esc(ex.q || 'Build the sentence in Arabic:')}</div>
+    body.innerHTML = `<div class="q">${ex.q ? qHTML(ex.q) : qHTML('', 'build')}</div>
       <p><strong>“${esc(ex.en)}”</strong></p>
       <div class="tray" id="tray"><span class="muted small" style="direction:ltr">Tap words in order (right to left)…</span></div>
       <div class="bank" id="bank">${bank.map((b, n) => `<button class="chip" lang="ar" data-n="${n}">${esc(b.w)}</button>`).join('')}</div>
@@ -547,6 +574,7 @@
   // ---------- router ----------
   async function route() {
     const [r, a, b] = (location.hash.slice(2) || '').split('/');
+    curLesson = -1;
     try {
       if (r === 'lesson') await renderLesson(a, b);
       else if (r === 'review') await renderReview();

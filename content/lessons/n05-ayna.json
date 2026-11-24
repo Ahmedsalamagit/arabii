@@ -58,6 +58,12 @@
    "ar": "فَصْلٌ",
    "tr": "faṣlun",
    "en": "a classroom"
+  },
+  {
+   "ar": "الْعَرَبِيَّةُ",
+   "tr": "al-ʿarabiyyatu",
+   "en": "Arabic (the language)",
+   "note": "بِالْعَرَبِيَّةِ = in Arabic"
   }
  ],
  "understand": [
@@ -140,6 +146,9 @@
   },
   {
    "tip": "Remember the silent alif: <span class='ar'>فِي الْبَيْتِ</span> is read <em>fil-bayti</em>, and <span class='ar'>عَلَى الْمَكْتَبِ</span> is <em>ʿalal-maktabi</em>."
+  },
+  {
+   "tip": "New question form: <span class='ar'>مَا «a book» بِالْعَرَبِيَّةِ؟</span> means “What is ‘a book’ in Arabic?” You'll see it in every check from now on."
   }
  ],
  "read": {

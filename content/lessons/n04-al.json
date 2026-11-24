@@ -58,6 +58,16 @@
    "ar": "مَكْسُورٌ",
    "tr": "maksūrun",
    "en": "broken"
+  },
+  {
+   "ar": "صَحِيحٌ",
+   "tr": "ṣaḥīḥun",
+   "en": "correct, right"
+  },
+  {
+   "ar": "خَطَأٌ",
+   "tr": "khaṭaʾun",
+   "en": "wrong; a mistake"
   }
  ],
  "understand": [
@@ -112,6 +122,9 @@
   },
   {
    "tip": "Both kinds of sentence you know have no word for “is”: <span class='ar'>هَذَا بَيْتٌ</span> (this is a house) and <span class='ar'>الْبَيْتُ كَبِيرٌ</span> (the house is big). The second starts with a <em>the</em>-noun instead of هَذَا."
+  },
+  {
+   "tip": "From here on, answers are marked <span class='ar'>صَحِيحٌ</span> (correct) or <span class='ar'>خَطَأٌ</span> (wrong), and “Which is correct?” becomes <span class='ar'>مَا الصَّحِيحُ؟</span>"
   }
  ],
  "read": {

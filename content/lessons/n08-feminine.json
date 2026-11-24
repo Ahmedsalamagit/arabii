@@ -61,6 +61,11 @@
    "tr": "shamsun",
    "en": "a sun",
    "note": "Feminine without ة."
+  },
+  {
+   "ar": "جُمْلَةٌ",
+   "tr": "jumlatun",
+   "en": "a sentence"
   }
  ],
  "understand": [
@@ -148,6 +153,9 @@
      "en": "She is a teacher."
     }
    ]
+  },
+  {
+   "tip": "Now that you know <span class='ar'>هَذِهِ</span> and <span class='ar'>جُمْلَةٌ</span>: <span class='ar'>مَا مَعْنَى هَذِهِ الْجُمْلَةِ؟</span> = What does this sentence mean? Sentence-building exercises are now headed <span class='ar'>الْجُمْلَةُ بِالْعَرَبِيَّةِ</span> (the sentence in Arabic)."
   }
  ],
  "read": {

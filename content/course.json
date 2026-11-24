@@ -97,5 +97,15 @@
       "Spaced repetition for vocabulary: <a href=\"https://riset.unisma.ac.id/index.php/JREALL/article/view/25562\">systematic review of 25 studies (2010–2025)</a>",
       "MSA and dialect in Arabic teaching (Al-Kitāb's approach): <a href=\"https://www.insidehighered.com/news/2008/10/01/shifting-winds-arabic-teaching\">Inside Higher Ed</a>"
     ]
+  },
+  "phrases": {
+    "meaning": { "en": "What does this mean?", "ar": "مَا مَعْنَى هَذَا؟", "from": "n01-hadha" },
+    "correct": { "en": "Correct", "ar": "صَحِيحٌ", "from": "n04-al" },
+    "wrong": { "en": "Not quite", "ar": "خَطَأٌ", "from": "n04-al" },
+    "whichCorrect": { "en": "Which is correct?", "ar": "مَا الصَّحِيحُ؟", "from": "n04-al" },
+    "inArabic": { "en": "Which word means “{x}”?", "ar": "مَا «{x}» بِالْعَرَبِيَّةِ؟", "from": "n05-ayna" },
+    "sentenceMeaning": { "en": "What does this sentence mean?", "ar": "مَا مَعْنَى هَذِهِ الْجُمْلَةِ؟", "from": "n08-feminine" },
+    "build": { "en": "Build the sentence in Arabic:", "ar": "الْجُمْلَةُ بِالْعَرَبِيَّةِ:", "from": "n08-feminine" },
+    "lesson": { "en": "Lesson {x}", "ar": "الدَّرْسُ {x}", "from": "n12-cases" }
   }
 }

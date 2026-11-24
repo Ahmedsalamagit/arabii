@@ -104,6 +104,9 @@
   },
   {
    "tip": "This table is the backbone of all Arabic grammar. Stages 2 and 3 add more jobs to each row, but the three cases never change."
+  },
+  {
+   "tip": "From this lesson on, lessons are numbered <span class='ar'>الدَّرْسُ</span> (the lesson) in the header."
   }
  ],
  "read": {

@@ -28,6 +28,9 @@ Static site: no build step, no framework, no dependencies.
 - Exercises: `{t:"mcq", q, ar?, opts, a, why?}`, `{t:"build", en, words:[in reading order], extra?, why?}`, `{t:"match", pairs:[[ar,en]…]}`. The check also gets up to 5 auto-generated vocab questions from `words`.
 - Arabic is fully voweled everywhere, including case endings.
 
+## Arabic in the course itself (phrases)
+`course.json` → `phrases`: `{key: {en, ar, from}}`. Course text (questions, feedback, headers) switches from `en` to `ar` from lesson `from` onward, with an EN button to peek. The checker fails if a phrase uses a word not taught by the end of `from`. To Arabize more of the UI: teach the missing word in a lesson (append to `words`, plus a `{tip}` in `understand` announcing the switch), add the phrase, wire it in `app.js` (`qHTML` / `label`). An exercise whose `q` equals a phrase's `en` switches automatically. As the course grows, prefer writing new lessons' prompts and explanations with words already taught.
+
 ## Adding a Stage 2 lesson
 Add it to a new stage in `course.json` (move items out of `roadmap`), write `content/lessons/<id>.json`, run `python3 scripts/check_content.py`, then serve locally and click through.
 
