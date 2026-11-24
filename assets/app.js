@@ -1,7 +1,7 @@
 /* Arabii — Arabic from A to Z.
  * Static, dependency-free. Course data: content/course.json + content/lessons/<id>.json
- * Every lesson: Learn → Understand → Read → Practice → Check. Passing Check (80%) unlocks the next
- * lesson and sends the lesson's words to spaced review. scripts/check_content.py guarantees nothing
+ * Every lesson: Learn → Understand → Read → Practice → Check. Every lesson and step is open, so you can
+ * jump anywhere; passing Check (80%) marks the lesson done and sends its words to spaced review. scripts/check_content.py guarantees nothing
  * is practised or tested before the lesson (or an earlier one) has taught it.
  */
 (() => {
@@ -15,7 +15,7 @@
     { id: 'understand', label: 'Understand', sub: 'the rule' },
     { id: 'read', label: 'Read', sub: 'a passage' },
     { id: 'practice', label: 'Practice', sub: 'with hints' },
-    { id: 'check', label: 'Check', sub: 'to unlock' }
+    { id: 'check', label: 'Check', sub: 'to pass' }
   ];
 
   // ---------- helpers ----------
@@ -26,7 +26,7 @@
 
   // ---------- state ----------
   const KEY = 'arabii-v2';
-  const blank = () => ({ done: {}, steps: {}, cards: {}, unlockAll: false });
+  const blank = () => ({ done: {}, steps: {}, cards: {} });
   let S;
   try { S = Object.assign(blank(), JSON.parse(localStorage.getItem(KEY) || '{}')); } catch { S = blank(); }
   const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch { /* storage blocked */ } };
@@ -53,10 +53,6 @@
     return lessons[id];
   }
   const indexOf = id => course.order.findIndex(l => l.id === id);
-  const isUnlocked = id => {
-    const i = indexOf(id);
-    return S.unlockAll || i <= 0 || !!S.done[course.order[i - 1].id];
-  };
   const nextLessonId = () => (course.order.find(l => !S.done[l.id]) || {}).id;
 
   // ---------- speech ----------
@@ -133,10 +129,10 @@
           <div class="stage-head"><h2>${esc(st.title)}</h2><span class="ar" lang="ar">${esc(st.ar)}</span></div>
           <p class="stage-src">${esc(st.about)}</p>
           <ol class="path">${st.lessons.map(l => {
-            const n = indexOf(l.id) + 1, ok = !!S.done[l.id], open = isUnlocked(l.id), isNext = l.id === nextId;
+            const n = indexOf(l.id) + 1, ok = !!S.done[l.id], isNext = l.id === nextId;
             const inner = `<span class="node ${ok ? 'done' : isNext ? 'next' : ''}">${ok ? '✓' : n}</span>
               <span class="t"><span class="ar" lang="ar">${esc(l.ar)}</span><strong>${esc(l.title)}</strong><small>${esc(l.summary)}</small></span>`;
-            return `<li>${open ? `<a href="#/lesson/${l.id}">${inner}</a>` : `<span class="locked" title="Pass the previous lesson to unlock">${inner}</span>`}</li>`;
+            return `<li><a href="#/lesson/${l.id}">${inner}</a></li>`;
           }).join('')}</ol>
         </section>`).join('')}
       ${(course.roadmap || []).map(st => `
@@ -145,9 +141,7 @@
           <p class="stage-src">${esc(st.about)} <em>Coming next.</em></p>
           <ol class="path roadmap">${st.topics.map(t => `<li><span class="node">·</span><span>${esc(t)}</span></li>`).join('')}</ol>
         </section>`).join('')}
-      <p class="small muted">Lessons unlock in order. Already know some of this?
-        <label class="toggle" style="display:inline-flex"><input type="checkbox" id="unlock" ${S.unlockAll ? 'checked' : ''}> Unlock every lesson</label></p>`;
-    document.getElementById('unlock').addEventListener('change', e => { S.unlockAll = e.target.checked; save(); renderPath(); });
+      <p class="small muted">Every lesson is open: jump to whatever you want. Later lessons assume the words and rules of earlier ones.</p>`;
   }
 
   // =========================================================
@@ -155,7 +149,6 @@
   // =========================================================
   async function renderLesson(id, stepId) {
     await getCourse();
-    if (!isUnlocked(id)) { location.hash = '#/'; return; }
     const L = await getLesson(id);
     const meta = course.order[indexOf(id)];
     const steps = STEPS.filter(s => s.id !== 'read' || L.read);
@@ -163,23 +156,29 @@
     if (!stepId || !steps.some(s => s.id === stepId)) {
       stepId = S.done[id] ? 'learn' : (steps.find(s => !seen.has(s.id)) || steps[0]).id;
     }
-    // a step is reachable once every step before it has been visited (or the lesson is passed)
-    const reachable = s => S.done[id] || steps.slice(0, steps.indexOf(s)).every(p => seen.has(p.id));
-    const cur = steps.find(s => s.id === stepId);
-    if (!reachable(cur)) stepId = steps.find(s => !seen.has(s.id)).id;
     seen.add(stepId); S.steps[id] = [...seen]; save();
     const idx = steps.findIndex(s => s.id === stepId);
     const nextStep = steps[idx + 1];
+    const li = indexOf(id), prevL = course.order[li - 1], nextL = course.order[li + 1];
 
     app.innerHTML = `
-      <div class="crumb"><a href="#/">Path</a> › ${esc(meta.stage.title)} · Lesson ${indexOf(id) + 1}</div>
+      <div class="lesson-nav">
+        <div class="crumb"><a href="#/">Path</a> › ${esc(meta.stage.title)} · Lesson ${li + 1}</div>
+        <div class="jump">
+          ${prevL ? `<a class="btn ghost sm" href="#/lesson/${prevL.id}" title="${esc(prevL.title)}" aria-label="Previous lesson">‹</a>` : ''}
+          <select id="jump" aria-label="Jump to lesson">${course.stages.map(st => `<optgroup label="${esc(st.title)}">${st.lessons.map(l =>
+            `<option value="${l.id}" ${l.id === id ? 'selected' : ''}>${indexOf(l.id) + 1}. ${esc(l.title)}${S.done[l.id] ? ' ✓' : ''}</option>`).join('')}</optgroup>`).join('')}</select>
+          ${nextL ? `<a class="btn ghost sm" href="#/lesson/${nextL.id}" title="${esc(nextL.title)}" aria-label="Next lesson">›</a>` : ''}
+        </div>
+      </div>
       <div class="lesson-head">
         <div class="ar-title" lang="ar">${esc(L.ar)}</div>
         <h1>${esc(L.title)}</h1>
       </div>
       <div class="goal"><strong>Goal:</strong> ${esc(L.goal)}</div>
-      <nav class="steps">${steps.map((s, i) => `<button data-step="${s.id}" class="${s.id === stepId ? 'on' : ''} ${seen.has(s.id) ? 'seen' : ''}" ${reachable(s) || seen.has(s.id) ? '' : 'disabled'}><b>${i + 1}. ${s.label}</b><span class="sub">${s.sub}</span></button>`).join('')}</nav>
+      <nav class="steps">${steps.map((s, i) => `<button data-step="${s.id}" class="${s.id === stepId ? 'on' : ''} ${seen.has(s.id) ? 'seen' : ''}"><b>${i + 1}. ${s.label}</b><span class="sub">${s.sub}</span></button>`).join('')}</nav>
       <section id="step"></section>`;
+    document.getElementById('jump').addEventListener('change', e => { location.hash = `#/lesson/${e.target.value}`; });
     app.querySelectorAll('[data-step]').forEach(b => b.addEventListener('click', () => { location.hash = `#/lesson/${id}/${b.dataset.step}`; }));
     const box = document.getElementById('step');
     const nextBtn = label => nextStep ? `<div class="row"><a class="btn" href="#/lesson/${id}/${nextStep.id}">${label || `Next: ${nextStep.label}`} →</a></div>` : '';
@@ -209,7 +208,7 @@
     } else if (stepId === 'practice') {
       runExercises(box, L.practice || [], 'practice', () => {
         box.innerHTML = `<div class="ex result"><h2>Practice done</h2>
-          <p>Mistakes here don't count. When you feel ready, take the check. You need ${PASS * 100}% to unlock the next lesson.</p>
+          <p>Mistakes here don't count. When you feel ready, take the check. You need ${PASS * 100}% to pass the lesson.</p>
           <div class="row" style="justify-content:center"><button class="btn ghost" id="again">Practice again</button>
           <a class="btn" href="#/lesson/${id}/check">Take the check →</a></div></div>`;
         document.getElementById('again').addEventListener('click', () => renderLesson(id, 'practice'));
@@ -430,7 +429,7 @@
     await getCourse();
     const rows = [];
     for (const l of course.order) {
-      if (!S.done[l.id] && !S.unlockAll) continue;
+      if (!S.done[l.id]) continue;
       const L = await getLesson(l.id);
       (L.words || []).forEach(w => rows.push({ ...w, lesson: indexOf(l.id) + 1 }));
     }

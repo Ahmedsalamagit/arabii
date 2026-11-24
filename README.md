@@ -8,6 +8,6 @@ A structured self-study Fuṣḥā course. Learn to read first, then build the l
 - **Stage 1 · The nominal sentence:** 12 lessons following Madinah Book 1's sequence
 - **Roadmap:** Madinah Book 2 → Ājurrūmiyya → real texts
 
-Every lesson: **Learn → Understand → Read → Practice → Check.** Passing the check (80%) unlocks the next lesson and adds its words to spaced review. A content check runs before every deploy and fails the build if any passage or exercise uses a word that hasn't been taught yet.
+Every lesson: **Learn → Understand → Read → Practice → Check.** Every lesson is open, so you can jump anywhere; passing the check (80%) marks the lesson done and adds its words to spaced review. A content check runs before every deploy and fails the build if any passage or exercise uses a word that hasn't been taught yet.
 
 Run locally: `python3 -m http.server 8000`. Contributing lessons: see `CLAUDE.md`.
