@@ -461,6 +461,16 @@
     });
   }
 
+  function renderQuran() {
+    const pdf = 'books/80-percent-quranic-words-part-1.pdf';
+    app.innerHTML = `<h1>80% of Qur'anic Words</h1>
+      <p class="muted">A classified word list for memorization by Dr. Abdulazeez Abdulraheem (Understand Al-Qur'an Academy).
+        These words make up about 80% of the words in the Qur'an. This is part 1: the most frequent words, which alone cover 41.5% of the text.</p>
+      <div class="row" style="margin-top:0"><a class="btn" href="${pdf}" target="_blank" rel="noopener">Open the PDF</a>
+        <a class="btn ghost" href="${pdf}" download>Download</a></div>
+      <div class="pdf-frame"><iframe src="${pdf}" title="80% of Qur'anic Words, part 1"></iframe></div>`;
+  }
+
   // ---------- router ----------
   async function route() {
     const [r, a, b] = (location.hash.slice(2) || '').split('/');
@@ -469,6 +479,7 @@
       else if (r === 'review') await renderReview();
       else if (r === 'words') await renderWords();
       else if (r === 'about') await renderAbout();
+      else if (r === 'quran') renderQuran();
       else await renderPath();
     } catch (e) {
       console.error(e);
