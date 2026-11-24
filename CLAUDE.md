@@ -16,6 +16,7 @@ Static site: no build step, no framework, no dependencies.
 - `index.html`, `assets/app.js` (router, lesson stepper, exercises, spaced review), `assets/style.css`
 - `content/course.json`: stages, lesson order, roadmap, Method page text + sources
 - `content/lessons/<id>.json`: one lesson
+- `content/quran-words.json`: the Qur'an tab, topic word lists transcribed from “80% of Qur'anic Words” (part 1). Its own spaced-review deck, cards keyed `quran:<listId>:<index>`, so `words` are **append-only** here too. Lists/words `{ar, tr, en, note?, n?}` (`n` = occurrences in the Qur'an).
 - `scripts/check_content.py`: structure + teach-before-test; runs in CI before deploy
 - `.github/workflows/pages.yml`: deploy on push to `main`
 

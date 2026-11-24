@@ -79,10 +79,15 @@
     });
     save();
   }
-  const dueKeys = () => Object.keys(S.cards).filter(k => S.cards[k].due <= Date.now());
+  // two decks share S.cards: lesson words ("<lessonId>:<i>") and Qur'an words ("quran:<listId>:<i>")
+  const isQ = k => k.startsWith('quran:');
+  const deckKeys = (q = false) => Object.keys(S.cards).filter(k => isQ(k) === q);
+  const dueKeys = (q = false) => deckKeys(q).filter(k => S.cards[k].due <= Date.now());
   function updateChrome(route) {
     const n = dueKeys().length, b = document.getElementById('due-badge');
     b.hidden = !n; b.textContent = n > 99 ? '99+' : n;
+    const nq = dueKeys(true).length, bq = document.getElementById('q-badge');
+    bq.hidden = !nq; bq.textContent = nq > 99 ? '99+' : nq;
     document.querySelectorAll('[data-nav]').forEach(a => a.classList.toggle('on', a.dataset.nav === route));
   }
 
@@ -119,7 +124,7 @@
           </div>` : `<div class="card"><strong>All available lessons complete.</strong> <span class="muted">Keep your review going while the next stage is built.</span></div>`}
         <div class="stats">
           <div class="stat"><b>${done}/${total}</b><span>lessons</span></div>
-          <div class="stat"><b>${Object.keys(S.cards).length}</b><span>words learned</span></div>
+          <div class="stat"><b>${deckKeys().length}</b><span>words learned</span></div>
           <div class="stat"><b>${due}</b><span>due for review</span></div>
         </div>
         ${due ? `<a class="btn ghost" href="#/review">Review ${due} word${due === 1 ? '' : 's'}</a>` : ''}
@@ -381,18 +386,24 @@
   // REVIEW · WORDS · METHOD
   // =========================================================
   async function wordForKey(k) {
+    if (isQ(k)) {
+      const [, lid, n] = k.split(':');
+      try { return (await getQuran()).lists.find(l => l.id === lid)?.words[+n]; } catch { return null; }
+    }
     const [lid, n] = k.split(':');
     try { const L = await getLesson(lid); return L.words?.[+n]; } catch { return null; }
   }
 
-  async function renderReview() {
-    await getCourse();
-    const keys = shuffle(dueKeys()).slice(0, 30);
+  async function renderReview(q = false) {
+    await (q ? getQuran() : getCourse());
+    const title = q ? 'Qur\'an review' : 'Review', nav = q ? 'quran' : 'review';
+    const back = q ? `<a class="btn" href="#/quran">Back to the word lists</a>` : `<a class="btn" href="#/">Back to the path</a>`;
+    const keys = shuffle(dueKeys(q)).slice(0, 30);
     if (!keys.length) {
-      const total = Object.keys(S.cards).length;
+      const total = deckKeys(q).length;
       app.innerHTML = `<div class="ex center"><h1>All caught up</h1><p class="muted">${total
         ? `Nothing is due. You have ${total} words in your deck, and they'll come back on a growing schedule: 1 day, 3, 7, 16, 35, then 90.`
-        : 'Words enter your review deck when you pass a lesson\'s check.'}</p><a class="btn" href="#/">Back to the path</a></div>`;
+        : q ? 'Open a word list and press “Study these words” to start your Qur\'an deck.' : 'Words enter your review deck when you pass a lesson\'s check.'}</p>${back}</div>`;
       return;
     }
     const items = [];
@@ -401,16 +412,16 @@
     let i = 0, got = 0;
     const show = () => {
       if (i >= items.length) {
-        updateChrome('review');
-        app.innerHTML = `<div class="ex center"><h1>Session done</h1><p>${got} of ${items.length} remembered. Words you missed come back in 10 minutes.</p><a class="btn" href="#/">Back to the path</a></div>`;
+        updateChrome(nav);
+        app.innerHTML = `<div class="ex center"><h1>Session done</h1><p>${got} of ${items.length} remembered. Words you missed come back in 10 minutes.</p>${back}</div>`;
         return;
       }
       const { k, w } = items[i];
-      app.innerHTML = `<h1>Review</h1><div class="ex flash">
-        <div class="ex-meta"><span>${i + 1} of ${items.length}</span><span>Level ${S.cards[k].box}</span></div>
+      app.innerHTML = `<h1>${title}</h1><div class="ex flash">
+        <div class="ex-meta"><span>${i + 1} of ${items.length}</span><span>${S.cards[k].box ? `Level ${S.cards[k].box}` : 'New word'}</span></div>
         ${arSpan(w.ar)}<div class="center">${speakBtn(w.ar)}</div>
         <p class="center muted small">Say the meaning out loud, then reveal.</p>
-        <div class="answer" id="ans" hidden><div class="muted"><em>${esc(w.tr)}</em></div><div style="font-size:1.25rem;font-weight:600">${esc(w.en)}</div></div>
+        <div class="answer" id="ans" hidden><div class="muted"><em>${esc(w.tr)}</em></div><div style="font-size:1.25rem;font-weight:600">${esc(w.en)}</div>${w.note ? `<div class="muted small" lang="ar">${esc(w.note)}</div>` : ''}</div>
         <div class="row" style="justify-content:center" id="r1"><button class="btn" id="reveal">Show answer</button></div>
         <div class="row" style="justify-content:center" id="r2" hidden><button class="btn ghost" data-g="0">Didn't know</button><button class="btn" data-g="1">Knew it</button></div></div>`;
       document.getElementById('reveal').addEventListener('click', () => { ans.hidden = false; r1.hidden = true; r2.hidden = false; });
@@ -461,14 +472,76 @@
     });
   }
 
-  function renderQuran() {
-    const pdf = 'books/80-percent-quranic-words-part-1.pdf';
-    app.innerHTML = `<h1>80% of Qur'anic Words</h1>
-      <p class="muted">A classified word list for memorization by Dr. Abdulazeez Abdulraheem (Understand Al-Qur'an Academy).
-        These words make up about 80% of the words in the Qur'an. This is part 1: the most frequent words, which alone cover 41.5% of the text.</p>
-      <div class="row" style="margin-top:0"><a class="btn" href="${pdf}" target="_blank" rel="noopener">Open the PDF</a>
-        <a class="btn ghost" href="${pdf}" download>Download</a></div>
-      <div class="pdf-frame"><iframe src="${pdf}" title="80% of Qur'anic Words, part 1"></iframe></div>`;
+  // =========================================================
+  // QUR'AN WORDS (separate spaced-review deck)
+  // =========================================================
+  let quran;
+  async function getQuran() {
+    if (!quran) {
+      const r = await fetch('content/quran-words.json');
+      if (!r.ok) throw new Error('Could not load the Qur\'an word lists.');
+      quran = await r.json();
+    }
+    return quran;
+  }
+  const qKey = (lid, i) => `quran:${lid}:${i}`;
+  const qAdded = l => l.words.filter((_, i) => S.cards[qKey(l.id, i)]).length;
+
+  async function renderQuran(sub) {
+    const Q = await getQuran();
+    if (sub === 'review') return renderReview(true);
+    const L = sub && Q.lists.find(l => l.id === sub);
+    if (L) return renderQuranList(Q, L);
+    const totalWords = Q.lists.reduce((a, l) => a + l.words.length, 0);
+    const inDeck = deckKeys(true).length, due = dueKeys(true).length;
+    app.innerHTML = `
+      <section class="hero">
+        <h1>${esc(Q.title)}</h1>
+        <p class="muted">The words that make up most of the Qur'an, grouped by topic. Study a list, then keep it fresh with spaced review, separate from your lesson deck.</p>
+        <div class="stats">
+          <div class="stat"><b>${inDeck}/${totalWords}</b><span>words in deck</span></div>
+          <div class="stat"><b>${due}</b><span>due for review</span></div>
+        </div>
+        ${due ? `<a class="btn" href="#/quran/review">Review ${due} word${due === 1 ? '' : 's'}</a>` : ''}
+      </section>
+      <ol class="path">${Q.lists.map((l, n) => {
+        const a = qAdded(l), all = a === l.words.length;
+        return `<li><a href="#/quran/${l.id}"><span class="node ${all ? 'done' : a ? 'next' : ''}">${all ? '✓' : n + 1}</span>
+          <span class="t"><span class="ar" lang="ar">${esc(l.ar)}</span><strong>${esc(l.title)}</strong><small>${a ? `${a} of ${l.words.length} words in your deck` : `${l.words.length} words`}</small></span></a></li>`;
+      }).join('')}</ol>
+      <p class="small muted">${esc(Q.source)}</p>`;
+  }
+
+  function renderQuranList(Q, L) {
+    const n = Q.lists.indexOf(L), prev = Q.lists[n - 1], next = Q.lists[n + 1];
+    const fresh = L.words.map((_, i) => i).filter(i => !S.cards[qKey(L.id, i)]);
+    app.innerHTML = `
+      <div class="lesson-nav">
+        <div class="crumb"><a href="#/quran">Qur'an words</a> › List ${n + 1} of ${Q.lists.length}</div>
+        <div class="jump">
+          ${prev ? `<a class="btn ghost sm" href="#/quran/${prev.id}" aria-label="Previous list">‹</a>` : ''}
+          <select id="jump" aria-label="Jump to list">${Q.lists.map((l, j) => `<option value="${l.id}" ${l === L ? 'selected' : ''}>${j + 1}. ${esc(l.title)}</option>`).join('')}</select>
+          ${next ? `<a class="btn ghost sm" href="#/quran/${next.id}" aria-label="Next list">›</a>` : ''}
+        </div>
+      </div>
+      <div class="lesson-head"><div class="ar-title" lang="ar">${esc(L.ar)}</div><h1>${esc(L.title)}</h1></div>
+      <p class="muted">Read each word aloud, press ▶ to hear it, and say what it means.${L.words.some(w => w.n) ? ' The number is how often it occurs in the Qur\'an.' : ''}</p>
+      <div class="words">${L.words.map((w, i) => `
+        <div class="word"><div class="word-top">${speakBtn(w.ar)}${arSpan(w.ar)}</div>
+          <span class="tr">${esc(w.tr)}</span><span class="en">${esc(w.en)}</span>
+          ${w.note || w.n ? `<span class="note">${[w.note && esc(w.note), w.n && `×${w.n}`].filter(Boolean).join(' · ')}</span>` : ''}
+          ${S.cards[qKey(L.id, i)] ? '<span class="note">✓ in deck</span>' : ''}</div>`).join('')}</div>
+      <div class="row">
+        ${fresh.length ? `<button class="btn" id="study">Study these ${fresh.length} word${fresh.length === 1 ? '' : 's'} →</button>`
+          : `<span class="muted">All ${L.words.length} words are in your deck.</span>`}
+        ${dueKeys(true).length ? `<a class="btn ghost" href="#/quran/review">Review due words</a>` : ''}
+        ${next ? `<a class="btn ghost" href="#/quran/${next.id}">Next list: ${esc(next.title)} →</a>` : ''}
+      </div>`;
+    document.getElementById('jump').addEventListener('change', e => { location.hash = `#/quran/${e.target.value}`; });
+    document.getElementById('study')?.addEventListener('click', () => {
+      fresh.forEach(i => { S.cards[qKey(L.id, i)] = { box: 0, due: Date.now() }; });
+      save(); location.hash = '#/quran/review';
+    });
   }
 
   // ---------- router ----------
@@ -479,7 +552,7 @@
       else if (r === 'review') await renderReview();
       else if (r === 'words') await renderWords();
       else if (r === 'about') await renderAbout();
-      else if (r === 'quran') renderQuran();
+      else if (r === 'quran') await renderQuran(a);
       else await renderPath();
     } catch (e) {
       console.error(e);

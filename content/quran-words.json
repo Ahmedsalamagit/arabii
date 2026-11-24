@@ -1,0 +1,2174 @@
+{
+ "title": "80% of Qur'anic Words",
+ "source": "Word lists from “80% of Qur'anic Words” by Dr. Abdulazeez Abdulraheem (Understand Al-Qur'an Academy), part 1. Counts are how many times each word occurs in the Qur'an, per the booklet.",
+ "lists": [
+  {
+   "id": "q01",
+   "title": "This, that…",
+   "ar": "هٰذَا وَذٰلِكَ",
+   "words": [
+    {
+     "ar": "هٰذَا",
+     "tr": "hādhā",
+     "en": "this",
+     "note": "masculine"
+    },
+    {
+     "ar": "ذٰلِكَ",
+     "tr": "dhālika",
+     "en": "that",
+     "note": "masculine"
+    },
+    {
+     "ar": "هٰذِهِ",
+     "tr": "hādhihi",
+     "en": "this",
+     "note": "feminine; also used for broken plurals"
+    },
+    {
+     "ar": "تِلْكَ",
+     "tr": "tilka",
+     "en": "that",
+     "note": "feminine; also used for broken plurals"
+    },
+    {
+     "ar": "هٰؤُلَاءِ",
+     "tr": "hāʾulāʾi",
+     "en": "these",
+     "note": "people, m. or f."
+    },
+    {
+     "ar": "أُولٰئِكَ",
+     "tr": "ulāʾika",
+     "en": "those",
+     "note": "people, m. or f."
+    },
+    {
+     "ar": "الَّذِي",
+     "tr": "alladhī",
+     "en": "he who, which",
+     "note": "masculine"
+    },
+    {
+     "ar": "الَّتِي",
+     "tr": "allatī",
+     "en": "she who, which",
+     "note": "feminine; also used for broken plurals"
+    },
+    {
+     "ar": "الَّذِينَ",
+     "tr": "alladhīna",
+     "en": "those who",
+     "note": "masculine plural"
+    }
+   ]
+  },
+  {
+   "id": "q02",
+   "title": "No, no!",
+   "ar": "لَا",
+   "words": [
+    {
+     "ar": "لَا إِلٰهَ إِلَّا اللّٰهُ",
+     "tr": "lā ilāha illā-llāh",
+     "en": "there is no god except Allah"
+    },
+    {
+     "ar": "كَلَّا",
+     "tr": "kallā",
+     "en": "never, certainly not"
+    },
+    {
+     "ar": "لَنْ",
+     "tr": "lan",
+     "en": "will not",
+     "note": "negates the future"
+    },
+    {
+     "ar": "لَمْ",
+     "tr": "lam",
+     "en": "did not",
+     "note": "negates the past"
+    },
+    {
+     "ar": "مَا",
+     "tr": "mā",
+     "en": "not"
+    },
+    {
+     "ar": "لَيْسَ",
+     "tr": "laysa",
+     "en": "is not",
+     "note": "feminine: لَيْسَتْ"
+    },
+    {
+     "ar": "بَلَىٰ",
+     "tr": "balā",
+     "en": "yes indeed",
+     "note": "answers a negative question"
+    },
+    {
+     "ar": "غَيْرُ",
+     "tr": "ghayru",
+     "en": "not, other than"
+    },
+    {
+     "ar": "دُونَ",
+     "tr": "dūna",
+     "en": "besides, other than, less than"
+    },
+    {
+     "ar": "إِلَّا",
+     "tr": "illā",
+     "en": "except, unless"
+    },
+    {
+     "ar": "نَعَمْ",
+     "tr": "naʿam",
+     "en": "yes"
+    }
+   ]
+  },
+  {
+   "id": "q03",
+   "title": "Whose? (attached pronouns)",
+   "ar": "ضَمَائِر مُتَّصِلَة",
+   "words": [
+    {
+     "ar": "ـهُ",
+     "tr": "-hu",
+     "en": "his, him",
+     "note": "masculine"
+    },
+    {
+     "ar": "ـهُمْ",
+     "tr": "-hum",
+     "en": "their, them",
+     "note": "masculine"
+    },
+    {
+     "ar": "ـكَ",
+     "tr": "-ka",
+     "en": "your, you",
+     "note": "masculine"
+    },
+    {
+     "ar": "ـكُمْ",
+     "tr": "-kum",
+     "en": "your, you (all)",
+     "note": "masculine plural"
+    },
+    {
+     "ar": "ـِي / ـنِي",
+     "tr": "-ī / -nī",
+     "en": "my / me"
+    },
+    {
+     "ar": "ـنَا",
+     "tr": "-nā",
+     "en": "our, us"
+    },
+    {
+     "ar": "ـهَا",
+     "tr": "-hā",
+     "en": "her; their (broken plurals)",
+     "note": "feminine"
+    },
+    {
+     "ar": "ـهُنَّ",
+     "tr": "-hunna",
+     "en": "their, them",
+     "note": "feminine plural"
+    },
+    {
+     "ar": "ـكِ",
+     "tr": "-ki",
+     "en": "your, you",
+     "note": "feminine"
+    },
+    {
+     "ar": "ـهُمَا",
+     "tr": "-humā",
+     "en": "their, them (two)",
+     "note": "dual"
+    },
+    {
+     "ar": "ـكُمَا",
+     "tr": "-kumā",
+     "en": "your, you (two)",
+     "note": "dual"
+    }
+   ]
+  },
+  {
+   "id": "q04",
+   "title": "Who? (pronouns)",
+   "ar": "ضَمَائِر مُنْفَصِلَة",
+   "words": [
+    {
+     "ar": "هُوَ",
+     "tr": "huwa",
+     "en": "he",
+     "note": "masculine"
+    },
+    {
+     "ar": "هُمْ",
+     "tr": "hum",
+     "en": "they",
+     "note": "masculine"
+    },
+    {
+     "ar": "أَنْتَ",
+     "tr": "anta",
+     "en": "you",
+     "note": "masculine"
+    },
+    {
+     "ar": "أَنْتُمْ",
+     "tr": "antum",
+     "en": "you (all)",
+     "note": "masculine plural"
+    },
+    {
+     "ar": "أَنَا",
+     "tr": "anā",
+     "en": "I"
+    },
+    {
+     "ar": "نَحْنُ",
+     "tr": "naḥnu",
+     "en": "we"
+    },
+    {
+     "ar": "هِيَ",
+     "tr": "hiya",
+     "en": "she; they (broken plurals)",
+     "note": "feminine"
+    },
+    {
+     "ar": "هُنَّ",
+     "tr": "hunna",
+     "en": "they",
+     "note": "feminine plural"
+    },
+    {
+     "ar": "أَنْتِ",
+     "tr": "anti",
+     "en": "you",
+     "note": "feminine"
+    },
+    {
+     "ar": "هُمَا",
+     "tr": "humā",
+     "en": "they two",
+     "note": "dual"
+    },
+    {
+     "ar": "أَنْتُمَا",
+     "tr": "antumā",
+     "en": "you two",
+     "note": "dual"
+    }
+   ]
+  },
+  {
+   "id": "q05",
+   "title": "Where?",
+   "ar": "أَيْنَ؟",
+   "words": [
+    {
+     "ar": "فَوْقَ",
+     "tr": "fawqa",
+     "en": "above, over"
+    },
+    {
+     "ar": "تَحْتَ",
+     "tr": "taḥta",
+     "en": "under, beneath"
+    },
+    {
+     "ar": "بَيْنَ يَدَيْ",
+     "tr": "bayna yaday",
+     "en": "in front of, before",
+     "note": "also بَيْنَ أَيْدِي"
+    },
+    {
+     "ar": "خَلْفَ",
+     "tr": "khalfa",
+     "en": "behind, after"
+    },
+    {
+     "ar": "أَمَامَ",
+     "tr": "amāma",
+     "en": "in front of"
+    },
+    {
+     "ar": "وَرَاءَ",
+     "tr": "warāʾa",
+     "en": "behind, beyond"
+    },
+    {
+     "ar": "يَمِين",
+     "tr": "yamīn",
+     "en": "right (side); oath",
+     "note": "pl. أَيْمَان"
+    },
+    {
+     "ar": "شِمَال",
+     "tr": "shimāl",
+     "en": "left (side)",
+     "note": "pl. شَمَائِل"
+    },
+    {
+     "ar": "بَيْنَ",
+     "tr": "bayna",
+     "en": "between"
+    },
+    {
+     "ar": "حَوْلَ",
+     "tr": "ḥawla",
+     "en": "around"
+    },
+    {
+     "ar": "حَيْثُ",
+     "tr": "ḥaythu",
+     "en": "where, wherever"
+    },
+    {
+     "ar": "أَيْنَمَا",
+     "tr": "aynamā",
+     "en": "wherever"
+    }
+   ]
+  },
+  {
+   "id": "q06",
+   "title": "Questions",
+   "ar": "أَسْئِلَة",
+   "words": [
+    {
+     "ar": "مَا",
+     "tr": "mā",
+     "en": "what?; that which"
+    },
+    {
+     "ar": "مَنْ",
+     "tr": "man",
+     "en": "who?; the one who"
+    },
+    {
+     "ar": "مَتَىٰ",
+     "tr": "matā",
+     "en": "when?"
+    },
+    {
+     "ar": "أَيْنَ",
+     "tr": "ayna",
+     "en": "where?"
+    },
+    {
+     "ar": "كَيْفَ",
+     "tr": "kayfa",
+     "en": "how?"
+    },
+    {
+     "ar": "كَمْ",
+     "tr": "kam",
+     "en": "how many?"
+    },
+    {
+     "ar": "أَيُّ",
+     "tr": "ayyu",
+     "en": "which?"
+    },
+    {
+     "ar": "أَنَّىٰ",
+     "tr": "annā",
+     "en": "from where? how?"
+    },
+    {
+     "ar": "أَ / هَلْ",
+     "tr": "a / hal",
+     "en": "is? do? (question marker)"
+    },
+    {
+     "ar": "مَاذَا",
+     "tr": "mādhā",
+     "en": "what?"
+    },
+    {
+     "ar": "لِمَ / لِمَاذَا",
+     "tr": "lima / limādhā",
+     "en": "why?"
+    },
+    {
+     "ar": "لَوْلَا",
+     "tr": "lawlā",
+     "en": "if not; why not?"
+    }
+   ]
+  },
+  {
+   "id": "q07",
+   "title": "Miscellaneous",
+   "ar": "مُتَفَرِّقَات",
+   "words": [
+    {
+     "ar": "ذُو",
+     "tr": "dhū",
+     "en": "possessor of, endowed with",
+     "note": "masculine; also ذَا، ذِي"
+    },
+    {
+     "ar": "ذَاتُ",
+     "tr": "dhātu",
+     "en": "possessor of, endowed with",
+     "note": "feminine"
+    },
+    {
+     "ar": "أُولُو",
+     "tr": "ulū",
+     "en": "people of, possessors of",
+     "note": "also أُولِي"
+    },
+    {
+     "ar": "أَهْل",
+     "tr": "ahl",
+     "en": "people (of); family"
+    },
+    {
+     "ar": "آل",
+     "tr": "āl",
+     "en": "family, house, people (of)"
+    },
+    {
+     "ar": "أَلَا",
+     "tr": "alā",
+     "en": "lo! is it not?; do not…?"
+    },
+    {
+     "ar": "نِعْمَ",
+     "tr": "niʿma",
+     "en": "what an excellent…"
+    },
+    {
+     "ar": "بِئْسَ",
+     "tr": "biʾsa",
+     "en": "what an evil…"
+    },
+    {
+     "ar": "بِئْسَمَا",
+     "tr": "biʾsamā",
+     "en": "evil is that which"
+    },
+    {
+     "ar": "مِثْل",
+     "tr": "mithl",
+     "en": "something like, the like of"
+    },
+    {
+     "ar": "مَثَل",
+     "tr": "mathal",
+     "en": "example, likeness",
+     "note": "pl. أَمْثَال"
+    },
+    {
+     "ar": "مِمَّنْ",
+     "tr": "mimman",
+     "en": "than one who; from those who",
+     "note": "مِنْ + مَنْ"
+    }
+   ]
+  },
+  {
+   "id": "q08",
+   "title": "When?",
+   "ar": "مَتَىٰ؟",
+   "words": [
+    {
+     "ar": "قَبْلَ",
+     "tr": "qabla",
+     "en": "before"
+    },
+    {
+     "ar": "بَعْدَ",
+     "tr": "baʿda",
+     "en": "after"
+    },
+    {
+     "ar": "حِين",
+     "tr": "ḥīn",
+     "en": "time, period; at the time of"
+    },
+    {
+     "ar": "إِذْ",
+     "tr": "idh",
+     "en": "when",
+     "note": "for the past"
+    },
+    {
+     "ar": "إِذَا",
+     "tr": "idhā",
+     "en": "when, if",
+     "note": "for the future"
+    },
+    {
+     "ar": "ثُمَّ",
+     "tr": "thumma",
+     "en": "then, afterwards"
+    },
+    {
+     "ar": "فَـ",
+     "tr": "fa-",
+     "en": "so, then, therefore"
+    },
+    {
+     "ar": "بَلْ",
+     "tr": "bal",
+     "en": "nay, rather, but"
+    },
+    {
+     "ar": "عِنْدَ / لَدَىٰ / لَدُنْ",
+     "tr": "ʿinda / ladā / ladun",
+     "en": "with, near, in the presence of"
+    },
+    {
+     "ar": "إِنْ … إِلَّا",
+     "tr": "in … illā",
+     "en": "nothing but, only"
+    },
+    {
+     "ar": "مَا … إِلَّا",
+     "tr": "mā … illā",
+     "en": "nothing but, only"
+    },
+    {
+     "ar": "أَلَّا",
+     "tr": "allā",
+     "en": "that … not; so as not to",
+     "note": "أَنْ + لَا"
+    }
+   ]
+  },
+  {
+   "id": "q09",
+   "title": "Prepositions",
+   "ar": "حُرُوف الْجَرّ",
+   "words": [
+    {
+     "ar": "بِـ",
+     "tr": "bi-",
+     "en": "with, in, by"
+    },
+    {
+     "ar": "عَنْ",
+     "tr": "ʿan",
+     "en": "about, from"
+    },
+    {
+     "ar": "فِي",
+     "tr": "fī",
+     "en": "in"
+    },
+    {
+     "ar": "كَـ",
+     "tr": "ka-",
+     "en": "as, like"
+    },
+    {
+     "ar": "لِـ / لَـ",
+     "tr": "li- / la-",
+     "en": "for, to"
+    },
+    {
+     "ar": "مِنْ",
+     "tr": "min",
+     "en": "from, of"
+    },
+    {
+     "ar": "إِلَىٰ",
+     "tr": "ilā",
+     "en": "to, towards"
+    },
+    {
+     "ar": "تَـ",
+     "tr": "ta-",
+     "en": "by (in oaths)",
+     "note": "as in تَاللّٰهِ"
+    },
+    {
+     "ar": "حَتَّىٰ",
+     "tr": "ḥattā",
+     "en": "until"
+    },
+    {
+     "ar": "عَلَىٰ",
+     "tr": "ʿalā",
+     "en": "on, upon"
+    },
+    {
+     "ar": "مَعَ",
+     "tr": "maʿa",
+     "en": "with"
+    },
+    {
+     "ar": "وَ",
+     "tr": "wa",
+     "en": "and; by (in oaths)"
+    }
+   ]
+  },
+  {
+   "id": "q10",
+   "title": "Prepositions + mā",
+   "ar": "حَرْف + مَا",
+   "words": [
+    {
+     "ar": "بِمَا",
+     "tr": "bimā",
+     "en": "with what; because"
+    },
+    {
+     "ar": "عَمَّا",
+     "tr": "ʿammā",
+     "en": "about what"
+    },
+    {
+     "ar": "فِيمَا",
+     "tr": "fīmā",
+     "en": "in what"
+    },
+    {
+     "ar": "كَمَا",
+     "tr": "kamā",
+     "en": "as, just as"
+    },
+    {
+     "ar": "لِمَا",
+     "tr": "limā",
+     "en": "for what, for that which"
+    },
+    {
+     "ar": "مِمَّا",
+     "tr": "mimmā",
+     "en": "out of what, from what"
+    },
+    {
+     "ar": "أَمَّا",
+     "tr": "ammā",
+     "en": "as for"
+    },
+    {
+     "ar": "إِمَّا",
+     "tr": "immā",
+     "en": "either … or; if"
+    },
+    {
+     "ar": "أَنَّمَا",
+     "tr": "annamā",
+     "en": "that (only)"
+    },
+    {
+     "ar": "إِنَّمَا",
+     "tr": "innamā",
+     "en": "verily; only, is but"
+    },
+    {
+     "ar": "كَأَنَّمَا",
+     "tr": "kaʾannamā",
+     "en": "as if"
+    },
+    {
+     "ar": "كُلَّمَا",
+     "tr": "kullamā",
+     "en": "whenever"
+    }
+   ]
+  },
+  {
+   "id": "q11",
+   "title": "Before verbs, …",
+   "ar": "قَبْلَ الْفِعْل",
+   "words": [
+    {
+     "ar": "قَدْ",
+     "tr": "qad",
+     "en": "has (with past); may, surely (with present)"
+    },
+    {
+     "ar": "سَـ",
+     "tr": "sa-",
+     "en": "will (soon)",
+     "note": "before a present verb"
+    },
+    {
+     "ar": "سَوْفَ",
+     "tr": "sawfa",
+     "en": "will",
+     "note": "before a present verb"
+    },
+    {
+     "ar": "لَـ … ـنَّ",
+     "tr": "la- … -nna",
+     "en": "will surely",
+     "note": "around a present verb"
+    },
+    {
+     "ar": "لَقَدْ",
+     "tr": "laqad",
+     "en": "indeed, certainly",
+     "note": "before a past verb"
+    },
+    {
+     "ar": "لَـ",
+     "tr": "la-",
+     "en": "indeed, surely"
+    },
+    {
+     "ar": "لِـ / لْـ",
+     "tr": "li- / l-",
+     "en": "let (him / them) do",
+     "note": "with a command"
+    },
+    {
+     "ar": "الْـ",
+     "tr": "al-",
+     "en": "the"
+    },
+    {
+     "ar": "أَمْ",
+     "tr": "am",
+     "en": "or? (in questions)"
+    },
+    {
+     "ar": "أَوْ",
+     "tr": "aw",
+     "en": "or"
+    },
+    {
+     "ar": "بَعْض",
+     "tr": "baʿḍ",
+     "en": "some (of)"
+    },
+    {
+     "ar": "كُلّ",
+     "tr": "kull",
+     "en": "all, every, everyone"
+    }
+   ]
+  },
+  {
+   "id": "q12",
+   "title": "Inna and friends",
+   "ar": "إِنَّ وَأَخَوَاتُهَا",
+   "words": [
+    {
+     "ar": "إِنَّ",
+     "tr": "inna",
+     "en": "verily, truly"
+    },
+    {
+     "ar": "أَنَّ",
+     "tr": "anna",
+     "en": "that"
+    },
+    {
+     "ar": "كَأَنَّ",
+     "tr": "kaʾanna",
+     "en": "as if"
+    },
+    {
+     "ar": "لٰكِنَّ",
+     "tr": "lākinna",
+     "en": "but, however",
+     "note": "also لٰكِنْ"
+    },
+    {
+     "ar": "لَعَلَّ",
+     "tr": "laʿalla",
+     "en": "perhaps, so that"
+    },
+    {
+     "ar": "أَنْ",
+     "tr": "an",
+     "en": "that, to",
+     "note": "before a verb"
+    },
+    {
+     "ar": "إِنْ",
+     "tr": "in",
+     "en": "if"
+    },
+    {
+     "ar": "إِيَّا",
+     "tr": "iyyā",
+     "en": "(you / him …) alone",
+     "note": "as in إِيَّاكَ نَعْبُدُ"
+    },
+    {
+     "ar": "عَسَىٰ",
+     "tr": "ʿasā",
+     "en": "perhaps, it may be"
+    },
+    {
+     "ar": "لَمَّا",
+     "tr": "lammā",
+     "en": "when"
+    },
+    {
+     "ar": "لَوْ",
+     "tr": "law",
+     "en": "if (only)"
+    },
+    {
+     "ar": "يَا / يَا أَيُّهَا",
+     "tr": "yā / yā ayyuhā",
+     "en": "O!"
+    }
+   ]
+  },
+  {
+   "id": "q13",
+   "title": "Attributes (of Allah and others)",
+   "ar": "صِفَات",
+   "words": [
+    {
+     "ar": "خَبِير",
+     "tr": "khabīr",
+     "en": "all-aware, well-informed",
+     "n": 45
+    },
+    {
+     "ar": "رَبّ",
+     "tr": "rabb",
+     "en": "Lord, Sustainer",
+     "n": 970
+    },
+    {
+     "ar": "رَحْمٰن",
+     "tr": "raḥmān",
+     "en": "the Most Compassionate",
+     "n": 57
+    },
+    {
+     "ar": "سَلَام",
+     "tr": "salām",
+     "en": "peace",
+     "n": 42
+    },
+    {
+     "ar": "سَمِيع",
+     "tr": "samīʿ",
+     "en": "all-hearing",
+     "n": 47
+    },
+    {
+     "ar": "شَكُور",
+     "tr": "shakūr",
+     "en": "most grateful, appreciative",
+     "n": 24
+    },
+    {
+     "ar": "عَزِيز",
+     "tr": "ʿazīz",
+     "en": "mighty",
+     "n": 99
+    },
+    {
+     "ar": "غَفُور",
+     "tr": "ghafūr",
+     "en": "most forgiving",
+     "n": 91
+    },
+    {
+     "ar": "قَدِير",
+     "tr": "qadīr",
+     "en": "all-powerful",
+     "n": 45
+    },
+    {
+     "ar": "نَذِير",
+     "tr": "nadhīr",
+     "en": "warner",
+     "n": 44
+    },
+    {
+     "ar": "نَصِير",
+     "tr": "naṣīr",
+     "en": "helper",
+     "n": 24
+    },
+    {
+     "ar": "وَكِيل",
+     "tr": "wakīl",
+     "en": "guardian, one entrusted with affairs",
+     "n": 24
+    },
+    {
+     "ar": "أَوَّل",
+     "tr": "awwal",
+     "en": "first",
+     "note": "feminine: أُولَىٰ",
+     "n": 82
+    },
+    {
+     "ar": "آخِر",
+     "tr": "ākhir",
+     "en": "last",
+     "note": "feminine: آخِرَة",
+     "n": 40
+    },
+    {
+     "ar": "آخَر",
+     "tr": "ākhar",
+     "en": "other, another",
+     "note": "feminine: أُخْرَىٰ",
+     "n": 65
+    },
+    {
+     "ar": "أَمِين",
+     "tr": "amīn",
+     "en": "trustworthy",
+     "n": 14
+    },
+    {
+     "ar": "بَصِير",
+     "tr": "baṣīr",
+     "en": "all-seeing",
+     "n": 53
+    },
+    {
+     "ar": "بَعِيد",
+     "tr": "baʿīd",
+     "en": "far",
+     "n": 25
+    },
+    {
+     "ar": "تَوَّاب",
+     "tr": "tawwāb",
+     "en": "accepting repentance, most relenting",
+     "n": 11
+    },
+    {
+     "ar": "حَفِيظ",
+     "tr": "ḥafīẓ",
+     "en": "protector, guardian",
+     "n": 26
+    },
+    {
+     "ar": "حَكِيم",
+     "tr": "ḥakīm",
+     "en": "wise",
+     "n": 97
+    },
+    {
+     "ar": "حَلِيم",
+     "tr": "ḥalīm",
+     "en": "forbearing",
+     "n": 15
+    },
+    {
+     "ar": "حَمِيد",
+     "tr": "ḥamīd",
+     "en": "praiseworthy",
+     "n": 17
+    },
+    {
+     "ar": "حَمِيم",
+     "tr": "ḥamīm",
+     "en": "close friend; boiling water",
+     "n": 20
+    }
+   ]
+  },
+  {
+   "id": "q14",
+   "title": "More attributes, comparatives",
+   "ar": "صِفَات وَأَفْعَلُ التَّفْضِيل",
+   "words": [
+    {
+     "ar": "أَشَدّ",
+     "tr": "ashadd",
+     "en": "more severe, strongest",
+     "n": 31
+    },
+    {
+     "ar": "أَعْلَىٰ",
+     "tr": "aʿlā",
+     "en": "higher, most high",
+     "n": 11
+    },
+    {
+     "ar": "أَعْلَم",
+     "tr": "aʿlam",
+     "en": "knows better, best-knowing",
+     "n": 49
+    },
+    {
+     "ar": "أَقْرَب",
+     "tr": "aqrab",
+     "en": "nearer",
+     "n": 19
+    },
+    {
+     "ar": "أَكْبَر",
+     "tr": "akbar",
+     "en": "bigger, greater",
+     "n": 23
+    },
+    {
+     "ar": "أَكْثَر",
+     "tr": "akthar",
+     "en": "more, most",
+     "n": 80
+    },
+    {
+     "ar": "أَحْسَن",
+     "tr": "aḥsan",
+     "en": "better, best",
+     "n": 36
+    },
+    {
+     "ar": "أَحَقّ",
+     "tr": "aḥaqq",
+     "en": "more entitled, more worthy",
+     "n": 10
+    },
+    {
+     "ar": "أَدْنَىٰ",
+     "tr": "adnā",
+     "en": "nearer, lower, less",
+     "n": 12
+    },
+    {
+     "ar": "أَظْلَم",
+     "tr": "aẓlam",
+     "en": "more unjust",
+     "n": 16
+    },
+    {
+     "ar": "أَهْدَىٰ",
+     "tr": "ahdā",
+     "en": "better guided",
+     "n": 7
+    },
+    {
+     "ar": "أَوْلَىٰ",
+     "tr": "awlā",
+     "en": "nearer, more deserving; woe",
+     "n": 11
+    },
+    {
+     "ar": "شَدِيد",
+     "tr": "shadīd",
+     "en": "severe, strong",
+     "n": 52
+    },
+    {
+     "ar": "عَلِيّ",
+     "tr": "ʿaliyy",
+     "en": "high, exalted",
+     "n": 11
+    },
+    {
+     "ar": "عَلِيم",
+     "tr": "ʿalīm",
+     "en": "all-knowing",
+     "n": 162
+    },
+    {
+     "ar": "قَرِيب",
+     "tr": "qarīb",
+     "en": "near",
+     "n": 26
+    },
+    {
+     "ar": "كَبِير",
+     "tr": "kabīr",
+     "en": "big, great",
+     "note": "feminine: كَبِيرَة",
+     "n": 44
+    },
+    {
+     "ar": "كَثِير",
+     "tr": "kathīr",
+     "en": "plenty, much, many",
+     "note": "feminine: كَثِيرَة",
+     "n": 74
+    },
+    {
+     "ar": "سَرِيع",
+     "tr": "sarīʿ",
+     "en": "quick, swift",
+     "n": 10
+    },
+    {
+     "ar": "رَحِيم",
+     "tr": "raḥīm",
+     "en": "most merciful",
+     "n": 182
+    },
+    {
+     "ar": "عَظِيم",
+     "tr": "ʿaẓīm",
+     "en": "tremendous, supreme",
+     "n": 107
+    },
+    {
+     "ar": "قَلِيل",
+     "tr": "qalīl",
+     "en": "little, few",
+     "note": "feminine: قَلِيلَة",
+     "n": 71
+    },
+    {
+     "ar": "كَرِيم",
+     "tr": "karīm",
+     "en": "noble, generous",
+     "n": 27
+    },
+    {
+     "ar": "لَطِيف",
+     "tr": "laṭīf",
+     "en": "subtle, kind",
+     "n": 7
+    }
+   ]
+  },
+  {
+   "id": "q15",
+   "title": "Prophets and others",
+   "ar": "الْأَنْبِيَاء",
+   "words": [
+    {
+     "ar": "رَسُول",
+     "tr": "rasūl",
+     "en": "messenger",
+     "note": "pl. رُسُل",
+     "n": 332
+    },
+    {
+     "ar": "نَبِيّ",
+     "tr": "nabiyy",
+     "en": "prophet",
+     "note": "pl. نَبِيُّونَ، نَبِيِّينَ، أَنْبِيَاء",
+     "n": 75
+    },
+    {
+     "ar": "آدَم",
+     "tr": "ādam",
+     "en": "Adam"
+    },
+    {
+     "ar": "نُوح",
+     "tr": "nūḥ",
+     "en": "Noah"
+    },
+    {
+     "ar": "إِبْرَاهِيم",
+     "tr": "ibrāhīm",
+     "en": "Abraham"
+    },
+    {
+     "ar": "لُوط",
+     "tr": "lūṭ",
+     "en": "Lot"
+    },
+    {
+     "ar": "إِسْمَاعِيل",
+     "tr": "ismāʿīl",
+     "en": "Ishmael"
+    },
+    {
+     "ar": "إِسْحَاق",
+     "tr": "isḥāq",
+     "en": "Isaac"
+    },
+    {
+     "ar": "يَعْقُوب",
+     "tr": "yaʿqūb",
+     "en": "Jacob",
+     "note": "also called إِسْرَائِيل"
+    },
+    {
+     "ar": "يُوسُف",
+     "tr": "yūsuf",
+     "en": "Joseph"
+    },
+    {
+     "ar": "هُود",
+     "tr": "hūd",
+     "en": "Hud"
+    },
+    {
+     "ar": "شُعَيْب",
+     "tr": "shuʿayb",
+     "en": "Shuʿayb"
+    },
+    {
+     "ar": "صَالِح",
+     "tr": "ṣāliḥ",
+     "en": "Salih"
+    },
+    {
+     "ar": "مُوسَىٰ",
+     "tr": "mūsā",
+     "en": "Moses"
+    },
+    {
+     "ar": "عِيسَى ابْنُ مَرْيَمَ",
+     "tr": "ʿīsā bnu maryam",
+     "en": "Jesus son of Mary"
+    },
+    {
+     "ar": "شَيْطَان",
+     "tr": "shayṭān",
+     "en": "Satan, devil",
+     "note": "pl. شَيَاطِين",
+     "n": 88
+    },
+    {
+     "ar": "فِرْعَوْن",
+     "tr": "firʿawn",
+     "en": "Pharaoh",
+     "n": 74
+    },
+    {
+     "ar": "عَاد",
+     "tr": "ʿād",
+     "en": "ʿĀd (the people of Hud)",
+     "n": 24
+    },
+    {
+     "ar": "ثَمُود",
+     "tr": "thamūd",
+     "en": "Thamūd (the people of Salih)",
+     "n": 26
+    }
+   ]
+  },
+  {
+   "id": "q16",
+   "title": "Allah's signs",
+   "ar": "آيَاتُ اللّٰه",
+   "words": [
+    {
+     "ar": "آيَة",
+     "tr": "āyah",
+     "en": "sign; verse",
+     "note": "pl. آيَات",
+     "n": 382
+    },
+    {
+     "ar": "بَيِّنَة",
+     "tr": "bayyinah",
+     "en": "clear proof, evidence",
+     "note": "pl. بَيِّنَات",
+     "n": 71
+    },
+    {
+     "ar": "قُرْآن",
+     "tr": "qurʾān",
+     "en": "the Qur'an; recitation",
+     "n": 70
+    },
+    {
+     "ar": "أَنْعَام",
+     "tr": "anʿām",
+     "en": "cattle, livestock",
+     "n": 32
+    },
+    {
+     "ar": "جَبَل",
+     "tr": "jabal",
+     "en": "mountain",
+     "note": "pl. جِبَال",
+     "n": 39
+    },
+    {
+     "ar": "بَحْر",
+     "tr": "baḥr",
+     "en": "sea; great river",
+     "n": 38
+    },
+    {
+     "ar": "شَمْس",
+     "tr": "shams",
+     "en": "sun",
+     "n": 33
+    },
+    {
+     "ar": "قَمَر",
+     "tr": "qamar",
+     "en": "moon",
+     "n": 33
+    },
+    {
+     "ar": "لَيْل",
+     "tr": "layl",
+     "en": "night",
+     "n": 80
+    },
+    {
+     "ar": "نَهَار",
+     "tr": "nahār",
+     "en": "day(time)",
+     "n": 57
+    },
+    {
+     "ar": "أَرْض",
+     "tr": "arḍ",
+     "en": "earth, land",
+     "n": 461
+    },
+    {
+     "ar": "سَمَاء",
+     "tr": "samāʾ",
+     "en": "sky, heaven",
+     "note": "pl. سَمَاوَات",
+     "n": 310
+    }
+   ]
+  },
+  {
+   "id": "q17",
+   "title": "The Last Day",
+   "ar": "الْيَوْمُ الْآخِر",
+   "words": [
+    {
+     "ar": "صَاحِب",
+     "tr": "ṣāḥib",
+     "en": "companion, owner",
+     "note": "pl. أَصْحَاب",
+     "n": 94
+    },
+    {
+     "ar": "عَاقِبَة",
+     "tr": "ʿāqibah",
+     "en": "end, outcome",
+     "n": 32
+    },
+    {
+     "ar": "عَذَاب",
+     "tr": "ʿadhāb",
+     "en": "torment, punishment",
+     "n": 322
+    },
+    {
+     "ar": "عِقَاب",
+     "tr": "ʿiqāb",
+     "en": "punishment (for sin)",
+     "n": 20
+    },
+    {
+     "ar": "قِيَامَة",
+     "tr": "qiyāmah",
+     "en": "resurrection",
+     "n": 70
+    },
+    {
+     "ar": "لِقَاء",
+     "tr": "liqāʾ",
+     "en": "meeting",
+     "n": 24
+    },
+    {
+     "ar": "مُسَمًّى",
+     "tr": "musamman",
+     "en": "appointed, fixed",
+     "n": 21
+    },
+    {
+     "ar": "نَار",
+     "tr": "nār",
+     "en": "fire",
+     "n": 145
+    },
+    {
+     "ar": "نَهَر",
+     "tr": "nahar",
+     "en": "river",
+     "note": "pl. أَنْهَار",
+     "n": 54
+    },
+    {
+     "ar": "وَيْل",
+     "tr": "wayl",
+     "en": "woe (unto)",
+     "n": 40
+    },
+    {
+     "ar": "يَوْم",
+     "tr": "yawm",
+     "en": "day",
+     "note": "pl. أَيَّام",
+     "n": 393
+    },
+    {
+     "ar": "يَوْمَئِذٍ",
+     "tr": "yawmaʾidhin",
+     "en": "on that day",
+     "n": 70
+    },
+    {
+     "ar": "أَبَدًا",
+     "tr": "abadan",
+     "en": "forever, ever",
+     "n": 28
+    },
+    {
+     "ar": "أَجْر",
+     "tr": "ajr",
+     "en": "reward",
+     "note": "pl. أُجُور",
+     "n": 105
+    },
+    {
+     "ar": "أَجَل",
+     "tr": "ajal",
+     "en": "term, appointed time",
+     "n": 52
+    },
+    {
+     "ar": "الْآخِرَة",
+     "tr": "al-ākhirah",
+     "en": "the Hereafter",
+     "n": 115
+    },
+    {
+     "ar": "أَلِيم",
+     "tr": "alīm",
+     "en": "painful",
+     "n": 72
+    },
+    {
+     "ar": "ثَوَاب",
+     "tr": "thawāb",
+     "en": "reward",
+     "n": 13
+    },
+    {
+     "ar": "جَحِيم",
+     "tr": "jaḥīm",
+     "en": "blazing fire, hellfire",
+     "n": 26
+    },
+    {
+     "ar": "جَزَاء",
+     "tr": "jazāʾ",
+     "en": "recompense, reward",
+     "n": 42
+    },
+    {
+     "ar": "جَنَّة",
+     "tr": "jannah",
+     "en": "garden, Paradise",
+     "note": "pl. جَنَّات",
+     "n": 147
+    },
+    {
+     "ar": "جَهَنَّم",
+     "tr": "jahannam",
+     "en": "Hell",
+     "n": 77
+    },
+    {
+     "ar": "حِسَاب",
+     "tr": "ḥisāb",
+     "en": "reckoning, account",
+     "n": 39
+    },
+    {
+     "ar": "سَاعَة",
+     "tr": "sāʿah",
+     "en": "the Hour (Day of Resurrection); hour",
+     "n": 47
+    }
+   ]
+  },
+  {
+   "id": "q18",
+   "title": "Deen",
+   "ar": "الدِّين",
+   "words": [
+    {
+     "ar": "أَمْر",
+     "tr": "amr",
+     "en": "matter, affair; command",
+     "note": "pl. أُمُور",
+     "n": 13
+    },
+    {
+     "ar": "تَقْوَىٰ",
+     "tr": "taqwā",
+     "en": "piety, mindfulness of Allah",
+     "n": 17
+    },
+    {
+     "ar": "حَقّ",
+     "tr": "ḥaqq",
+     "en": "truth; true; right",
+     "n": 247
+    },
+    {
+     "ar": "بَاطِل",
+     "tr": "bāṭil",
+     "en": "falsehood",
+     "n": 26
+    },
+    {
+     "ar": "حِكْمَة",
+     "tr": "ḥikmah",
+     "en": "wisdom",
+     "n": 20
+    },
+    {
+     "ar": "حَمْد",
+     "tr": "ḥamd",
+     "en": "praise",
+     "n": 43
+    },
+    {
+     "ar": "دِين",
+     "tr": "dīn",
+     "en": "religion, way of life; judgement",
+     "n": 92
+    },
+    {
+     "ar": "زَكَاة",
+     "tr": "zakāh",
+     "en": "obligatory charity",
+     "n": 32
+    },
+    {
+     "ar": "شَهِيد",
+     "tr": "shahīd",
+     "en": "witness; present",
+     "note": "pl. شُهَدَاء",
+     "n": 56
+    },
+    {
+     "ar": "صَلَاة",
+     "tr": "ṣalāh",
+     "en": "prayer",
+     "n": 83
+    },
+    {
+     "ar": "مُبِين",
+     "tr": "mubīn",
+     "en": "clear, making clear",
+     "n": 119
+    },
+    {
+     "ar": "نُور",
+     "tr": "nūr",
+     "en": "light",
+     "n": 43
+    }
+   ]
+  },
+  {
+   "id": "q19",
+   "title": "Faith",
+   "ar": "الْإِيمَان",
+   "words": [
+    {
+     "ar": "أَحَد",
+     "tr": "aḥad",
+     "en": "one, anyone",
+     "note": "feminine: إِحْدَىٰ",
+     "n": 85
+    },
+    {
+     "ar": "إِلٰه",
+     "tr": "ilāh",
+     "en": "god, deity",
+     "note": "pl. آلِهَة",
+     "n": 34
+    },
+    {
+     "ar": "شَرِيك",
+     "tr": "sharīk",
+     "en": "partner, associate",
+     "note": "pl. شُرَكَاء",
+     "n": 40
+    },
+    {
+     "ar": "شَهَادَة",
+     "tr": "shahādah",
+     "en": "testimony, the witnessed",
+     "n": 26
+    },
+    {
+     "ar": "عَرْش",
+     "tr": "ʿarsh",
+     "en": "throne",
+     "n": 26
+    },
+    {
+     "ar": "عَهْد",
+     "tr": "ʿahd",
+     "en": "covenant, promise",
+     "n": 29
+    },
+    {
+     "ar": "غَيْب",
+     "tr": "ghayb",
+     "en": "the unseen",
+     "n": 49
+    },
+    {
+     "ar": "كِتَاب",
+     "tr": "kitāb",
+     "en": "book, scripture",
+     "note": "pl. كُتُب",
+     "n": 261
+    },
+    {
+     "ar": "كَلِمَة",
+     "tr": "kalimah",
+     "en": "word",
+     "n": 42
+    },
+    {
+     "ar": "مَلَك",
+     "tr": "malak",
+     "en": "angel",
+     "note": "pl. مَلَائِكَة",
+     "n": 88
+    },
+    {
+     "ar": "مِيثَاق",
+     "tr": "mīthāq",
+     "en": "covenant, treaty",
+     "n": 25
+    },
+    {
+     "ar": "وَاحِد",
+     "tr": "wāḥid",
+     "en": "one",
+     "note": "feminine: وَاحِدَة",
+     "n": 61
+    }
+   ]
+  },
+  {
+   "id": "q20",
+   "title": "Deeds",
+   "ar": "الْأَعْمَال",
+   "words": [
+    {
+     "ar": "أَعْمَال",
+     "tr": "aʿmāl",
+     "en": "deeds, works",
+     "note": "plural",
+     "n": 41
+    },
+    {
+     "ar": "حَسَنَة",
+     "tr": "ḥasanah",
+     "en": "good deed",
+     "note": "pl. حَسَنَات",
+     "n": 31
+    },
+    {
+     "ar": "سَيِّئَة",
+     "tr": "sayyiʾah",
+     "en": "evil deed",
+     "note": "pl. سَيِّئَات",
+     "n": 68
+    },
+    {
+     "ar": "خَيْر",
+     "tr": "khayr",
+     "en": "good; better",
+     "n": 186
+    },
+    {
+     "ar": "شَرّ",
+     "tr": "sharr",
+     "en": "evil; worse",
+     "n": 29
+    },
+    {
+     "ar": "إِثْم",
+     "tr": "ithm",
+     "en": "sin",
+     "n": 35
+    },
+    {
+     "ar": "ذَنْب",
+     "tr": "dhanb",
+     "en": "sin",
+     "note": "pl. ذُنُوب",
+     "n": 37
+    },
+    {
+     "ar": "جُنَاح",
+     "tr": "junāḥ",
+     "en": "blame, sin",
+     "n": 25
+    },
+    {
+     "ar": "حَرَام",
+     "tr": "ḥarām",
+     "en": "unlawful, sacred",
+     "n": 26
+    },
+    {
+     "ar": "اسْم",
+     "tr": "ism",
+     "en": "name",
+     "note": "pl. أَسْمَاء",
+     "n": 27
+    },
+    {
+     "ar": "حَدِيث",
+     "tr": "ḥadīth",
+     "en": "speech, story",
+     "note": "pl. أَحَادِيث",
+     "n": 23
+    },
+    {
+     "ar": "طَيِّبَة",
+     "tr": "ṭayyibah",
+     "en": "good, pure",
+     "note": "pl. طَيِّبَات",
+     "n": 30
+    }
+   ]
+  },
+  {
+   "id": "q21",
+   "title": "Blessings",
+   "ar": "النِّعَم",
+   "words": [
+    {
+     "ar": "آلَاء",
+     "tr": "ālāʾ",
+     "en": "favours, blessings",
+     "note": "plural",
+     "n": 34
+    },
+    {
+     "ar": "سُلْطَان",
+     "tr": "sulṭān",
+     "en": "authority, proof",
+     "n": 37
+    },
+    {
+     "ar": "فَضْل",
+     "tr": "faḍl",
+     "en": "grace, bounty",
+     "n": 84
+    },
+    {
+     "ar": "مَاء",
+     "tr": "māʾ",
+     "en": "water",
+     "n": 63
+    },
+    {
+     "ar": "مُلْك",
+     "tr": "mulk",
+     "en": "dominion, kingdom",
+     "n": 48
+    },
+    {
+     "ar": "نِعْمَة",
+     "tr": "niʿmah",
+     "en": "favour, blessing",
+     "n": 37
+    },
+    {
+     "ar": "أَجْمَعُونَ",
+     "tr": "ajmaʿūn",
+     "en": "all (together)",
+     "note": "also أَجْمَعِينَ",
+     "n": 26
+    },
+    {
+     "ar": "إِذْن",
+     "tr": "idhn",
+     "en": "permission",
+     "n": 39
+    },
+    {
+     "ar": "بَأْس",
+     "tr": "baʾs",
+     "en": "might; punishment; hardship",
+     "n": 25
+    },
+    {
+     "ar": "جَمِيع",
+     "tr": "jamīʿ",
+     "en": "all, everybody",
+     "n": 53
+    },
+    {
+     "ar": "سَوَاء",
+     "tr": "sawāʾ",
+     "en": "the same, equal; level",
+     "n": 27
+    },
+    {
+     "ar": "فَرِيق",
+     "tr": "farīq",
+     "en": "party, group",
+     "n": 33
+    }
+   ]
+  },
+  {
+   "id": "q22",
+   "title": "Relatives",
+   "ar": "الْأَقَارِب",
+   "words": [
+    {
+     "ar": "أُمّ",
+     "tr": "umm",
+     "en": "mother",
+     "note": "pl. أُمَّهَات",
+     "n": 35
+    },
+    {
+     "ar": "أَب",
+     "tr": "ab",
+     "en": "father",
+     "note": "also أَبَت; pl. آبَاء",
+     "n": 117
+    },
+    {
+     "ar": "زَوْج",
+     "tr": "zawj",
+     "en": "spouse, wife, husband; pair",
+     "note": "pl. أَزْوَاج",
+     "n": 76
+    },
+    {
+     "ar": "رَجُل",
+     "tr": "rajul",
+     "en": "man",
+     "note": "pl. رِجَال",
+     "n": 57
+    },
+    {
+     "ar": "امْرَأَة",
+     "tr": "imraʾah",
+     "en": "woman",
+     "note": "pl. نِسَاء",
+     "n": 83
+    },
+    {
+     "ar": "وَلَد",
+     "tr": "walad",
+     "en": "child",
+     "note": "pl. أَوْلَاد",
+     "n": 56
+    },
+    {
+     "ar": "وَالِد",
+     "tr": "wālid",
+     "en": "father, parent",
+     "note": "dual: وَالِدَيْن (parents)",
+     "n": 20
+    },
+    {
+     "ar": "ذُرِّيَّة",
+     "tr": "dhurriyyah",
+     "en": "offspring, descendants",
+     "n": 32
+    },
+    {
+     "ar": "ابْن",
+     "tr": "ibn",
+     "en": "son",
+     "n": 41
+    },
+    {
+     "ar": "بَنُونَ",
+     "tr": "banūn",
+     "en": "sons, children",
+     "note": "also بَنِينَ، أَبْنَاء",
+     "n": 22
+    },
+    {
+     "ar": "أَخ",
+     "tr": "akh",
+     "en": "brother",
+     "note": "also أَخُو، أَخَا، أَخِي",
+     "n": 67
+    },
+    {
+     "ar": "إِخْوَان",
+     "tr": "ikhwān",
+     "en": "brothers",
+     "note": "plural",
+     "n": 22
+    }
+   ]
+  },
+  {
+   "id": "q23",
+   "title": "The self (body)",
+   "ar": "النَّفْس",
+   "words": [
+    {
+     "ar": "وَجْه",
+     "tr": "wajh",
+     "en": "face",
+     "note": "pl. وُجُوه",
+     "n": 72
+    },
+    {
+     "ar": "عَيْن",
+     "tr": "ʿayn",
+     "en": "eye; spring",
+     "note": "pl. أَعْيُن",
+     "n": 47
+    },
+    {
+     "ar": "أَبْصَار",
+     "tr": "abṣār",
+     "en": "sight(s), eyes",
+     "note": "plural",
+     "n": 38
+    },
+    {
+     "ar": "أَفْوَاه",
+     "tr": "afwāh",
+     "en": "mouths",
+     "note": "plural",
+     "n": 21
+    },
+    {
+     "ar": "لِسَان",
+     "tr": "lisān",
+     "en": "tongue; language",
+     "note": "pl. أَلْسِنَة",
+     "n": 25
+    },
+    {
+     "ar": "قَلْب",
+     "tr": "qalb",
+     "en": "heart",
+     "note": "pl. قُلُوب",
+     "n": 132
+    },
+    {
+     "ar": "صَدْر",
+     "tr": "ṣadr",
+     "en": "chest, breast",
+     "note": "pl. صُدُور",
+     "n": 44
+    },
+    {
+     "ar": "يَد",
+     "tr": "yad",
+     "en": "hand",
+     "note": "pl. أَيْدِي",
+     "n": 118
+    },
+    {
+     "ar": "رِجْل",
+     "tr": "rijl",
+     "en": "foot, leg",
+     "note": "pl. أَرْجُل",
+     "n": 15
+    },
+    {
+     "ar": "نَفْس",
+     "tr": "nafs",
+     "en": "soul, self",
+     "note": "pl. أَنْفُس",
+     "n": 293
+    },
+    {
+     "ar": "رُوح",
+     "tr": "rūḥ",
+     "en": "spirit, soul",
+     "n": 21
+    },
+    {
+     "ar": "قُوَّة",
+     "tr": "quwwah",
+     "en": "power, strength",
+     "n": 28
+    }
+   ]
+  },
+  {
+   "id": "q24",
+   "title": "The world",
+   "ar": "الدُّنْيَا",
+   "words": [
+    {
+     "ar": "بَيْت",
+     "tr": "bayt",
+     "en": "house",
+     "note": "pl. بُيُوت",
+     "n": 64
+    },
+    {
+     "ar": "دَار",
+     "tr": "dār",
+     "en": "home, abode",
+     "note": "pl. دِيَار",
+     "n": 48
+    },
+    {
+     "ar": "دُنْيَا",
+     "tr": "dunyā",
+     "en": "this world",
+     "n": 115
+    },
+    {
+     "ar": "سَبِيل",
+     "tr": "sabīl",
+     "en": "way, path",
+     "note": "pl. سُبُل",
+     "n": 176
+    },
+    {
+     "ar": "صِرَاط",
+     "tr": "ṣirāṭ",
+     "en": "path",
+     "n": 46
+    },
+    {
+     "ar": "عَالَم",
+     "tr": "ʿālam",
+     "en": "world",
+     "note": "pl. عَالَمِين",
+     "n": 73
+    },
+    {
+     "ar": "فِتْنَة",
+     "tr": "fitnah",
+     "en": "trial, persecution",
+     "n": 34
+    },
+    {
+     "ar": "قَرْيَة",
+     "tr": "qaryah",
+     "en": "town",
+     "note": "pl. قُرَى",
+     "n": 57
+    },
+    {
+     "ar": "مَال",
+     "tr": "māl",
+     "en": "wealth",
+     "note": "pl. أَمْوَال",
+     "n": 86
+    },
+    {
+     "ar": "مَتَاع",
+     "tr": "matāʿ",
+     "en": "provision, enjoyment",
+     "n": 34
+    },
+    {
+     "ar": "مَسْجِد",
+     "tr": "masjid",
+     "en": "mosque",
+     "note": "pl. مَسَاجِد",
+     "n": 28
+    },
+    {
+     "ar": "مَكَان",
+     "tr": "makān",
+     "en": "place",
+     "note": "also مَكَانَة",
+     "n": 32
+    }
+   ]
+  },
+  {
+   "id": "q25",
+   "title": "People",
+   "ar": "النَّاس",
+   "words": [
+    {
+     "ar": "أُمَّة",
+     "tr": "ummah",
+     "en": "community, nation",
+     "note": "pl. أُمَم",
+     "n": 64
+    },
+    {
+     "ar": "قَوْم",
+     "tr": "qawm",
+     "en": "people, nation",
+     "n": 383
+    },
+    {
+     "ar": "إِنْسَان",
+     "tr": "insān",
+     "en": "human being, man",
+     "n": 65
+    },
+    {
+     "ar": "نَاس",
+     "tr": "nās",
+     "en": "people, mankind",
+     "n": 248
+    },
+    {
+     "ar": "ذَكَر",
+     "tr": "dhakar",
+     "en": "male",
+     "note": "pl. ذُكُور",
+     "n": 16
+    },
+    {
+     "ar": "أُنْثَىٰ",
+     "tr": "unthā",
+     "en": "female",
+     "note": "pl. إِنَاث",
+     "n": 30
+    },
+    {
+     "ar": "عَبْد",
+     "tr": "ʿabd",
+     "en": "slave, servant",
+     "note": "pl. عِبَاد",
+     "n": 126
+    },
+    {
+     "ar": "عَدُوّ",
+     "tr": "ʿaduww",
+     "en": "enemy",
+     "note": "pl. أَعْدَاء",
+     "n": 44
+    },
+    {
+     "ar": "كُفَّار",
+     "tr": "kuffār",
+     "en": "disbelievers",
+     "note": "plural",
+     "n": 21
+    },
+    {
+     "ar": "مُجْرِم",
+     "tr": "mujrim",
+     "en": "criminal, sinner",
+     "n": 52
+    },
+    {
+     "ar": "مَلَأ",
+     "tr": "malaʾ",
+     "en": "chiefs, leaders",
+     "n": 22
+    },
+    {
+     "ar": "وَلِيّ",
+     "tr": "waliyy",
+     "en": "protecting friend, guardian",
+     "note": "pl. أَوْلِيَاء",
+     "n": 86
+    }
+   ]
+  }
+ ]
+}

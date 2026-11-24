@@ -144,7 +144,30 @@ for path in (CONTENT / "lessons").glob("*.json"):
     if path.stem not in seen:
         errors.append(f"{path.name} isn't listed in course.json")
 
+# Qur'an word lists (a separate review deck). Cards are keyed quran:<listId>:<index>,
+# so like lesson words they are append-only: never reorder or delete.
+qpath = CONTENT / "quran-words.json"
+qcount = 0
+try:
+    Q = json.loads(qpath.read_text(encoding="utf-8"))
+    qids = set()
+    for li, ql in enumerate(Q.get("lists", [])):
+        qid = ql.get("id")
+        if not qid or qid in qids:
+            errors.append(f"quran-words.json list {li}: missing or duplicate id")
+        qids.add(qid)
+        for k in ("title", "ar", "words"):
+            if not ql.get(k):
+                errors.append(f"quran-words.json {qid}: missing {k}")
+        for wi, w in enumerate(ql.get("words", [])):
+            qcount += 1
+            for k in ("ar", "tr", "en"):
+                if not w.get(k):
+                    errors.append(f"quran-words.json {qid} word {wi}: missing {k}")
+except (OSError, ValueError) as e:
+    errors.append(f"quran-words.json: {e}")
+
 if errors:
     print("Content problems:\n  " + "\n  ".join(dict.fromkeys(errors)))
     sys.exit(1)
-print(f"Content OK: {len(order)} lessons, {len(taught)} taught word forms, nothing tested before it's taught.")
+print(f"Content OK: {len(order)} lessons, {len(taught)} taught word forms, nothing tested before it's taught. {qcount} Qur'an words.")

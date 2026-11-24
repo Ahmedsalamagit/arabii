@@ -6,6 +6,7 @@ A structured self-study Fuṣḥā course. Learn to read first, then build the l
 
 - **Stage 0 · Reading:** 7 lessons in the order of al-Qāʿida an-Nūrāniyya
 - **Stage 1 · The nominal sentence:** 12 lessons following Madinah Book 1's sequence
+- **Qur'an words:** 25 topic lists (337 words) of the most frequent Qur'anic vocabulary, from *80% of Qur'anic Words* (part 1), with their own spaced review
 - **Roadmap:** Madinah Book 2 → Ājurrūmiyya → real texts
 
 Every lesson: **Learn → Understand → Read → Practice → Check.** Every lesson is open, so you can jump anywhere; passing the check (80%) marks the lesson done and adds its words to spaced review. A content check runs before every deploy and fails the build if any passage or exercise uses a word that hasn't been taught yet.
