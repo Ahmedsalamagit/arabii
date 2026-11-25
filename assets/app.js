@@ -22,6 +22,10 @@
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const shuffle = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.random() * (i + 1) | 0; [a[i], a[j]] = [a[j], a[i]]; } return a; };
   const isArabic = s => /[؀-ۿ]/.test(String(s));
+  // English text with Arabic inside: wrap each Arabic run (with any ___ blanks in it) as a
+  // right-to-left island, so a blank sits where it belongs in the Arabic, not on the English side.
+  const bidiAr = html => String(html).replace(/[_\u0600-\u06FF](?:[\u0600-\u06FF\u064B-\u065F\u0670_ ]*[\u0600-\u06FF\u064B-\u065F\u0670_])?/g,
+    m => /[\u0621-\u064A]/.test(m) ? `<span class="ar" lang="ar">${m}</span>` : m);
   const arSpan = (s, cls = '') => `<span class="ar ${cls}" lang="ar">${esc(s)}</span>`;
 
   // ---------- state ----------
@@ -65,7 +69,7 @@
   // a question or heading: Arabic (with an EN toggle) once taught, otherwise the English
   function qHTML(en, key = phraseKeyFor(en), x = '') {
     const fill = s => s.replace('{x}', x);
-    if (!key || !phraseOn(key)) return esc(fill(en || course?.phrases?.[key]?.en || ''));
+    if (!key || !phraseOn(key)) return bidiAr(esc(fill(en || course?.phrases?.[key]?.en || '')));
     const ph = course.phrases[key];
     const arText = esc(ph.ar).replace('{x}', `<bdi lang="en" class="q-x">${esc(x)}</bdi>`);
     return `<span class="ar q-arq" lang="ar" dir="rtl">${arText}</span> <button class="en-toggle" type="button" data-en="${esc(fill(ph.en))}" aria-label="Show in English">EN</button>`;
@@ -353,7 +357,7 @@
       bs.forEach(x => { x.disabled = true; if (+x.dataset.k === ex.a) x.classList.add('right'); });
       if (!ok) b.classList.add('wrong');
       if (ex.ar) speak(ex.ar); else if (arOpts) speak(ex.opts[ex.a]);
-      finish(ok, ex.why ? esc(ex.why) : '', `${esc(ex.q)}${ex.ar ? ` ${arSpan(ex.ar)}` : ''} → ${arOpts ? arSpan(ex.opts[ex.a]) : esc(ex.opts[ex.a])}`);
+      finish(ok, ex.why ? bidiAr(esc(ex.why)) : '', `${esc(ex.q)}${ex.ar ? ` ${arSpan(ex.ar)}` : ''} → ${arOpts ? arSpan(ex.opts[ex.a]) : esc(ex.opts[ex.a])}`);
     }));
   }
 
