@@ -21,7 +21,7 @@
       "id": "nominal",
       "title": "Stage 1 · The nominal sentence",
       "ar": "الجُمْلَةُ الاِسْمِيَّة",
-      "about": "Follows the order of Madinah Book 1 (Durūs al-Lugha al-ʿArabiyya): pointing, asking, describing, owning, and the first verbs, ending with the three cases.",
+      "about": "Follows the order of Madinah Book 1 (Durūs al-Lugha al-ʿArabiyya), its lessons 1–9: pointing, asking, describing, owning, and the first verbs, ending with the three cases.",
       "lessons": [
         { "id": "n01-hadha", "title": "This is a book", "ar": "هَذَا كِتَابٌ", "summary": "هَذَا and مَا: naming things around you." },
         { "id": "n02-man", "title": "Who is this?", "ar": "مَنْ هَذَا؟", "summary": "مَنْ for people, yes/no questions with أَ." },
@@ -36,6 +36,23 @@
         { "id": "n11-past", "title": "He went", "ar": "ذَهَبَ", "summary": "Your first verbs: the past tense and its doer." },
         { "id": "n12-cases", "title": "The three cases", "ar": "الرَّفْعُ وَالنَّصْبُ وَالجَرّ", "summary": "Putting it together: rafʿ, naṣb, jarr, and words that never change." }
       ]
+    },
+    {
+      "id": "book1b",
+      "title": "Stage 1, part 2 · Pronouns, plurals and numbers",
+      "ar": "الضَّمَائِرُ وَالجَمْعُ وَالعَدَد",
+      "about": "The rest of Madinah Book 1 (its lessons 10–23): my/your/his, “this man” and “the man who”, greetings, plurals of people and of things, we and you all, the dual, numbers 3–10, and names that never take tanwīn.",
+      "lessons": [
+        { "id": "n13-mine", "title": "My book, your house", "ar": "كِتَابِي وَبَيْتُكَ", "summary": "Attached pronouns (my, your, his, her), and عِنْدِي / لِي for “I have”." },
+        { "id": "n14-alladhi", "title": "This man, the man who…", "ar": "هَذَا الرَّجُلُ", "summary": "هَذَا + الْ, الَّذِي / الَّتِي, لِـ for “belongs to”, and in front / behind / under." },
+        { "id": "n15-salam", "title": "Peace be upon you", "ar": "السَّلَامُ عَلَيْكُمْ", "summary": "Greetings, “how are you?”, welcome and goodbye, aunts and uncles." },
+        { "id": "n16-plural-people", "title": "These are students", "ar": "هَؤُلَاءِ طُلَّابٌ", "summary": "هَؤُلَاءِ / أُولَئِكَ, هُمْ / هُنَّ, sound and broken plurals, “they went”." },
+        { "id": "n17-we-you", "title": "We and you all", "ar": "نَحْنُ وَأَنْتُمْ", "summary": "نَحْنُ, أَنْتُمْ, أَنْتُنَّ, our / your, “we went”, before and after." },
+        { "id": "n18-plural-things", "title": "These are books", "ar": "هَذِهِ كُتُبٌ", "summary": "Plurals of things act feminine singular: هَذِهِ كُتُبٌ جَدِيدَةٌ." },
+        { "id": "n19-dual", "title": "Two", "ar": "كِتَابَانِ", "summary": "The dual (-āni), هَذَانِ / هَاتَانِ, and كَمْ “how many?”" },
+        { "id": "n20-numbers", "title": "Three to ten", "ar": "ثَلَاثَةُ طُلَّابٍ", "summary": "Numbers 3–10 and their reverse gender." },
+        { "id": "n21-no-tanwin", "title": "Ahmad, Zaynab and the colours", "ar": "أَحْمَدُ وَزَيْنَبُ", "summary": "Nouns that never take tanwīn (mamnūʿ min aṣ-ṣarf), and colours." }
+      ]
     }
   ],
   "roadmap": [
@@ -45,13 +62,13 @@
       "about": "Madinah Book 2's ground.",
       "topics": [
         "The present tense (المُضَارِع) and its conjugation",
-        "The full past-tense conjugation: we, you all, they",
-        "Duals (-āni / -ayni) and sound plurals (-ūna / -āt)",
-        "Broken plurals and their common patterns",
-        "هَؤُلَاءِ / أُولَئِكَ and plural pronouns",
+        "The full past-tense conjugation, including the dual",
+        "Dual and plural endings in naṣb and jarr (-ayni, -īna)",
+        "Broken plurals: the common patterns, so you can predict them",
+        "Feminine colours and adjectives (حَمْرَاءُ، كُبْرَى)",
         "Commands (الأَمْر) and negation with لَا, لَمْ, لَنْ",
         "إِنَّ and its sisters; كَانَ and its sisters",
-        "Numbers 1–10 and the comparative (أَكْبَرُ)"
+        "Numbers 11 and up, ordinals, and the comparative (أَكْبَرُ مِنْ)"
       ]
     },
     {

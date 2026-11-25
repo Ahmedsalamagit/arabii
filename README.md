@@ -5,7 +5,8 @@ A structured self-study Fuṣḥā course. Learn to read first, then build the l
 **Live:** https://ahmedsalamagit.github.io/arabii/
 
 - **Stage 0 · Reading:** 7 lessons in the order of al-Qāʿida an-Nūrāniyya
-- **Stage 1 · The nominal sentence:** 12 lessons following Madinah Book 1's sequence
+- **Stage 1 · The nominal sentence:** 12 lessons following Madinah Book 1's sequence (its lessons 1–9)
+- **Stage 1, part 2 · Pronouns, plurals and numbers:** 9 lessons covering the rest of Madinah Book 1 (its lessons 10–23)
 - **Qur'an words:** 25 topic lists (337 words) of the most frequent Qur'anic vocabulary, from *80% of Qur'anic Words* (part 1), with their own spaced review
 - **Roadmap:** Madinah Book 2 → Ājurrūmiyya → real texts
 

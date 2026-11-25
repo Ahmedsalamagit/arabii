@@ -1,0 +1,329 @@
+{
+ "id": "n20-numbers",
+ "title": "Three to ten",
+ "ar": "ثَلَاثَةُ طُلَّابٍ",
+ "goal": "Count people and things from three to ten, with the right gender.",
+ "words": [
+  {
+   "ar": "ثَلَاثَةٌ",
+   "tr": "thalāthatun",
+   "en": "three"
+  },
+  {
+   "ar": "أَرْبَعَةٌ",
+   "tr": "arbaʿatun",
+   "en": "four"
+  },
+  {
+   "ar": "خَمْسَةٌ",
+   "tr": "khamsatun",
+   "en": "five"
+  },
+  {
+   "ar": "سِتَّةٌ",
+   "tr": "sittatun",
+   "en": "six"
+  },
+  {
+   "ar": "سَبْعَةٌ",
+   "tr": "sabʿatun",
+   "en": "seven"
+  },
+  {
+   "ar": "ثَمَانِيَةٌ",
+   "tr": "thamāniyatun",
+   "en": "eight"
+  },
+  {
+   "ar": "تِسْعَةٌ",
+   "tr": "tisʿatun",
+   "en": "nine"
+  },
+  {
+   "ar": "عَشَرَةٌ",
+   "tr": "ʿasharatun",
+   "en": "ten"
+  },
+  {
+   "ar": "أَيَّامٌ",
+   "tr": "ayyāmun",
+   "en": "days",
+   "note": "Singular: يَوْمٌ."
+  },
+  {
+   "ar": "رِيَالٌ",
+   "tr": "riyālun",
+   "en": "a riyal"
+  }
+ ],
+ "understand": [
+  {
+   "examples": [
+    {
+     "ar": "ثَلَاثَةُ طُلَّابٍ",
+     "en": "three (male) students"
+    },
+    {
+     "ar": "خَمْسَةُ كُتُبٍ",
+     "en": "five books"
+    },
+    {
+     "ar": "ثَلَاثُ طَالِبَاتٍ",
+     "en": "three (female) students"
+    },
+    {
+     "ar": "خَمْسُ سَاعَاتٍ",
+     "en": "five watches"
+    }
+   ]
+  },
+  {
+   "p": "Look at the number, then at the noun's singular. Something is upside down."
+  },
+  {
+   "rule": "From three to ten the number takes the <strong>opposite gender</strong> to the noun. With a masculine noun (<span class='ar'>طَالِبٌ</span>، <span class='ar'>كِتَابٌ</span>) the number has ة: <span class='ar'>ثَلَاثَةُ طُلَّابٍ</span>. With a feminine noun (<span class='ar'>طَالِبَةٌ</span>، <span class='ar'>سَاعَةٌ</span>) it drops the ة: <span class='ar'>ثَلَاثُ طَالِبَاتٍ</span>. The counted noun comes after it, plural and majrūr."
+  },
+  {
+   "table": {
+    "headers": [
+     "",
+     "with a masculine noun",
+     "with a feminine noun"
+    ],
+    "rows": [
+     [
+      "3",
+      "ثَلَاثَةُ",
+      "ثَلَاثُ"
+     ],
+     [
+      "4",
+      "أَرْبَعَةُ",
+      "أَرْبَعُ"
+     ],
+     [
+      "5",
+      "خَمْسَةُ",
+      "خَمْسُ"
+     ],
+     [
+      "6",
+      "سِتَّةُ",
+      "سِتُّ"
+     ],
+     [
+      "7",
+      "سَبْعَةُ",
+      "سَبْعُ"
+     ],
+     [
+      "8",
+      "ثَمَانِيَةُ",
+      "ثَمَانِي"
+     ],
+     [
+      "9",
+      "تِسْعَةُ",
+      "تِسْعُ"
+     ],
+     [
+      "10",
+      "عَشَرَةُ",
+      "عَشْرُ"
+     ]
+    ],
+    "ar": [
+     1,
+     2
+    ]
+   }
+  },
+  {
+   "examples": [
+    {
+     "ar": "فِي الْأُسْبُوعِ سَبْعَةُ أَيَّامٍ.",
+     "en": "There are seven days in the week."
+    },
+    {
+     "ar": "لِي أَرْبَعَةُ إِخْوَةٍ وَثَلَاثُ أَخَوَاتٍ.",
+     "en": "I have four brothers and three sisters."
+    },
+    {
+     "ar": "فِي فَصْلِنَا عَشَرَةُ طُلَّابٍ.",
+     "en": "There are ten students in our class."
+    },
+    {
+     "ar": "عِنْدِي خَمْسَةُ رِيَالَاتٍ.",
+     "en": "I have five riyals."
+    }
+   ]
+  },
+  {
+   "tip": "Gender comes from the <strong>singular</strong>: <span class='ar'>كِتَابٌ</span> is masculine, so <span class='ar'>خَمْسَةُ كُتُبٍ</span>, even though <span class='ar'>كُتُبٌ</span> is treated as feminine elsewhere."
+  }
+ ],
+ "read": {
+  "intro": "The principal asks the teacher.",
+  "lines": [
+   {
+    "who": "Principal",
+    "ar": "كَمْ طَالِبًا فِي الْفَصْلِ؟",
+    "en": "How many students are in the class?"
+   },
+   {
+    "who": "Teacher",
+    "ar": "فِيهِ عَشَرَةُ طُلَّابٍ.",
+    "en": "There are ten students in it."
+   },
+   {
+    "who": "Principal",
+    "ar": "مِنْ أَيْنَ هُمْ؟",
+    "en": "Where are they from?"
+   },
+   {
+    "who": "Teacher",
+    "ar": "ثَلَاثَةُ طُلَّابٍ مِنَ الْهِنْدِ، وَأَرْبَعَةُ طُلَّابٍ مِنَ الصِّينِ، وَثَلَاثَةٌ مِنْ مِصْرَ.",
+    "en": "Three students are from India, four from China, and three from Egypt."
+   },
+   {
+    "who": "Principal",
+    "ar": "وَكَمْ طَالِبَةً فِي فَصْلِ الْبَنَاتِ؟",
+    "en": "And how many students are in the girls' class?"
+   },
+   {
+    "who": "Teacher",
+    "ar": "فِيهِ ثَمَانِي طَالِبَاتٍ.",
+    "en": "There are eight students in it."
+   },
+   {
+    "who": "Principal",
+    "ar": "شُكْرًا.",
+    "en": "Thank you."
+   }
+  ]
+ },
+ "practice": [
+  {
+   "t": "match",
+   "pairs": [
+    [
+     "ثَلَاثَةٌ",
+     "three"
+    ],
+    [
+     "خَمْسَةٌ",
+     "five"
+    ],
+    [
+     "سَبْعَةٌ",
+     "seven"
+    ],
+    [
+     "عَشَرَةٌ",
+     "ten"
+    ]
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "Which is correct?",
+   "opts": [
+    "ثَلَاثَةُ طُلَّابٍ",
+    "ثَلَاثُ طُلَّابٍ",
+    "ثَلَاثَةُ طُلَّابٌ"
+   ],
+   "a": 0,
+   "why": "طَالِبٌ is masculine, so the number takes ة, and the noun is majrūr."
+  },
+  {
+   "t": "mcq",
+   "q": "Which is correct?",
+   "opts": [
+    "خَمْسُ طَالِبَاتٍ",
+    "خَمْسَةُ طَالِبَاتٍ"
+   ],
+   "a": 0,
+   "why": "طَالِبَةٌ is feminine, so the number drops ة."
+  },
+  {
+   "t": "mcq",
+   "q": "What does this mean?",
+   "opts": [
+    "There are seven days in the week.",
+    "The week is seven.",
+    "I have seven days."
+   ],
+   "a": 0,
+   "ar": "فِي الْأُسْبُوعِ سَبْعَةُ أَيَّامٍ."
+  },
+  {
+   "t": "build",
+   "en": "I have four brothers.",
+   "words": [
+    "لِي",
+    "أَرْبَعَةُ",
+    "إِخْوَةٍ."
+   ],
+   "extra": [
+    "أَرْبَعُ"
+   ]
+  }
+ ],
+ "check": [
+  {
+   "t": "mcq",
+   "q": "Which means “six watches”?",
+   "opts": [
+    "سِتُّ سَاعَاتٍ",
+    "سِتَّةُ سَاعَاتٍ",
+    "سِتُّ سَاعَةٍ"
+   ],
+   "a": 0
+  },
+  {
+   "t": "mcq",
+   "q": "Which means “ten books”?",
+   "opts": [
+    "عَشَرَةُ كُتُبٍ",
+    "عَشْرُ كُتُبٍ",
+    "عَشَرَةُ كِتَابٌ"
+   ],
+   "a": 0
+  },
+  {
+   "t": "build",
+   "en": "There are ten students in our class.",
+   "words": [
+    "فِي",
+    "فَصْلِنَا",
+    "عَشَرَةُ",
+    "طُلَّابٍ."
+   ],
+   "extra": [
+    "عَشْرُ"
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "Which number is “eight” with a masculine noun?",
+   "opts": [
+    "ثَمَانِيَةُ",
+    "تِسْعَةُ",
+    "سِتَّةُ",
+    "ثَلَاثَةُ"
+   ],
+   "a": 0
+  },
+  {
+   "t": "mcq",
+   "q": "What does this mean?",
+   "opts": [
+    "I have five riyals.",
+    "Five riyals are with him.",
+    "Five is a riyal."
+   ],
+   "a": 0,
+   "ar": "عِنْدِي خَمْسَةُ رِيَالَاتٍ."
+  }
+ ]
+}

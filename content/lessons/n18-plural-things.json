@@ -1,0 +1,328 @@
+{
+ "id": "n18-plural-things",
+ "title": "These are books",
+ "ar": "هَذِهِ كُتُبٌ",
+ "goal": "Use plurals of things, which Arabic treats as feminine singular.",
+ "words": [
+  {
+   "ar": "كُتُبٌ",
+   "tr": "kutubun",
+   "en": "books",
+   "note": "Singular: كِتَابٌ."
+  },
+  {
+   "ar": "أَقْلَامٌ",
+   "tr": "aqlāmun",
+   "en": "pens",
+   "note": "Singular: قَلَمٌ."
+  },
+  {
+   "ar": "بُيُوتٌ",
+   "tr": "buyūtun",
+   "en": "houses",
+   "note": "Singular: بَيْتٌ."
+  },
+  {
+   "ar": "أَبْوَابٌ",
+   "tr": "abwābun",
+   "en": "doors",
+   "note": "Singular: بَابٌ."
+  },
+  {
+   "ar": "دُرُوسٌ",
+   "tr": "durūsun",
+   "en": "lessons",
+   "note": "Singular: دَرْسٌ."
+  },
+  {
+   "ar": "سَيَّارَاتٌ",
+   "tr": "sayyārātun",
+   "en": "cars",
+   "note": "Singular: سَيَّارَةٌ."
+  },
+  {
+   "ar": "سَاعَاتٌ",
+   "tr": "sāʿātun",
+   "en": "watches; hours",
+   "note": "Singular: سَاعَةٌ."
+  },
+  {
+   "ar": "كَثِيرٌ",
+   "tr": "kathīrun",
+   "en": "many, much, a lot"
+  },
+  {
+   "ar": "رَخِيصٌ",
+   "tr": "rakhīṣun",
+   "en": "cheap"
+  },
+  {
+   "ar": "لُغَاتٌ",
+   "tr": "lughātun",
+   "en": "languages",
+   "note": "Singular: لُغَةٌ."
+  }
+ ],
+ "understand": [
+  {
+   "examples": [
+    {
+     "ar": "هَذَا كِتَابٌ جَدِيدٌ. ← هَذِهِ كُتُبٌ جَدِيدَةٌ.",
+     "en": "This is a new book. → These are new books."
+    },
+    {
+     "ar": "الْبَابُ مَفْتُوحٌ. ← الْأَبْوَابُ مَفْتُوحَةٌ.",
+     "en": "The door is open. → The doors are open."
+    },
+    {
+     "ar": "أَيْنَ الْأَقْلَامُ؟ هِيَ عَلَى الْمَكْتَبِ.",
+     "en": "Where are the pens? They're on the desk."
+    }
+   ]
+  },
+  {
+   "rule": "Plurals of <strong>things</strong> (not people) are treated as <strong>feminine singular</strong>: point with <span class='ar'>هَذِهِ</span> / <span class='ar'>تِلْكَ</span>, refer back with <span class='ar'>هِيَ</span>, and give adjectives a feminine singular ending: <span class='ar'>الْكُتُبُ جَدِيدَةٌ</span>، <span class='ar'>السَّيَّارَاتُ خَرَجَتْ</span>."
+  },
+  {
+   "table": {
+    "headers": [
+     "",
+     "near",
+     "far"
+    ],
+    "rows": [
+     [
+      "people",
+      "هَؤُلَاءِ طُلَّابٌ",
+      "أُولَئِكَ طُلَّابٌ"
+     ],
+     [
+      "things",
+      "هَذِهِ بُيُوتٌ",
+      "تِلْكَ بُيُوتٌ"
+     ]
+    ],
+    "ar": [
+     1,
+     2
+    ]
+   }
+  },
+  {
+   "table": {
+    "headers": [
+     "Singular",
+     "Plural",
+     "Meaning"
+    ],
+    "rows": [
+     [
+      "كِتَابٌ",
+      "كُتُبٌ",
+      "books"
+     ],
+     [
+      "قَلَمٌ",
+      "أَقْلَامٌ",
+      "pens"
+     ],
+     [
+      "بَيْتٌ",
+      "بُيُوتٌ",
+      "houses"
+     ],
+     [
+      "بَابٌ",
+      "أَبْوَابٌ",
+      "doors"
+     ],
+     [
+      "دَرْسٌ",
+      "دُرُوسٌ",
+      "lessons"
+     ],
+     [
+      "نَجْمٌ",
+      "نُجُومٌ",
+      "stars"
+     ],
+     [
+      "جَبَلٌ",
+      "جِبَالٌ",
+      "mountains"
+     ],
+     [
+      "سَيَّارَةٌ",
+      "سَيَّارَاتٌ",
+      "cars"
+     ],
+     [
+      "سَاعَةٌ",
+      "سَاعَاتٌ",
+      "watches; hours"
+     ]
+    ],
+    "ar": [
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "tip": "<span class='ar'>فِي هَذَا الشَّارِعِ بُيُوتٌ كَثِيرَةٌ</span> = There are many houses in this street. Starting with <span class='ar'>فِي</span> + a place is how Arabic says “there is / there are”."
+  }
+ ],
+ "read": {
+  "intro": "Hamid describes his street.",
+  "lines": [
+   {
+    "ar": "هَذَا الشَّارِعُ قَرِيبٌ مِنَ الْمَسْجِدِ. فِيهِ بُيُوتٌ كَثِيرَةٌ.",
+    "en": "This street is near the mosque. There are many houses in it."
+   },
+   {
+    "ar": "الْبُيُوتُ قَدِيمَةٌ وَجَمِيلَةٌ.",
+    "en": "The houses are old and beautiful."
+   },
+   {
+    "ar": "أَمَامَ بَيْتِنَا سَيَّارَاتٌ كَثِيرَةٌ.",
+    "en": "There are many cars in front of our house."
+   },
+   {
+    "ar": "فِي غُرْفَتِي كُتُبٌ وَأَقْلَامٌ.",
+    "en": "There are books and pens in my room."
+   },
+   {
+    "ar": "الْكُتُبُ عَلَى الْمَكْتَبِ، وَالْأَقْلَامُ فِي حَقِيبَتِي.",
+    "en": "The books are on the desk, and the pens are in my bag."
+   },
+   {
+    "ar": "السَّاعَاتُ فِي السُّوقِ رَخِيصَةٌ.",
+    "en": "The watches in the market are cheap."
+   },
+   {
+    "ar": "دُرُوسُ الْعَرَبِيَّةِ سَهْلَةٌ.",
+    "en": "The Arabic lessons are easy."
+   }
+  ]
+ },
+ "practice": [
+  {
+   "t": "match",
+   "pairs": [
+    [
+     "كِتَابٌ",
+     "كُتُبٌ"
+    ],
+    [
+     "قَلَمٌ",
+     "أَقْلَامٌ"
+    ],
+    [
+     "بَيْتٌ",
+     "بُيُوتٌ"
+    ],
+    [
+     "بَابٌ",
+     "أَبْوَابٌ"
+    ]
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "Which is correct?",
+   "opts": [
+    "هَذِهِ كُتُبٌ.",
+    "هَؤُلَاءِ كُتُبٌ.",
+    "هَذَا كُتُبٌ."
+   ],
+   "a": 0,
+   "why": "Things in the plural take هَذِهِ."
+  },
+  {
+   "t": "mcq",
+   "q": "Fill in: الْأَبْوَابُ ___",
+   "opts": [
+    "مَفْتُوحَةٌ",
+    "مَفْتُوحٌ"
+   ],
+   "a": 0,
+   "why": "A plural of things takes a feminine singular description."
+  },
+  {
+   "t": "mcq",
+   "q": "What does this mean?",
+   "opts": [
+    "The watches in the market are cheap.",
+    "The market has one cheap watch.",
+    "The market is cheap."
+   ],
+   "a": 0,
+   "ar": "السَّاعَاتُ فِي السُّوقِ رَخِيصَةٌ."
+  },
+  {
+   "t": "build",
+   "en": "These are new books.",
+   "words": [
+    "هَذِهِ",
+    "كُتُبٌ",
+    "جَدِيدَةٌ."
+   ],
+   "extra": [
+    "جَدِيدٌ"
+   ]
+  }
+ ],
+ "check": [
+  {
+   "t": "build",
+   "en": "The doors are open.",
+   "words": [
+    "الْأَبْوَابُ",
+    "مَفْتُوحَةٌ."
+   ],
+   "extra": [
+    "مَفْتُوحٌ"
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "Which is correct?",
+   "opts": [
+    "أَيْنَ الْأَقْلَامُ؟ هِيَ عَلَى الْمَكْتَبِ.",
+    "أَيْنَ الْأَقْلَامُ؟ هُمْ عَلَى الْمَكْتَبِ.",
+    "أَيْنَ الْأَقْلَامُ؟ هُوَ عَلَى الْمَكْتَبِ."
+   ],
+   "a": 0
+  },
+  {
+   "t": "mcq",
+   "q": "Which means “There are many houses in this street”?",
+   "opts": [
+    "فِي هَذَا الشَّارِعِ بُيُوتٌ كَثِيرَةٌ.",
+    "هَذَا الشَّارِعُ بَيْتٌ كَثِيرٌ.",
+    "الْبُيُوتُ فِي شَارِعٍ."
+   ],
+   "a": 0
+  },
+  {
+   "t": "mcq",
+   "q": "What is the plural of دَرْسٌ?",
+   "opts": [
+    "دُرُوسٌ",
+    "دَرْسٌ",
+    "كُتُبٌ"
+   ],
+   "a": 0
+  },
+  {
+   "t": "mcq",
+   "q": "Which is correct?",
+   "opts": [
+    "تِلْكَ سَيَّارَاتٌ",
+    "أُولَئِكَ سَيَّارَاتٌ",
+    "ذَلِكَ سَيَّارَاتٌ"
+   ],
+   "a": 0
+  }
+ ]
+}

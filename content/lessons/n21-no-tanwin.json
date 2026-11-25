@@ -1,0 +1,302 @@
+{
+ "id": "n21-no-tanwin",
+ "title": "Ahmad, Zaynab and the colours",
+ "ar": "أَحْمَدُ وَزَيْنَبُ",
+ "goal": "Recognize nouns that never take tanwīn, and name the colours.",
+ "words": [
+  {
+   "ar": "أَحْمَرُ",
+   "tr": "aḥmaru",
+   "en": "red"
+  },
+  {
+   "ar": "أَبْيَضُ",
+   "tr": "abyaḍu",
+   "en": "white"
+  },
+  {
+   "ar": "أَسْوَدُ",
+   "tr": "aswadu",
+   "en": "black"
+  },
+  {
+   "ar": "أَخْضَرُ",
+   "tr": "akhḍaru",
+   "en": "green"
+  },
+  {
+   "ar": "أَصْفَرُ",
+   "tr": "aṣfaru",
+   "en": "yellow"
+  },
+  {
+   "ar": "أَزْرَقُ",
+   "tr": "azraqu",
+   "en": "blue"
+  },
+  {
+   "ar": "لَوْنٌ",
+   "tr": "lawnun",
+   "en": "a colour"
+  },
+  {
+   "ar": "قَالَ",
+   "tr": "qāla",
+   "en": "he said",
+   "note": "she said: قَالَتْ"
+  },
+  {
+   "ar": "مَكَّةُ",
+   "tr": "makkatu",
+   "en": "Makkah"
+  },
+  {
+   "ar": "أَحْمَدُ",
+   "tr": "aḥmadu",
+   "en": "Ahmad (a name)"
+  }
+ ],
+ "understand": [
+  {
+   "examples": [
+    {
+     "ar": "ذَهَبْتُ إِلَى مُحَمَّدٍ.",
+     "en": "I went to Muhammad."
+    },
+    {
+     "ar": "ذَهَبْتُ إِلَى أَحْمَدَ.",
+     "en": "I went to Ahmad."
+    },
+    {
+     "ar": "هَذَا كِتَابُ زَيْنَبَ.",
+     "en": "This is Zaynab's book."
+    },
+    {
+     "ar": "ذَهَبَ أَبِي إِلَى مَكَّةَ.",
+     "en": "My father went to Makkah."
+    }
+   ]
+  },
+  {
+   "p": "<span class='ar'>مُحَمَّدٍ</span> ends in -in, but <span class='ar'>أَحْمَدَ</span> and <span class='ar'>زَيْنَبَ</span> end in a plain fatḥa. Why?"
+  },
+  {
+   "rule": "Some nouns are <strong>mamnūʿ min aṣ-ṣarf</strong> (“held back”): they <strong>never take tanwīn</strong>, and in jarr they end in <strong>fatḥa</strong> instead of kasra: <span class='ar'>مِنْ زَيْنَبَ</span>، <span class='ar'>إِلَى أَحْمَدَ</span>، <span class='ar'>كِتَابُ زَيْنَبَ</span>. Give one <span class='ar'>الْ</span> or make it the first noun of an iḍāfa and it behaves normally again."
+  },
+  {
+   "table": {
+    "headers": [
+     "Kind",
+     "Examples"
+    ],
+    "rows": [
+     [
+      "women's names",
+      "زَيْنَبُ، مَرْيَمُ، فَاطِمَةُ، آمِنَةُ"
+     ],
+     [
+      "men's names ending in ة",
+      "حَمْزَةُ، أُسَامَةُ"
+     ],
+     [
+      "names and adjectives in -ān",
+      "عُثْمَانُ، كَسْلَانُ"
+     ],
+     [
+      "the pattern أَفْعَلُ",
+      "أَحْمَدُ، أَكْبَرُ، أَحْمَرُ، أَبْيَضُ"
+     ],
+     [
+      "foreign names and many place names",
+      "إِبْرَاهِيمُ، يُوسُفُ، مَكَّةُ، مِصْرُ"
+     ],
+     [
+      "some plural patterns",
+      "أَصْدِقَاءُ، أَطِبَّاءُ، مَسَاجِدُ، مَفَاتِيحُ"
+     ]
+    ],
+    "ar": [
+     1
+    ]
+   }
+  },
+  {
+   "h": "Colours"
+  },
+  {
+   "examples": [
+    {
+     "ar": "هَذَا قَلَمٌ أَحْمَرُ.",
+     "en": "This is a red pen."
+    },
+    {
+     "ar": "الْقَمِيصُ أَبْيَضُ.",
+     "en": "The shirt is white."
+    },
+    {
+     "ar": "مَا لَوْنُ سَيَّارَتِكَ؟ لَوْنُهَا أَزْرَقُ.",
+     "en": "What colour is your car? Its colour is blue."
+    }
+   ]
+  },
+  {
+   "tip": "In <span class='ar'>قَلَمٌ أَحْمَرُ</span> the noun has tanwīn and the colour doesn't: colours follow the أَفْعَلُ pattern. Feminine colours (<span class='ar'>حَمْرَاءُ</span>، <span class='ar'>بَيْضَاءُ</span>) come in Stage 2, so here they describe masculine nouns."
+  }
+ ],
+ "read": {
+  "intro": "Ahmad's pens.",
+  "lines": [
+   {
+    "ar": "قَالَ أَحْمَدُ: عِنْدِي خَمْسَةُ أَقْلَامٍ.",
+    "en": "Ahmad said: I have five pens."
+   },
+   {
+    "ar": "هَذَا قَلَمٌ أَحْمَرُ، وَهَذَا قَلَمٌ أَزْرَقُ، وَهَذَا قَلَمٌ أَخْضَرُ.",
+    "en": "This is a red pen, this is a blue pen, and this is a green pen."
+   },
+   {
+    "ar": "وَهَذَا قَلَمٌ أَسْوَدُ، وَهَذَا قَلَمٌ أَصْفَرُ.",
+    "en": "And this is a black pen, and this is a yellow pen."
+   },
+   {
+    "ar": "قَالَ حَامِدٌ: يَا أَحْمَدُ، أَعِنْدَكَ قَلَمٌ أَبْيَضُ؟",
+    "en": "Hamid said: Ahmad, do you have a white pen?"
+   },
+   {
+    "ar": "قَالَ أَحْمَدُ: لَا، مَا عِنْدِي قَلَمٌ أَبْيَضُ.",
+    "en": "Ahmad said: No, I don't have a white pen."
+   },
+   {
+    "ar": "ذَهَبَ حَامِدٌ إِلَى زَيْنَبَ، وَعِنْدَهَا قَلَمٌ أَبْيَضُ.",
+    "en": "Hamid went to Zaynab, and she has a white pen."
+   }
+  ]
+ },
+ "practice": [
+  {
+   "t": "match",
+   "pairs": [
+    [
+     "أَحْمَرُ",
+     "red"
+    ],
+    [
+     "أَبْيَضُ",
+     "white"
+    ],
+    [
+     "أَسْوَدُ",
+     "black"
+    ],
+    [
+     "أَخْضَرُ",
+     "green"
+    ],
+    [
+     "أَزْرَقُ",
+     "blue"
+    ]
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "Which is correct?",
+   "opts": [
+    "ذَهَبْتُ إِلَى زَيْنَبَ.",
+    "ذَهَبْتُ إِلَى زَيْنَبٍ.",
+    "ذَهَبْتُ إِلَى زَيْنَبِ."
+   ],
+   "a": 0,
+   "why": "زَيْنَبُ never takes tanwīn, and in jarr it ends in fatḥa."
+  },
+  {
+   "t": "mcq",
+   "q": "Which is correct?",
+   "opts": [
+    "هَذَا كِتَابُ مُحَمَّدٍ.",
+    "هَذَا كِتَابُ مُحَمَّدَ."
+   ],
+   "a": 0,
+   "why": "مُحَمَّدٌ is an ordinary noun: majrūr with -in."
+  },
+  {
+   "t": "mcq",
+   "q": "What does this mean?",
+   "opts": [
+    "What colour is your car?",
+    "Where is your car?",
+    "Is your car new?"
+   ],
+   "a": 0,
+   "ar": "مَا لَوْنُ سَيَّارَتِكَ؟"
+  },
+  {
+   "t": "build",
+   "en": "This is a red pen.",
+   "words": [
+    "هَذَا",
+    "قَلَمٌ",
+    "أَحْمَرُ."
+   ],
+   "extra": [
+    "أَحْمَرٌ"
+   ]
+  }
+ ],
+ "check": [
+  {
+   "t": "mcq",
+   "q": "Which of these names never takes tanwīn?",
+   "opts": [
+    "أَحْمَدُ",
+    "مُحَمَّدٌ",
+    "حَامِدٌ",
+    "خَالِدٌ"
+   ],
+   "a": 0
+  },
+  {
+   "t": "mcq",
+   "q": "Which is correct?",
+   "opts": [
+    "ذَهَبَ أَبِي إِلَى مَكَّةَ.",
+    "ذَهَبَ أَبِي إِلَى مَكَّةٍ.",
+    "ذَهَبَ أَبِي إِلَى مَكَّةِ."
+   ],
+   "a": 0
+  },
+  {
+   "t": "build",
+   "en": "The shirt is white.",
+   "words": [
+    "الْقَمِيصُ",
+    "أَبْيَضُ."
+   ],
+   "extra": [
+    "أَبْيَضٌ"
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "Which means “yellow”?",
+   "opts": [
+    "أَصْفَرُ",
+    "أَزْرَقُ",
+    "أَخْضَرُ",
+    "أَسْوَدُ"
+   ],
+   "a": 0
+  },
+  {
+   "t": "mcq",
+   "q": "What does this mean?",
+   "opts": [
+    "Ahmad said: I have five pens.",
+    "Ahmad has five books.",
+    "Five pens are Ahmad's colour."
+   ],
+   "a": 0,
+   "ar": "قَالَ أَحْمَدُ: عِنْدِي خَمْسَةُ أَقْلَامٍ."
+  }
+ ]
+}

@@ -1,0 +1,319 @@
+{
+ "id": "n15-salam",
+ "title": "Peace be upon you",
+ "ar": "السَّلَامُ عَلَيْكُمْ",
+ "goal": "Greet people, ask how they are, welcome them, and name your aunts and uncles.",
+ "words": [
+  {
+   "ar": "السَّلَامُ عَلَيْكُمْ",
+   "tr": "as-salāmu ʿalaykum",
+   "en": "peace be upon you (greeting)"
+  },
+  {
+   "ar": "وَعَلَيْكُمُ السَّلَامُ",
+   "tr": "wa ʿalaykumu s-salām",
+   "en": "and upon you be peace (reply)"
+  },
+  {
+   "ar": "كَيْفَ",
+   "tr": "kayfa",
+   "en": "how?"
+  },
+  {
+   "ar": "حَالٌ",
+   "tr": "ḥālun",
+   "en": "state, condition",
+   "note": "كَيْفَ حَالُكَ؟ = How are you?"
+  },
+  {
+   "ar": "بِخَيْرٍ",
+   "tr": "bi-khayrin",
+   "en": "well, fine"
+  },
+  {
+   "ar": "الْحَمْدُ لِلَّهِ",
+   "tr": "al-ḥamdu lillāh",
+   "en": "praise be to God",
+   "noQuiz": true
+  },
+  {
+   "ar": "أَهْلًا وَسَهْلًا",
+   "tr": "ahlan wa sahlan",
+   "en": "welcome!"
+  },
+  {
+   "ar": "مَعَ السَّلَامَةِ",
+   "tr": "maʿa s-salāmah",
+   "en": "goodbye (go safely)"
+  },
+  {
+   "ar": "عَمَّةٌ",
+   "tr": "ʿammatun",
+   "en": "an aunt (father's sister)"
+  },
+  {
+   "ar": "خَالٌ",
+   "tr": "khālun",
+   "en": "an uncle (mother's brother)"
+  },
+  {
+   "ar": "خَالَةٌ",
+   "tr": "khālatun",
+   "en": "an aunt (mother's sister)"
+  }
+ ],
+ "understand": [
+  {
+   "examples": [
+    {
+     "ar": "السَّلَامُ عَلَيْكُمْ.",
+     "en": "Peace be upon you."
+    },
+    {
+     "ar": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ.",
+     "en": "And upon you be peace, and God's mercy and His blessings."
+    },
+    {
+     "ar": "كَيْفَ حَالُكَ؟",
+     "en": "How are you?"
+    },
+    {
+     "ar": "أَنَا بِخَيْرٍ، وَالْحَمْدُ لِلَّهِ.",
+     "en": "I'm well, praise be to God."
+    }
+   ]
+  },
+  {
+   "p": "The fuller reply adds <span class='ar'>وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ</span>, “and God's mercy and His blessings”. Reply with at least as much as you were given."
+  },
+  {
+   "rule": "<span class='ar'>حَالُكَ</span> is <span class='ar'>حَالٌ</span> + <span class='ar'>ـكَ</span>: “your condition”. Change the pronoun for the person: <span class='ar'>كَيْفَ حَالُكِ؟</span> (to a woman), <span class='ar'>كَيْفَ حَالُهُ؟</span> (how is he?), <span class='ar'>كَيْفَ حَالُهَا؟</span> (how is she?)."
+  },
+  {
+   "h": "Welcome and goodbye"
+  },
+  {
+   "examples": [
+    {
+     "ar": "أَهْلًا وَسَهْلًا!",
+     "en": "Welcome!"
+    },
+    {
+     "ar": "تَفَضَّلْ.",
+     "en": "Please come in. (to a man)"
+    },
+    {
+     "ar": "شُكْرًا.",
+     "en": "Thank you."
+    },
+    {
+     "ar": "مَعَ السَّلَامَةِ.",
+     "en": "Goodbye."
+    }
+   ]
+  },
+  {
+   "h": "Aunts and uncles"
+  },
+  {
+   "table": {
+    "headers": [
+     "Arabic",
+     "Who",
+     "my…"
+    ],
+    "rows": [
+     [
+      "عَمٌّ",
+      "father's brother",
+      "عَمِّي"
+     ],
+     [
+      "عَمَّةٌ",
+      "father's sister",
+      "عَمَّتِي"
+     ],
+     [
+      "خَالٌ",
+      "mother's brother",
+      "خَالِي"
+     ],
+     [
+      "خَالَةٌ",
+      "mother's sister",
+      "خَالَتِي"
+     ]
+    ],
+    "ar": [
+     0,
+     2
+    ]
+   }
+  },
+  {
+   "tip": "Arabic names the side of the family. <span class='ar'>عَمِّي</span> is my father's brother; <span class='ar'>خَالِي</span> is my mother's brother. After <span class='ar'>حَالُ</span> the next noun is majrūr (iḍāfa): <span class='ar'>كَيْفَ حَالُ أُمِّكِ؟</span> = How is your mother?"
+  }
+ ],
+ "read": {
+  "intro": "Fatima visits her aunt.",
+  "lines": [
+   {
+    "who": "Fāṭima",
+    "ar": "السَّلَامُ عَلَيْكُمْ.",
+    "en": "Peace be upon you."
+   },
+   {
+    "who": "Aunt",
+    "ar": "وَعَلَيْكُمُ السَّلَامُ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ. أَهْلًا وَسَهْلًا يَا فَاطِمَةُ!",
+    "en": "And upon you be peace and God's mercy and blessings. Welcome, Fatima!"
+   },
+   {
+    "who": "Fāṭima",
+    "ar": "كَيْفَ حَالُكِ يَا خَالَتِي؟",
+    "en": "How are you, auntie?"
+   },
+   {
+    "who": "Aunt",
+    "ar": "أَنَا بِخَيْرٍ، وَالْحَمْدُ لِلَّهِ. وَكَيْفَ حَالُ أُمِّكِ؟",
+    "en": "I'm well, praise be to God. And how is your mother?"
+   },
+   {
+    "who": "Fāṭima",
+    "ar": "هِيَ بِخَيْرٍ. هِيَ فِي الْبَيْتِ الْآنَ.",
+    "en": "She's well. She's at home now."
+   },
+   {
+    "who": "Aunt",
+    "ar": "وَأَيْنَ أَخُوكِ؟",
+    "en": "And where is your brother?"
+   },
+   {
+    "who": "Fāṭima",
+    "ar": "ذَهَبَ إِلَى الْمَسْجِدِ مَعَ أَبِي. مَعَ السَّلَامَةِ يَا خَالَتِي.",
+    "en": "He went to the mosque with my father. Goodbye, auntie."
+   }
+  ]
+ },
+ "practice": [
+  {
+   "t": "mcq",
+   "q": "Someone says السَّلَامُ عَلَيْكُمْ. What do you answer?",
+   "opts": [
+    "وَعَلَيْكُمُ السَّلَامُ.",
+    "مَعَ السَّلَامَةِ.",
+    "شُكْرًا."
+   ],
+   "a": 0
+  },
+  {
+   "t": "match",
+   "pairs": [
+    [
+     "عَمَّةٌ",
+     "father's sister"
+    ],
+    [
+     "خَالٌ",
+     "mother's brother"
+    ],
+    [
+     "خَالَةٌ",
+     "mother's sister"
+    ],
+    [
+     "عَمٌّ",
+     "father's brother"
+    ]
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "What does this mean?",
+   "opts": [
+    "How are you?",
+    "Where are you?",
+    "Who are you?",
+    "Where are you from?"
+   ],
+   "a": 0,
+   "ar": "كَيْفَ حَالُكَ؟"
+  },
+  {
+   "t": "build",
+   "en": "I'm well, praise be to God.",
+   "words": [
+    "أَنَا",
+    "بِخَيْرٍ،",
+    "وَالْحَمْدُ",
+    "لِلَّهِ."
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "Which asks a woman how she is?",
+   "opts": [
+    "كَيْفَ حَالُكِ؟",
+    "كَيْفَ حَالُكَ؟",
+    "كَيْفَ حَالُهُ؟"
+   ],
+   "a": 0
+  }
+ ],
+ "check": [
+  {
+   "t": "mcq",
+   "q": "Which means “Welcome!”?",
+   "opts": [
+    "أَهْلًا وَسَهْلًا!",
+    "مَعَ السَّلَامَةِ.",
+    "بِخَيْرٍ."
+   ],
+   "a": 0
+  },
+  {
+   "t": "mcq",
+   "q": "Your mother's sister is your…",
+   "opts": [
+    "خَالَةٌ",
+    "عَمَّةٌ",
+    "خَالٌ",
+    "أُخْتٌ"
+   ],
+   "a": 0
+  },
+  {
+   "t": "build",
+   "en": "How is your mother? (to a woman)",
+   "words": [
+    "كَيْفَ",
+    "حَالُ",
+    "أُمِّكِ؟"
+   ],
+   "extra": [
+    "حَالُكِ"
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "What does this mean?",
+   "opts": [
+    "Goodbye.",
+    "Thank you.",
+    "Welcome.",
+    "Peace be upon you."
+   ],
+   "a": 0,
+   "ar": "مَعَ السَّلَامَةِ."
+  },
+  {
+   "t": "mcq",
+   "q": "Which asks “How is he?”",
+   "opts": [
+    "كَيْفَ حَالُهُ؟",
+    "كَيْفَ حَالُهَا؟",
+    "أَيْنَ هُوَ؟"
+   ],
+   "a": 0
+  }
+ ]
+}

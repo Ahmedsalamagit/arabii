@@ -1,0 +1,514 @@
+{
+ "id": "n13-mine",
+ "title": "My book, your house",
+ "ar": "كِتَابِي وَبَيْتُكَ",
+ "goal": "Say my, your, his and her with attached pronouns, and say what you have.",
+ "words": [
+  {
+   "ar": "أَبٌ",
+   "tr": "abun",
+   "en": "a father",
+   "note": "With a pronoun it grows a long vowel: أَبِي، أَبُوكَ، أَبُوهُ."
+  },
+  {
+   "ar": "عِنْدَ",
+   "tr": "ʿinda",
+   "en": "with, at (someone's)",
+   "note": "عِنْدِي كِتَابٌ = I have a book."
+  },
+  {
+   "ar": "مَعَ",
+   "tr": "maʿa",
+   "en": "with, together with"
+  },
+  {
+   "ar": "زَمِيلٌ",
+   "tr": "zamīlun",
+   "en": "a classmate; a colleague"
+  },
+  {
+   "ar": "وَاحِدٌ",
+   "tr": "wāḥidun",
+   "en": "one",
+   "note": "Feminine: وَاحِدَةٌ. It comes after the noun: أَخٌ وَاحِدٌ."
+  },
+  {
+   "ar": "طِفْلٌ",
+   "tr": "ṭiflun",
+   "en": "a small child"
+  },
+  {
+   "ar": "لُغَةٌ",
+   "tr": "lughatun",
+   "en": "a language"
+  },
+  {
+   "ar": "سَهْلٌ",
+   "tr": "sahlun",
+   "en": "easy"
+  },
+  {
+   "ar": "صَعْبٌ",
+   "tr": "ṣaʿbun",
+   "en": "difficult"
+  },
+  {
+   "ar": "أُحِبُّ",
+   "tr": "uḥibbu",
+   "en": "I love",
+   "noQuiz": true
+  },
+  {
+   "ar": "أَحَدٌ",
+   "tr": "aḥadun",
+   "en": "anyone, someone",
+   "note": "مَا فِيهِ أَحَدٌ = there's no one in it."
+  }
+ ],
+ "understand": [
+  {
+   "examples": [
+    {
+     "ar": "هَذَا كِتَابِي.",
+     "en": "This is my book."
+    },
+    {
+     "ar": "هَذَا كِتَابُكَ.",
+     "en": "This is your book. (to a man)"
+    },
+    {
+     "ar": "هَذَا كِتَابُكِ.",
+     "en": "This is your book. (to a woman)"
+    },
+    {
+     "ar": "هَذَا كِتَابُهُ.",
+     "en": "This is his book."
+    },
+    {
+     "ar": "هَذَا كِتَابُهَا.",
+     "en": "This is her book."
+    }
+   ]
+  },
+  {
+   "p": "Arabic has no separate words for my, your, his, her. A short pronoun attaches to the end of the noun."
+  },
+  {
+   "rule": "A noun with an attached pronoun drops its tanwīn and never takes <span class='ar'>الْ</span>: <span class='ar'>كِتَابٌ</span> → <span class='ar'>كِتَابِي</span>. It's really an iḍāfa whose owner is a pronoun, so the noun is definite: <span class='ar'>كِتَابُهُ</span> = <em>his</em> book."
+  },
+  {
+   "table": {
+    "headers": [
+     "Ending",
+     "Example",
+     "Meaning"
+    ],
+    "rows": [
+     [
+      "ـِي",
+      "كِتَابِي",
+      "my book"
+     ],
+     [
+      "ـكَ",
+      "كِتَابُكَ",
+      "your book (m)"
+     ],
+     [
+      "ـكِ",
+      "كِتَابُكِ",
+      "your book (f)"
+     ],
+     [
+      "ـهُ",
+      "كِتَابُهُ",
+      "his book"
+     ],
+     [
+      "ـهَا",
+      "كِتَابُهَا",
+      "her book"
+     ]
+    ],
+    "ar": [
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "p": "With <span class='ar'>ة</span>, the ة opens into a ت before the pronoun: <span class='ar'>غُرْفَةٌ</span> → <span class='ar'>غُرْفَتِي</span>، <span class='ar'>غُرْفَتُكَ</span>، <span class='ar'>غُرْفَتُهُ</span>، <span class='ar'>غُرْفَتُهَا</span>."
+  },
+  {
+   "table": {
+    "headers": [
+     "Word",
+     "my",
+     "your (m)",
+     "his",
+     "her"
+    ],
+    "rows": [
+     [
+      "بَيْتٌ",
+      "بَيْتِي",
+      "بَيْتُكَ",
+      "بَيْتُهُ",
+      "بَيْتُهَا"
+     ],
+     [
+      "اسْمٌ",
+      "اسْمِي",
+      "اسْمُكَ",
+      "اسْمُهُ",
+      "اسْمُهَا"
+     ],
+     [
+      "حَقِيبَةٌ",
+      "حَقِيبَتِي",
+      "حَقِيبَتُكَ",
+      "حَقِيبَتُهُ",
+      "حَقِيبَتُهَا"
+     ],
+     [
+      "قَلَمٌ",
+      "قَلَمِي",
+      "قَلَمُكَ",
+      "قَلَمُهُ",
+      "قَلَمُهَا"
+     ],
+     [
+      "أُمٌّ",
+      "أُمِّي",
+      "أُمُّكَ",
+      "أُمُّهُ",
+      "أُمُّهَا"
+     ],
+     [
+      "زَمِيلٌ",
+      "زَمِيلِي",
+      "زَمِيلُكَ",
+      "زَمِيلُهُ",
+      "زَمِيلُهَا"
+     ],
+     [
+      "أُخْتٌ",
+      "أُخْتِي",
+      "أُخْتُكَ",
+      "أُخْتُهُ",
+      "أُخْتُهَا"
+     ],
+     [
+      "سَرِيرٌ",
+      "سَرِيرِي",
+      "سَرِيرُكَ",
+      "سَرِيرُهُ",
+      "سَرِيرُهَا"
+     ],
+     [
+      "مَكْتَبٌ",
+      "مَكْتَبِي",
+      "مَكْتَبُكَ",
+      "مَكْتَبُهُ",
+      "مَكْتَبُهَا"
+     ]
+    ],
+    "ar": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ]
+   }
+  },
+  {
+   "examples": [
+    {
+     "ar": "مَا اسْمُكَ؟ اسْمِي حَامِدٌ.",
+     "en": "What's your name? My name is Hamid."
+    },
+    {
+     "ar": "مَا اسْمُكِ؟ اسْمِي مَرْيَمُ.",
+     "en": "What's your name? (to a woman) My name is Maryam."
+    },
+    {
+     "ar": "أَيْنَ بَيْتُكَ؟ بَيْتِي قَرِيبٌ مِنَ الْمَسْجِدِ.",
+     "en": "Where's your house? My house is near the mosque."
+    }
+   ]
+  },
+  {
+   "h": "Father and brother"
+  },
+  {
+   "p": "<span class='ar'>أَبٌ</span> and <span class='ar'>أَخٌ</span> grow a long vowel before a pronoun, except with ـي:"
+  },
+  {
+   "table": {
+    "headers": [
+     "",
+     "my",
+     "your (m)",
+     "your (f)",
+     "his",
+     "her"
+    ],
+    "rows": [
+     [
+      "أَبٌ",
+      "أَبِي",
+      "أَبُوكَ",
+      "أَبُوكِ",
+      "أَبُوهُ",
+      "أَبُوهَا"
+     ],
+     [
+      "أَخٌ",
+      "أَخِي",
+      "أَخُوكَ",
+      "أَخُوكِ",
+      "أَخُوهُ",
+      "أَخُوهَا"
+     ]
+    ],
+    "ar": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  {
+   "h": "I have…"
+  },
+  {
+   "examples": [
+    {
+     "ar": "عِنْدِي كِتَابٌ.",
+     "en": "I have a book."
+    },
+    {
+     "ar": "أَعِنْدَكَ قَلَمٌ؟",
+     "en": "Do you have a pen?"
+    },
+    {
+     "ar": "لَا، مَا عِنْدِي قَلَمٌ.",
+     "en": "No, I don't have a pen."
+    },
+    {
+     "ar": "لِي أَخٌ وَاحِدٌ.",
+     "en": "I have one brother."
+    },
+    {
+     "ar": "أَلَكِ أُخْتٌ؟",
+     "en": "Do you have a sister? (to a woman)"
+    }
+   ]
+  },
+  {
+   "rule": "For things you have, use <span class='ar'>عِنْدَ</span> + pronoun: <span class='ar'>عِنْدِي</span>، <span class='ar'>عِنْدَكَ</span>، <span class='ar'>عِنْدَكِ</span>، <span class='ar'>عِنْدَهُ</span>، <span class='ar'>عِنْدَهَا</span>. For family, Arabic prefers <span class='ar'>لِـ</span> + pronoun: <span class='ar'>لِي</span>، <span class='ar'>لَكَ</span>، <span class='ar'>لَكِ</span>، <span class='ar'>لَهُ</span>، <span class='ar'>لَهَا</span>. The thing you have stays marfūʿ: <span class='ar'>عِنْدِي كِتَابٌ</span>. To say you don't have it, put <span class='ar'>مَا</span> first."
+  },
+  {
+   "h": "With me, in it"
+  },
+  {
+   "examples": [
+    {
+     "ar": "مَنْ مَعَكَ؟ مَعِي زَمِيلِي.",
+     "en": "Who's with you? My classmate is with me."
+    },
+    {
+     "ar": "مَنْ فِي الْبَيْتِ؟ فِيهِ أَبِي.",
+     "en": "Who's in the house? My father is (in it)."
+    },
+    {
+     "ar": "مَا فِي الْحَقِيبَةِ؟ فِيهَا كِتَابِي.",
+     "en": "What's in the bag? My book is (in it)."
+    },
+    {
+     "ar": "مَا فِيهِ أَحَدٌ.",
+     "en": "There's no one in it."
+    }
+   ]
+  },
+  {
+   "tip": "Pronouns attach to prepositions too: <span class='ar'>فِيهِ</span> (in it), <span class='ar'>فِيهَا</span>, <span class='ar'>مَعِي</span>, <span class='ar'>مَعَهُ</span>, <span class='ar'>عَلَيْهِ</span> (on it). After an i-sound, ـهُ is said -hi: <span class='ar'>فِيهِ</span>."
+  }
+ ],
+ "read": {
+  "intro": "Hamid shows his home.",
+  "lines": [
+   {
+    "ar": "هَذَا بَيْتِي. بَيْتِي قَرِيبٌ مِنَ الْمَسْجِدِ.",
+    "en": "This is my house. My house is near the mosque."
+   },
+   {
+    "ar": "هَذِهِ غُرْفَتِي. فِيهَا سَرِيرِي وَمَكْتَبِي.",
+    "en": "This is my room. My bed and my desk are in it."
+   },
+   {
+    "ar": "كِتَابِي وَقَلَمِي عَلَى الْمَكْتَبِ، وَحَقِيبَتِي عَلَى السَّرِيرِ.",
+    "en": "My book and my pen are on the desk, and my bag is on the bed."
+   },
+   {
+    "ar": "لِي أَخٌ وَاحِدٌ، اسْمُهُ خَالِدٌ، وَلِي أُخْتٌ وَاحِدَةٌ، اسْمُهَا آمِنَةُ.",
+    "en": "I have one brother, his name is Khalid, and one sister, her name is Amina."
+   },
+   {
+    "ar": "أَبِي طَبِيبٌ، وَأُمِّي مُدَرِّسَةٌ.",
+    "en": "My father is a doctor and my mother is a teacher."
+   },
+   {
+    "ar": "أُحِبُّ أَبِي وَأُمِّي، وَأُحِبُّ أَخِي وَأُخْتِي.",
+    "en": "I love my father and mother, and I love my brother and my sister."
+   }
+  ]
+ },
+ "practice": [
+  {
+   "t": "match",
+   "pairs": [
+    [
+     "كِتَابِي",
+     "my book"
+    ],
+    [
+     "كِتَابُكَ",
+     "your book (m)"
+    ],
+    [
+     "كِتَابُكِ",
+     "your book (f)"
+    ],
+    [
+     "كِتَابُهُ",
+     "his book"
+    ],
+    [
+     "كِتَابُهَا",
+     "her book"
+    ]
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "What does this mean?",
+   "opts": [
+    "Her name is Amina.",
+    "His name is Amina.",
+    "My name is Amina.",
+    "Your name is Amina."
+   ],
+   "a": 0,
+   "ar": "اسْمُهَا آمِنَةُ."
+  },
+  {
+   "t": "mcq",
+   "q": "Which means “my room”?",
+   "opts": [
+    "غُرْفَتِي",
+    "غُرْفَتُكَ",
+    "الْغُرْفَتِي",
+    "غُرْفَتُهَا"
+   ],
+   "a": 0,
+   "why": "ة opens into ت before a pronoun, and a noun with a pronoun never takes الْ."
+  },
+  {
+   "t": "mcq",
+   "q": "Which means “his brother”?",
+   "opts": [
+    "أَخُوهُ",
+    "أَخُوكَ",
+    "أَخِي",
+    "أَخُوهَا"
+   ],
+   "a": 0
+  },
+  {
+   "t": "mcq",
+   "q": "You want to say “I have a brother.” Which fits best?",
+   "opts": [
+    "لِي أَخٌ.",
+    "أَنَا أَخٌ.",
+    "هَذَا أَخٌ."
+   ],
+   "a": 0,
+   "why": "For family, use لِـ + pronoun: لِي أَخٌ."
+  },
+  {
+   "t": "build",
+   "en": "My father is a doctor.",
+   "words": [
+    "أَبِي",
+    "طَبِيبٌ."
+   ],
+   "extra": [
+    "أَبُوكَ"
+   ]
+  }
+ ],
+ "check": [
+  {
+   "t": "build",
+   "en": "What is your name?",
+   "words": [
+    "مَا",
+    "اسْمُكَ؟"
+   ],
+   "extra": [
+    "اسْمِي"
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "Which is correct?",
+   "opts": [
+    "عِنْدِي قَلَمٌ.",
+    "عِنْدِي قَلَمٍ.",
+    "الْعِنْدِي قَلَمٌ."
+   ],
+   "a": 0,
+   "why": "The thing you have stays marfūʿ."
+  },
+  {
+   "t": "mcq",
+   "q": "What does this mean?",
+   "opts": [
+    "Who is with you?",
+    "Who are you?",
+    "Where are you?",
+    "Who is in it?"
+   ],
+   "a": 0,
+   "ar": "مَنْ مَعَكَ؟"
+  },
+  {
+   "t": "build",
+   "en": "Her bag is on the desk.",
+   "words": [
+    "حَقِيبَتُهَا",
+    "عَلَى",
+    "الْمَكْتَبِ."
+   ],
+   "extra": [
+    "حَقِيبَتُهُ"
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "Which means “your house” (to a woman)?",
+   "opts": [
+    "بَيْتُكِ",
+    "بَيْتُكَ",
+    "بَيْتُهَا",
+    "بَيْتِي"
+   ],
+   "a": 0
+  }
+ ]
+}

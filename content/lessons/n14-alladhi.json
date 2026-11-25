@@ -1,0 +1,328 @@
+{
+ "id": "n14-alladhi",
+ "title": "This man, the man who…",
+ "ar": "هَذَا الرَّجُلُ",
+ "goal": "Say “this man” and “the man who…”, say whose things are, and place them in front, behind and under.",
+ "words": [
+  {
+   "ar": "الَّذِي",
+   "tr": "alladhī",
+   "en": "who, which (masculine)",
+   "note": "Never changes its ending."
+  },
+  {
+   "ar": "الَّتِي",
+   "tr": "allatī",
+   "en": "who, which (feminine)"
+  },
+  {
+   "ar": "أَمَامَ",
+   "tr": "amāma",
+   "en": "in front of"
+  },
+  {
+   "ar": "خَلْفَ",
+   "tr": "khalfa",
+   "en": "behind"
+  },
+  {
+   "ar": "تَحْتَ",
+   "tr": "taḥta",
+   "en": "under"
+  },
+  {
+   "ar": "الْآنَ",
+   "tr": "al-āna",
+   "en": "now"
+  },
+  {
+   "ar": "مُسْتَشْفًى",
+   "tr": "mustashfan",
+   "en": "a hospital",
+   "note": "Its ending never shows: فِي الْمُسْتَشْفَى."
+  },
+  {
+   "ar": "مَكْتَبَةٌ",
+   "tr": "maktabatun",
+   "en": "a library; a bookshop"
+  },
+  {
+   "ar": "سَبُّورَةٌ",
+   "tr": "sabbūratun",
+   "en": "a blackboard"
+  },
+  {
+   "ar": "شَجَرَةٌ",
+   "tr": "shajaratun",
+   "en": "a tree"
+  },
+  {
+   "ar": "مَرِيضٌ",
+   "tr": "marīḍun",
+   "en": "ill, sick"
+  }
+ ],
+ "understand": [
+  {
+   "examples": [
+    {
+     "ar": "هَذَا رَجُلٌ.",
+     "en": "This is a man."
+    },
+    {
+     "ar": "هَذَا الرَّجُلُ طَبِيبٌ.",
+     "en": "This man is a doctor."
+    },
+    {
+     "ar": "ذَلِكَ الْبَيْتُ كَبِيرٌ.",
+     "en": "That house is big."
+    },
+    {
+     "ar": "هَذِهِ السَّيَّارَةُ جَدِيدَةٌ.",
+     "en": "This car is new."
+    }
+   ]
+  },
+  {
+   "rule": "<span class='ar'>هَذَا</span> + a noun with <span class='ar'>الْ</span> is a phrase, not a sentence: <span class='ar'>هَذَا الرَّجُلُ</span> = this man. Finish it with a khabar: <span class='ar'>هَذَا الرَّجُلُ طَبِيبٌ</span>. Without <span class='ar'>الْ</span>, <span class='ar'>هَذَا رَجُلٌ</span> is already a sentence: <em>This is a man.</em>"
+  },
+  {
+   "h": "Whose? with لِـ"
+  },
+  {
+   "examples": [
+    {
+     "ar": "لِمَنْ هَذَا الْقَلَمُ؟",
+     "en": "Whose pen is this?"
+    },
+    {
+     "ar": "هُوَ لِحَامِدٍ.",
+     "en": "It's Hamid's."
+    },
+    {
+     "ar": "هَذِهِ السَّيَّارَةُ لِلْمُدَرِّسِ.",
+     "en": "This car belongs to the teacher."
+    },
+    {
+     "ar": "هَذَا الْبَيْتُ لِأَبِي.",
+     "en": "This house is my father's."
+    }
+   ]
+  },
+  {
+   "rule": "<span class='ar'>لِـ</span> (for, belonging to) is a preposition, so the noun after it is majrūr. With <span class='ar'>الْ</span> the alif drops: <span class='ar'>لِ</span> + <span class='ar'>الْمُدَرِّسِ</span> → <span class='ar'>لِلْمُدَرِّسِ</span>."
+  },
+  {
+   "h": "In front, behind, under"
+  },
+  {
+   "examples": [
+    {
+     "ar": "الْمُدَرِّسُ أَمَامَ السَّبُّورَةِ.",
+     "en": "The teacher is in front of the blackboard."
+    },
+    {
+     "ar": "الْحَقِيبَةُ تَحْتَ الْمَكْتَبِ.",
+     "en": "The bag is under the desk."
+    },
+    {
+     "ar": "جَلَسَ حَامِدٌ خَلْفَ مُحَمَّدٍ.",
+     "en": "Hamid sat behind Muhammad."
+    }
+   ]
+  },
+  {
+   "rule": "<span class='ar'>أَمَامَ</span>، <span class='ar'>خَلْفَ</span>، <span class='ar'>تَحْتَ</span> work like <span class='ar'>فِي</span> and <span class='ar'>عَلَى</span>: the noun after them is majrūr."
+  },
+  {
+   "h": "The one who"
+  },
+  {
+   "examples": [
+    {
+     "ar": "الرَّجُلُ الَّذِي خَرَجَ الْآنَ مُدَرِّسٌ.",
+     "en": "The man who just went out is a teacher."
+    },
+    {
+     "ar": "مَنِ الْوَلَدُ الَّذِي فِي الْفَصْلِ؟",
+     "en": "Who is the boy who is in the classroom?"
+    },
+    {
+     "ar": "السَّيَّارَةُ الَّتِي أَمَامَ الْبَيْتِ لِأَبِي.",
+     "en": "The car (that is) in front of the house is my father's."
+    }
+   ]
+  },
+  {
+   "rule": "<span class='ar'>الَّذِي</span> (masculine) and <span class='ar'>الَّتِي</span> (feminine) attach a description to a noun with <span class='ar'>الْ</span>, like English <em>who / which / that</em>. They never change their ending."
+  },
+  {
+   "tip": "<span class='ar'>مَنْ</span> becomes <span class='ar'>مَنِ</span> before <span class='ar'>الْ</span> so the words join smoothly: <span class='ar'>مَنِ الْوَلَدُ؟</span>. <span class='ar'>مُسْتَشْفًى</span> never shows its case: <span class='ar'>فِي الْمُسْتَشْفَى</span>، <span class='ar'>مِنَ الْمُسْتَشْفَى</span>."
+  }
+ ],
+ "read": {
+  "intro": "Two classmates talk.",
+  "lines": [
+   {
+    "who": "Saʿīd",
+    "ar": "مَنْ ذَلِكَ الرَّجُلُ الطَّوِيلُ؟",
+    "en": "Who is that tall man?"
+   },
+   {
+    "who": "Ḥāmid",
+    "ar": "هُوَ الْمُدَرِّسُ الْجَدِيدُ.",
+    "en": "He's the new teacher."
+   },
+   {
+    "who": "Saʿīd",
+    "ar": "وَمَنِ الْوَلَدُ الَّذِي خَرَجَ الْآنَ مِنَ الْفَصْلِ؟",
+    "en": "And who is the boy who just went out of the classroom?"
+   },
+   {
+    "who": "Ḥāmid",
+    "ar": "هُوَ ابْنُ الْمُدَرِّسِ.",
+    "en": "He's the teacher's son."
+   },
+   {
+    "who": "Saʿīd",
+    "ar": "لِمَنْ هَذِهِ الْحَقِيبَةُ الَّتِي تَحْتَ الْمَكْتَبِ؟",
+    "en": "Whose is this bag under the desk?"
+   },
+   {
+    "who": "Ḥāmid",
+    "ar": "هِيَ لِلْمُدَرِّسِ.",
+    "en": "It's the teacher's."
+   },
+   {
+    "who": "Saʿīd",
+    "ar": "وَأَيْنَ أَخُوكَ؟",
+    "en": "And where is your brother?"
+   },
+   {
+    "who": "Ḥāmid",
+    "ar": "هُوَ مَرِيضٌ. ذَهَبَ إِلَى الْمُسْتَشْفَى مَعَ أَبِي.",
+    "en": "He's ill. He went to the hospital with my father."
+   }
+  ]
+ },
+ "practice": [
+  {
+   "t": "mcq",
+   "q": "Which is a full sentence?",
+   "opts": [
+    "هَذَا الرَّجُلُ",
+    "هَذَا الرَّجُلُ طَبِيبٌ.",
+    "الرَّجُلُ الطَّبِيبُ"
+   ],
+   "a": 1,
+   "why": "هَذَا الرَّجُلُ is only “this man”; it needs a khabar."
+  },
+  {
+   "t": "match",
+   "pairs": [
+    [
+     "أَمَامَ",
+     "in front of"
+    ],
+    [
+     "خَلْفَ",
+     "behind"
+    ],
+    [
+     "تَحْتَ",
+     "under"
+    ],
+    [
+     "الْآنَ",
+     "now"
+    ]
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "What does this mean?",
+   "opts": [
+    "Whose car is this?",
+    "Where is this car?",
+    "Is this car new?",
+    "Who is in this car?"
+   ],
+   "a": 0,
+   "ar": "لِمَنْ هَذِهِ السَّيَّارَةُ؟"
+  },
+  {
+   "t": "build",
+   "en": "The bag is under the desk.",
+   "words": [
+    "الْحَقِيبَةُ",
+    "تَحْتَ",
+    "الْمَكْتَبِ."
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "Fill in: السَّيَّارَةُ ___ أَمَامَ الْبَيْتِ لِأَبِي.",
+   "opts": [
+    "الَّتِي",
+    "الَّذِي"
+   ],
+   "a": 0,
+   "why": "سَيَّارَةٌ is feminine."
+  }
+ ],
+ "check": [
+  {
+   "t": "mcq",
+   "q": "Which is correct?",
+   "opts": [
+    "هَذَا الْكِتَابُ لِلْمُدَرِّسِ.",
+    "هَذَا الْكِتَابُ لِالْمُدَرِّسِ.",
+    "هَذَا الْكِتَابُ لِلْمُدَرِّسُ."
+   ],
+   "a": 0,
+   "why": "With الْ, لِـ swallows the alif (لِلْمُدَرِّسِ), and the noun is majrūr."
+  },
+  {
+   "t": "build",
+   "en": "This house is big.",
+   "words": [
+    "هَذَا",
+    "الْبَيْتُ",
+    "كَبِيرٌ."
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "What does this mean?",
+   "opts": [
+    "The boy who is in the classroom is the teacher's son.",
+    "The boy is in the teacher's classroom.",
+    "The teacher's son went to the classroom."
+   ],
+   "a": 0,
+   "ar": "الْوَلَدُ الَّذِي فِي الْفَصْلِ ابْنُ الْمُدَرِّسِ."
+  },
+  {
+   "t": "build",
+   "en": "Hamid sat behind Muhammad.",
+   "words": [
+    "جَلَسَ",
+    "حَامِدٌ",
+    "خَلْفَ",
+    "مُحَمَّدٍ."
+   ],
+   "extra": [
+    "مُحَمَّدٌ"
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "Which word goes with a feminine noun?",
+   "opts": [
+    "الَّتِي",
+    "الَّذِي"
+   ],
+   "a": 0
+  }
+ ]
+}

@@ -1,0 +1,447 @@
+{
+ "id": "n16-plural-people",
+ "title": "These are students",
+ "ar": "هَؤُلَاءِ طُلَّابٌ",
+ "goal": "Talk about groups of people: these, those, they, and plural nouns.",
+ "words": [
+  {
+   "ar": "هَؤُلَاءِ",
+   "tr": "hāʾulāʾi",
+   "en": "these (people)"
+  },
+  {
+   "ar": "أُولَئِكَ",
+   "tr": "ulāʾika",
+   "en": "those (people)"
+  },
+  {
+   "ar": "هُمْ",
+   "tr": "hum",
+   "en": "they (men, or a mixed group)"
+  },
+  {
+   "ar": "هُنَّ",
+   "tr": "hunna",
+   "en": "they (women)"
+  },
+  {
+   "ar": "طُلَّابٌ",
+   "tr": "ṭullābun",
+   "en": "students",
+   "note": "Singular: طَالِبٌ."
+  },
+  {
+   "ar": "رِجَالٌ",
+   "tr": "rijālun",
+   "en": "men",
+   "note": "Singular: رَجُلٌ."
+  },
+  {
+   "ar": "أَوْلَادٌ",
+   "tr": "awlādun",
+   "en": "boys; children",
+   "note": "Singular: وَلَدٌ."
+  },
+  {
+   "ar": "نِسَاءٌ",
+   "tr": "nisāʾun",
+   "en": "women",
+   "note": "Singular: امْرَأَةٌ (a different word)."
+  },
+  {
+   "ar": "بَنَاتٌ",
+   "tr": "banātun",
+   "en": "girls; daughters",
+   "note": "Singular: بِنْتٌ."
+  },
+  {
+   "ar": "مُسْلِمٌ",
+   "tr": "muslimun",
+   "en": "a Muslim",
+   "note": "Plural: مُسْلِمُونَ."
+  },
+  {
+   "ar": "امْرَأَةٌ",
+   "tr": "imraʾatun",
+   "en": "a woman"
+  }
+ ],
+ "understand": [
+  {
+   "examples": [
+    {
+     "ar": "هَذَا طَالِبٌ. ← هَؤُلَاءِ طُلَّابٌ.",
+     "en": "This is a student. → These are students."
+    },
+    {
+     "ar": "ذَلِكَ رَجُلٌ. ← أُولَئِكَ رِجَالٌ.",
+     "en": "That is a man. → Those are men."
+    },
+    {
+     "ar": "هُوَ مُدَرِّسٌ. ← هُمْ مُدَرِّسُونَ.",
+     "en": "He is a teacher. → They are teachers."
+    },
+    {
+     "ar": "هِيَ طَالِبَةٌ. ← هُنَّ طَالِبَاتٌ.",
+     "en": "She is a student. → They (f) are students."
+    }
+   ]
+  },
+  {
+   "rule": "For people in the plural, “these” is <span class='ar'>هَؤُلَاءِ</span> and “those” is <span class='ar'>أُولَئِكَ</span>, for men and women alike. “They” is <span class='ar'>هُمْ</span> for men or a mixed group, and <span class='ar'>هُنَّ</span> for women only."
+  },
+  {
+   "h": "Sound plurals: add an ending"
+  },
+  {
+   "p": "Many words for people simply add an ending: <span class='ar'>ـُونَ</span> (-ūna) for men, <span class='ar'>ـَاتٌ</span> (-ātun) for women, after dropping the ة."
+  },
+  {
+   "table": {
+    "headers": [
+     "Singular",
+     "Plural",
+     "Meaning"
+    ],
+    "rows": [
+     [
+      "مُدَرِّسٌ",
+      "مُدَرِّسُونَ",
+      "teachers"
+     ],
+     [
+      "مُسْلِمٌ",
+      "مُسْلِمُونَ",
+      "Muslims"
+     ],
+     [
+      "مُهَنْدِسٌ",
+      "مُهَنْدِسُونَ",
+      "engineers"
+     ],
+     [
+      "مُدَرِّسَةٌ",
+      "مُدَرِّسَاتٌ",
+      "teachers (f)"
+     ],
+     [
+      "طَالِبَةٌ",
+      "طَالِبَاتٌ",
+      "students (f)"
+     ],
+     [
+      "طَبِيبَةٌ",
+      "طَبِيبَاتٌ",
+      "doctors (f)"
+     ],
+     [
+      "مُسْلِمَةٌ",
+      "مُسْلِمَاتٌ",
+      "Muslims (f)"
+     ]
+    ],
+    "ar": [
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "h": "Broken plurals: the word changes shape"
+  },
+  {
+   "p": "Other words change inside. These broken plurals are learned one by one, like vocabulary:"
+  },
+  {
+   "table": {
+    "headers": [
+     "Singular",
+     "Plural",
+     "Meaning"
+    ],
+    "rows": [
+     [
+      "طَالِبٌ",
+      "طُلَّابٌ",
+      "students"
+     ],
+     [
+      "رَجُلٌ",
+      "رِجَالٌ",
+      "men"
+     ],
+     [
+      "وَلَدٌ",
+      "أَوْلَادٌ",
+      "boys"
+     ],
+     [
+      "ابْنٌ",
+      "أَبْنَاءٌ",
+      "sons"
+     ],
+     [
+      "أَخٌ",
+      "إِخْوَةٌ",
+      "brothers"
+     ],
+     [
+      "أُخْتٌ",
+      "أَخَوَاتٌ",
+      "sisters"
+     ],
+     [
+      "تَاجِرٌ",
+      "تُجَّارٌ",
+      "merchants"
+     ],
+     [
+      "طَبِيبٌ",
+      "أَطِبَّاءُ",
+      "doctors"
+     ],
+     [
+      "صَدِيقٌ",
+      "أَصْدِقَاءُ",
+      "friends"
+     ],
+     [
+      "بِنْتٌ",
+      "بَنَاتٌ",
+      "girls"
+     ],
+     [
+      "امْرَأَةٌ",
+      "نِسَاءٌ",
+      "women"
+     ]
+    ],
+    "ar": [
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "h": "They went"
+  },
+  {
+   "table": {
+    "headers": [
+     "Form",
+     "Meaning"
+    ],
+    "rows": [
+     [
+      "ذَهَبَ",
+      "he went"
+     ],
+     [
+      "ذَهَبَتْ",
+      "she went"
+     ],
+     [
+      "ذَهَبُوا",
+      "they went (m)"
+     ],
+     [
+      "ذَهَبْنَ",
+      "they went (f)"
+     ]
+    ],
+    "ar": [
+     0
+    ]
+   }
+  },
+  {
+   "examples": [
+    {
+     "ar": "الطُّلَّابُ ذَهَبُوا إِلَى الْجَامِعَةِ.",
+     "en": "The students went to the university."
+    },
+    {
+     "ar": "الطَّالِبَاتُ خَرَجْنَ مِنَ الْفَصْلِ.",
+     "en": "The (female) students left the classroom."
+    },
+    {
+     "ar": "أَيْنَ الْأَوْلَادُ؟ هُمْ فِي الْبَيْتِ.",
+     "en": "Where are the boys? They're at home."
+    },
+    {
+     "ar": "هَذَا بَيْتُهُمْ، وَذَلِكَ بَيْتُهُنَّ.",
+     "en": "This is their house (m), and that is their house (f)."
+    }
+   ]
+  },
+  {
+   "tip": "<span class='ar'>أَطِبَّاءُ</span> and <span class='ar'>أَصْدِقَاءُ</span> take a single ḍamma, never tanwīn. Adjectives go plural too: <span class='ar'>طُلَّابٌ جُدُدٌ</span> (new students), <span class='ar'>رِجَالٌ طِوَالٌ</span> (tall men). Learn them as you meet them."
+  }
+ ],
+ "read": {
+  "intro": "At the university.",
+  "lines": [
+   {
+    "who": "Saʿīd",
+    "ar": "مَنْ هَؤُلَاءِ الرِّجَالُ يَا عَلِيُّ؟",
+    "en": "Who are these men, Ali?"
+   },
+   {
+    "who": "ʿAlī",
+    "ar": "هُمْ مُدَرِّسُونَ فِي الْجَامِعَةِ.",
+    "en": "They're teachers at the university."
+   },
+   {
+    "who": "Saʿīd",
+    "ar": "وَمَنْ أُولَئِكَ الْأَوْلَادُ؟",
+    "en": "And who are those boys?"
+   },
+   {
+    "who": "ʿAlī",
+    "ar": "هُمْ طُلَّابٌ جُدُدٌ مِنَ الصِّينِ.",
+    "en": "They're new students from China."
+   },
+   {
+    "who": "Saʿīd",
+    "ar": "أَهُمْ مُسْلِمُونَ؟",
+    "en": "Are they Muslims?"
+   },
+   {
+    "who": "ʿAlī",
+    "ar": "نَعَمْ، هُمْ مُسْلِمُونَ.",
+    "en": "Yes, they're Muslims."
+   },
+   {
+    "who": "Saʿīd",
+    "ar": "وَأَيْنَ الطَّالِبَاتُ؟",
+    "en": "And where are the female students?"
+   },
+   {
+    "who": "ʿAlī",
+    "ar": "ذَهَبْنَ إِلَى الْمَكْتَبَةِ.",
+    "en": "They went to the library."
+   }
+  ]
+ },
+ "practice": [
+  {
+   "t": "match",
+   "pairs": [
+    [
+     "طَالِبٌ",
+     "طُلَّابٌ"
+    ],
+    [
+     "رَجُلٌ",
+     "رِجَالٌ"
+    ],
+    [
+     "وَلَدٌ",
+     "أَوْلَادٌ"
+    ],
+    [
+     "بِنْتٌ",
+     "بَنَاتٌ"
+    ]
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "Which means “these are students”?",
+   "opts": [
+    "هَؤُلَاءِ طُلَّابٌ.",
+    "هَذَا طَالِبٌ.",
+    "أُولَئِكَ طُلَّابٌ.",
+    "هَذِهِ طَالِبَةٌ."
+   ],
+   "a": 0
+  },
+  {
+   "t": "mcq",
+   "q": "Which is correct?",
+   "opts": [
+    "هُمْ مُدَرِّسُونَ.",
+    "هُمْ مُدَرِّسٌ.",
+    "هُنَّ مُدَرِّسُونَ."
+   ],
+   "a": 0,
+   "why": "Men → هُمْ, and the plural مُدَرِّسُونَ."
+  },
+  {
+   "t": "build",
+   "en": "They went to the market.",
+   "words": [
+    "ذَهَبُوا",
+    "إِلَى",
+    "السُّوقِ."
+   ],
+   "extra": [
+    "ذَهَبَ"
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "What is the plural of طَبِيبَةٌ?",
+   "opts": [
+    "طَبِيبَاتٌ",
+    "أَطِبَّاءُ",
+    "طَبِيبٌ"
+   ],
+   "a": 0
+  }
+ ],
+ "check": [
+  {
+   "t": "build",
+   "en": "Those are men.",
+   "words": [
+    "أُولَئِكَ",
+    "رِجَالٌ."
+   ],
+   "extra": [
+    "هَؤُلَاءِ"
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "Which means “the girls went out”?",
+   "opts": [
+    "الْبَنَاتُ خَرَجْنَ.",
+    "الْبَنَاتُ ذَهَبُوا.",
+    "الْبِنْتُ خَرَجَ."
+   ],
+   "a": 0
+  },
+  {
+   "t": "mcq",
+   "q": "What does this mean?",
+   "opts": [
+    "Those are (female) doctors.",
+    "These are doctors.",
+    "Those are hospitals.",
+    "That doctor is a woman."
+   ],
+   "a": 0,
+   "ar": "أُولَئِكَ طَبِيبَاتٌ."
+  },
+  {
+   "t": "mcq",
+   "q": "Which word means “they” for a group of women?",
+   "opts": [
+    "هُنَّ",
+    "هُمْ",
+    "هِيَ",
+    "هُوَ"
+   ],
+   "a": 0
+  },
+  {
+   "t": "build",
+   "en": "These are Muslims.",
+   "words": [
+    "هَؤُلَاءِ",
+    "مُسْلِمُونَ."
+   ]
+  }
+ ]
+}

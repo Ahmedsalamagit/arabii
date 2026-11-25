@@ -1,0 +1,414 @@
+{
+ "id": "n17-we-you",
+ "title": "We and you all",
+ "ar": "نَحْنُ وَأَنْتُمْ",
+ "goal": "Talk to and about groups (we, you all, our, your), and say before and after.",
+ "words": [
+  {
+   "ar": "نَحْنُ",
+   "tr": "naḥnu",
+   "en": "we"
+  },
+  {
+   "ar": "أَنْتُمْ",
+   "tr": "antum",
+   "en": "you (all, men or mixed)"
+  },
+  {
+   "ar": "أَنْتُنَّ",
+   "tr": "antunna",
+   "en": "you (all, women)"
+  },
+  {
+   "ar": "قَبْلَ",
+   "tr": "qabla",
+   "en": "before"
+  },
+  {
+   "ar": "بَعْدَ",
+   "tr": "baʿda",
+   "en": "after"
+  },
+  {
+   "ar": "أُسْبُوعٌ",
+   "tr": "usbūʿun",
+   "en": "a week"
+  },
+  {
+   "ar": "شَهْرٌ",
+   "tr": "shahrun",
+   "en": "a month"
+  },
+  {
+   "ar": "صَلَاةٌ",
+   "tr": "ṣalātun",
+   "en": "prayer"
+  },
+  {
+   "ar": "أَيُّ",
+   "tr": "ayyu",
+   "en": "which?",
+   "note": "أَيُّ يَوْمٍ؟ = which day?"
+  },
+  {
+   "ar": "كُلِّيَّةٌ",
+   "tr": "kulliyyatun",
+   "en": "a college, faculty"
+  },
+  {
+   "ar": "رَبٌّ",
+   "tr": "rabbun",
+   "en": "a lord; the Lord"
+  },
+  {
+   "ar": "دِينٌ",
+   "tr": "dīnun",
+   "en": "a religion; a way of life"
+  }
+ ],
+ "understand": [
+  {
+   "examples": [
+    {
+     "ar": "نَحْنُ طُلَّابٌ.",
+     "en": "We are students."
+    },
+    {
+     "ar": "أَأَنْتُمْ مُدَرِّسُونَ؟",
+     "en": "Are you (all) teachers?"
+    },
+    {
+     "ar": "أَنْتُنَّ طَالِبَاتٌ.",
+     "en": "You (women) are students."
+    }
+   ]
+  },
+  {
+   "table": {
+    "headers": [
+     "One",
+     "Many"
+    ],
+    "rows": [
+     [
+      "أَنَا",
+      "نَحْنُ"
+     ],
+     [
+      "أَنْتَ",
+      "أَنْتُمْ"
+     ],
+     [
+      "أَنْتِ",
+      "أَنْتُنَّ"
+     ],
+     [
+      "هُوَ",
+      "هُمْ"
+     ],
+     [
+      "هِيَ",
+      "هُنَّ"
+     ]
+    ],
+    "ar": [
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "h": "Our, your, their"
+  },
+  {
+   "table": {
+    "headers": [
+     "Ending",
+     "Example",
+     "Meaning"
+    ],
+    "rows": [
+     [
+      "ـنَا",
+      "بَيْتُنَا",
+      "our house"
+     ],
+     [
+      "ـكُمْ",
+      "بَيْتُكُمْ",
+      "your house (all, m)"
+     ],
+     [
+      "ـكُنَّ",
+      "بَيْتُكُنَّ",
+      "your house (all, f)"
+     ],
+     [
+      "ـهُمْ",
+      "بَيْتُهُمْ",
+      "their house (m)"
+     ],
+     [
+      "ـهُنَّ",
+      "بَيْتُهُنَّ",
+      "their house (f)"
+     ]
+    ],
+    "ar": [
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "examples": [
+    {
+     "ar": "اللهُ رَبُّنَا، وَالْإِسْلَامُ دِينُنَا.",
+     "en": "Allah is our Lord, and Islam is our religion."
+    },
+    {
+     "ar": "أَيْنَ جَامِعَتُكُمْ؟",
+     "en": "Where is your university? (to a group)"
+    },
+    {
+     "ar": "أَنَا فِي كُلِّيَّةِ الطِّبِّ.",
+     "en": "I'm in the college of medicine."
+    }
+   ]
+  },
+  {
+   "h": "We went, you all went"
+  },
+  {
+   "table": {
+    "headers": [
+     "Form",
+     "Meaning"
+    ],
+    "rows": [
+     [
+      "ذَهَبْنَا",
+      "we went"
+     ],
+     [
+      "ذَهَبْتُمْ",
+      "you all went (m)"
+     ],
+     [
+      "ذَهَبْتُنَّ",
+      "you all went (f)"
+     ]
+    ],
+    "ar": [
+     0
+    ]
+   }
+  },
+  {
+   "examples": [
+    {
+     "ar": "أَيْنَ ذَهَبْتُمْ؟ ذَهَبْنَا إِلَى السُّوقِ.",
+     "en": "Where did you go? We went to the market."
+    },
+    {
+     "ar": "مَتَى رَجَعْتُمْ؟ رَجَعْنَا قَبْلَ شَهْرٍ.",
+     "en": "When did you get back? We got back a month ago."
+    }
+   ]
+  },
+  {
+   "h": "Before and after"
+  },
+  {
+   "examples": [
+    {
+     "ar": "ذَهَبْتُ إِلَى الْمَسْجِدِ قَبْلَ الصَّلَاةِ.",
+     "en": "I went to the mosque before the prayer."
+    },
+    {
+     "ar": "رَجَعَ أَبِي بَعْدَ أُسْبُوعٍ.",
+     "en": "My father came back after a week."
+    },
+    {
+     "ar": "أَيُّ كُلِّيَّةٍ هَذِهِ؟",
+     "en": "Which college is this?"
+    }
+   ]
+  },
+  {
+   "rule": "<span class='ar'>قَبْلَ</span>، <span class='ar'>بَعْدَ</span> and <span class='ar'>أَيُّ</span> are followed by a majrūr noun, just like <span class='ar'>أَمَامَ</span>: <span class='ar'>قَبْلَ الدَّرْسِ</span>، <span class='ar'>بَعْدَ أُسْبُوعٍ</span>، <span class='ar'>أَيُّ يَوْمٍ؟</span>."
+  }
+ ],
+ "read": {
+  "intro": "Hamid meets some young men.",
+  "lines": [
+   {
+    "who": "Group",
+    "ar": "السَّلَامُ عَلَيْكُمْ.",
+    "en": "Peace be upon you."
+   },
+   {
+    "who": "Ḥāmid",
+    "ar": "وَعَلَيْكُمُ السَّلَامُ. مَنْ أَنْتُمْ؟",
+    "en": "And upon you be peace. Who are you?"
+   },
+   {
+    "who": "Group",
+    "ar": "نَحْنُ أَبْنَاءُ الطَّبِيبِ مُحَمَّدٍ.",
+    "en": "We're the sons of Doctor Muhammad."
+   },
+   {
+    "who": "Ḥāmid",
+    "ar": "أَهْلًا وَسَهْلًا. أَأَنْتُمْ طُلَّابٌ؟",
+    "en": "Welcome. Are you students?"
+   },
+   {
+    "who": "Group",
+    "ar": "نَعَمْ، نَحْنُ طُلَّابٌ فِي الْجَامِعَةِ. أَنَا فِي كُلِّيَّةِ الطِّبِّ.",
+    "en": "Yes, we're students at the university. I'm in the college of medicine."
+   },
+   {
+    "who": "Ḥāmid",
+    "ar": "أَيْنَ بَيْتُكُمْ؟",
+    "en": "Where is your house?"
+   },
+   {
+    "who": "Group",
+    "ar": "بَيْتُنَا قَرِيبٌ مِنَ الْجَامِعَةِ.",
+    "en": "Our house is near the university."
+   },
+   {
+    "who": "Ḥāmid",
+    "ar": "مَتَى رَجَعْتُمْ مِنَ الْجَامِعَةِ؟",
+    "en": "When did you get back from the university?"
+   },
+   {
+    "who": "Group",
+    "ar": "رَجَعْنَا قَبْلَ الصَّلَاةِ.",
+    "en": "We got back before the prayer."
+   }
+  ]
+ },
+ "practice": [
+  {
+   "t": "match",
+   "pairs": [
+    [
+     "نَحْنُ",
+     "we"
+    ],
+    [
+     "أَنْتُمْ",
+     "you all (m)"
+    ],
+    [
+     "أَنْتُنَّ",
+     "you all (f)"
+    ],
+    [
+     "هُمْ",
+     "they (m)"
+    ]
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "Which means “our house”?",
+   "opts": [
+    "بَيْتُنَا",
+    "بَيْتُكُمْ",
+    "بَيْتُهُمْ",
+    "بَيْتِي"
+   ],
+   "a": 0
+  },
+  {
+   "t": "mcq",
+   "q": "What does this mean?",
+   "opts": [
+    "Where did you (all) go?",
+    "Where did we go?",
+    "Where did they go?",
+    "Where did you go? (one man)"
+   ],
+   "a": 0,
+   "ar": "أَيْنَ ذَهَبْتُمْ؟"
+  },
+  {
+   "t": "build",
+   "en": "We went to the market.",
+   "words": [
+    "ذَهَبْنَا",
+    "إِلَى",
+    "السُّوقِ."
+   ],
+   "extra": [
+    "ذَهَبْتُمْ"
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "Which is correct?",
+   "opts": [
+    "قَبْلَ الصَّلَاةِ",
+    "قَبْلَ الصَّلَاةُ",
+    "الْقَبْلَ الصَّلَاةِ"
+   ],
+   "a": 0,
+   "why": "After قَبْلَ the noun is majrūr."
+  }
+ ],
+ "check": [
+  {
+   "t": "build",
+   "en": "We are students.",
+   "words": [
+    "نَحْنُ",
+    "طُلَّابٌ."
+   ],
+   "extra": [
+    "أَنْتُمْ"
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "Which asks a group of women “Are you students?”",
+   "opts": [
+    "أَأَنْتُنَّ طَالِبَاتٌ؟",
+    "أَأَنْتُمْ طُلَّابٌ؟",
+    "أَأَنْتِ طَالِبَةٌ؟"
+   ],
+   "a": 0
+  },
+  {
+   "t": "mcq",
+   "q": "What does this mean?",
+   "opts": [
+    "My father came back after a week.",
+    "My father came back a week ago.",
+    "My father went for a week."
+   ],
+   "a": 0,
+   "ar": "رَجَعَ أَبِي بَعْدَ أُسْبُوعٍ."
+  },
+  {
+   "t": "mcq",
+   "q": "Which means “your house” (to a group of men)?",
+   "opts": [
+    "بَيْتُكُمْ",
+    "بَيْتُكَ",
+    "بَيْتُنَا",
+    "بَيْتُهُنَّ"
+   ],
+   "a": 0
+  },
+  {
+   "t": "build",
+   "en": "Allah is our Lord.",
+   "words": [
+    "اللهُ",
+    "رَبُّنَا."
+   ]
+  }
+ ]
+}

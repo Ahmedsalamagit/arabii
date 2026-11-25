@@ -9,6 +9,7 @@ Static site: no build step, no framework, no dependencies.
 ## Curriculum (order is deliberate)
 - **Stage 0 · Reading** (`r*`): order of al-Qāʿida an-Nūrāniyya: letters → joining → short vowels → sukūn/shadda → long vowels → tanwīn/ة → al- (sun/moon, hamzat al-waṣl). Exempt from the vocabulary check.
 - **Stage 1 · Nominal sentence** (`n01`–`n12`): order of Madinah Book 1: هذا/ما → مَن/أ → ذلك/و → al- + mubtadaʾ/khabar → أين/في/على (jarr) → iḍāfa → pronouns → feminine هذه/تلك → naʿt → يا + family → past tense → three cases + mabnī.
+- **Stage 1, part 2** (`n13`–`n21`, stage id `book1b`): the rest of Madinah Book 1 (its lessons 10–23), checked against the book: attached pronouns + عِنْدِي/لِي → هذا + الْ, الذي/التي, لِـ, أمام/خلف/تحت → greetings → plurals of people (هؤلاء/أولئك, هم/هنّ, sound + broken, ذهبوا/ذهبن) → نحن/أنتم/أنتنّ, ـنا/ـكم, قبل/بعد → plurals of things = feminine singular → dual + كم → numbers 3–10 → mamnūʿ min aṣ-ṣarf + colours.
 - **Roadmap** (in `course.json`): Stage 2 Madinah Book 2 (present tense, dual/plurals, إنّ/كان, numbers…), Stage 3 Ājurrūmiyya, Stage 4 real texts (Qaṣaṣ an-Nabiyyīn, Nawawī, Juzʾ ʿAmma).
 - All text is original. Follow the books' *sequence*; never copy their text.
 

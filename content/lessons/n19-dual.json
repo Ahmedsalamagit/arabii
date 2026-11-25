@@ -1,0 +1,335 @@
+{
+ "id": "n19-dual",
+ "title": "Two",
+ "ar": "كِتَابَانِ",
+ "goal": "Say “two” of anything with the dual, and ask “how many?”",
+ "words": [
+  {
+   "ar": "كَمْ",
+   "tr": "kam",
+   "en": "how many?",
+   "note": "The noun after it is singular and ends in -an: كَمْ أَخًا؟"
+  },
+  {
+   "ar": "هَذَانِ",
+   "tr": "hādhāni",
+   "en": "these two (m)"
+  },
+  {
+   "ar": "هَاتَانِ",
+   "tr": "hātāni",
+   "en": "these two (f)"
+  },
+  {
+   "ar": "هُمَا",
+   "tr": "humā",
+   "en": "they two; both of them"
+  },
+  {
+   "ar": "سَنَةٌ",
+   "tr": "sanatun",
+   "en": "a year"
+  },
+  {
+   "ar": "عِيدٌ",
+   "tr": "ʿīdun",
+   "en": "a festival, Eid"
+  },
+  {
+   "ar": "عَيْنٌ",
+   "tr": "ʿaynun",
+   "en": "an eye",
+   "note": "Feminine, even without ة."
+  },
+  {
+   "ar": "يَدٌ",
+   "tr": "yadun",
+   "en": "a hand",
+   "note": "Feminine, even without ة."
+  },
+  {
+   "ar": "رِجْلٌ",
+   "tr": "rijlun",
+   "en": "a foot, a leg",
+   "note": "Don't mix it up with رَجُلٌ (a man)."
+  }
+ ],
+ "understand": [
+  {
+   "examples": [
+    {
+     "ar": "هَذَا كِتَابٌ. ← هَذَانِ كِتَابَانِ.",
+     "en": "This is a book. → These are two books."
+    },
+    {
+     "ar": "هَذِهِ سَاعَةٌ. ← هَاتَانِ سَاعَتَانِ.",
+     "en": "This is a watch. → These are two watches."
+    },
+    {
+     "ar": "لِي أُخْتَانِ.",
+     "en": "I have two sisters."
+    }
+   ]
+  },
+  {
+   "rule": "The <strong>dual</strong> adds <span class='ar'>ـَانِ</span> (-āni) to the singular. It already means “two”, so no number is needed. ة opens into ت: <span class='ar'>سَاعَةٌ</span> → <span class='ar'>سَاعَتَانِ</span>. “These two” is <span class='ar'>هَذَانِ</span> (m) or <span class='ar'>هَاتَانِ</span> (f), and “they two” is <span class='ar'>هُمَا</span>."
+  },
+  {
+   "table": {
+    "headers": [
+     "One",
+     "Two"
+    ],
+    "rows": [
+     [
+      "طَالِبٌ",
+      "طَالِبَانِ"
+     ],
+     [
+      "طَالِبَةٌ",
+      "طَالِبَتَانِ"
+     ],
+     [
+      "بَيْتٌ",
+      "بَيْتَانِ"
+     ],
+     [
+      "عِيدٌ",
+      "عِيدَانِ"
+     ],
+     [
+      "أَخٌ",
+      "أَخَوَانِ"
+     ],
+     [
+      "أُخْتٌ",
+      "أُخْتَانِ"
+     ],
+     [
+      "يَدٌ",
+      "يَدَانِ"
+     ],
+     [
+      "عَيْنٌ",
+      "عَيْنَانِ"
+     ],
+     [
+      "رِجْلٌ",
+      "رِجْلَانِ"
+     ],
+     [
+      "نَافِذَةٌ",
+      "نَافِذَتَانِ"
+     ],
+     [
+      "مَسْجِدٌ",
+      "مَسْجِدَانِ"
+     ]
+    ],
+    "ar": [
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "h": "How many?"
+  },
+  {
+   "examples": [
+    {
+     "ar": "كَمْ أَخًا لَكَ؟ لِي أَخَوَانِ.",
+     "en": "How many brothers do you have? I have two brothers."
+    },
+    {
+     "ar": "كَمْ كِتَابًا عِنْدَكَ؟",
+     "en": "How many books do you have?"
+    },
+    {
+     "ar": "كَمْ عِيدًا فِي السَّنَةِ؟",
+     "en": "How many Eids are there in the year?"
+    },
+    {
+     "ar": "فِي السَّنَةِ عِيدَانِ: عِيدُ الْفِطْرِ وَعِيدُ الْأَضْحَى.",
+     "en": "There are two Eids in the year: Eid al-Fitr and Eid al-Adha."
+    }
+   ]
+  },
+  {
+   "rule": "After <span class='ar'>كَمْ</span> the noun is singular and manṣūb, ending in -an: <span class='ar'>كَمْ أَخًا؟</span>، <span class='ar'>كَمْ سَاعَةً؟</span>. The answer can use the dual: <span class='ar'>أَخَوَانِ</span>."
+  },
+  {
+   "tip": "After a preposition, -āni becomes -ayni: <span class='ar'>فِي الْبَيْتَيْنِ</span> (in the two houses). Stage 3 covers it properly."
+  }
+ ],
+ "read": {
+  "intro": "The teacher asks.",
+  "lines": [
+   {
+    "who": "Teacher",
+    "ar": "كَمْ أَخًا لَكَ يَا مُحَمَّدُ؟",
+    "en": "How many brothers do you have, Muhammad?"
+   },
+   {
+    "who": "Muḥammad",
+    "ar": "لِي أَخٌ وَاحِدٌ.",
+    "en": "I have one brother."
+   },
+   {
+    "who": "Teacher",
+    "ar": "وَكَمْ أُخْتًا لَكَ؟",
+    "en": "And how many sisters?"
+   },
+   {
+    "who": "Muḥammad",
+    "ar": "لِي أُخْتَانِ.",
+    "en": "I have two sisters."
+   },
+   {
+    "who": "Teacher",
+    "ar": "كَمْ نَافِذَةً فِي غُرْفَتِكَ؟",
+    "en": "How many windows are there in your room?"
+   },
+   {
+    "who": "Muḥammad",
+    "ar": "فِيهَا نَافِذَتَانِ.",
+    "en": "There are two windows in it."
+   },
+   {
+    "who": "Teacher",
+    "ar": "لِمَنْ هَذَانِ الْكِتَابَانِ؟",
+    "en": "Whose are these two books?"
+   },
+   {
+    "who": "Muḥammad",
+    "ar": "هُمَا لِي.",
+    "en": "They're mine."
+   }
+  ]
+ },
+ "practice": [
+  {
+   "t": "match",
+   "pairs": [
+    [
+     "كِتَابٌ",
+     "كِتَابَانِ"
+    ],
+    [
+     "سَاعَةٌ",
+     "سَاعَتَانِ"
+    ],
+    [
+     "بَيْتٌ",
+     "بَيْتَانِ"
+    ],
+    [
+     "يَدٌ",
+     "يَدَانِ"
+    ]
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "What does this mean?",
+   "opts": [
+    "I have two sisters.",
+    "I have a sister.",
+    "My sister has two.",
+    "These are my sisters."
+   ],
+   "a": 0,
+   "ar": "لِي أُخْتَانِ."
+  },
+  {
+   "t": "mcq",
+   "q": "Which means “these two watches”?",
+   "opts": [
+    "هَاتَانِ السَّاعَتَانِ",
+    "هَذَانِ السَّاعَتَانِ",
+    "هَذِهِ السَّاعَةُ"
+   ],
+   "a": 0,
+   "why": "سَاعَةٌ is feminine → هَاتَانِ."
+  },
+  {
+   "t": "mcq",
+   "q": "Which is correct?",
+   "opts": [
+    "كَمْ أَخًا لَكَ؟",
+    "كَمْ أَخٌ لَكَ؟",
+    "كَمْ إِخْوَةٌ لَكَ؟"
+   ],
+   "a": 0,
+   "why": "After كَمْ: singular, ending in -an."
+  },
+  {
+   "t": "build",
+   "en": "These are two students.",
+   "words": [
+    "هَذَانِ",
+    "طَالِبَانِ."
+   ],
+   "extra": [
+    "هَاتَانِ"
+   ]
+  }
+ ],
+ "check": [
+  {
+   "t": "build",
+   "en": "How many books do you have?",
+   "words": [
+    "كَمْ",
+    "كِتَابًا",
+    "عِنْدَكَ؟"
+   ],
+   "extra": [
+    "كِتَابٌ"
+   ]
+  },
+  {
+   "t": "mcq",
+   "q": "What is the dual of نَافِذَةٌ?",
+   "opts": [
+    "نَافِذَتَانِ",
+    "نَافِذَةٌ",
+    "سَاعَتَانِ"
+   ],
+   "a": 0
+  },
+  {
+   "t": "mcq",
+   "q": "Which means “they two”?",
+   "opts": [
+    "هُمَا",
+    "هُمْ",
+    "هُنَّ",
+    "هَذَانِ"
+   ],
+   "a": 0
+  },
+  {
+   "t": "mcq",
+   "q": "What does this mean?",
+   "opts": [
+    "There are two Eids in the year.",
+    "There is one Eid in the year.",
+    "Eid is in two years."
+   ],
+   "a": 0,
+   "ar": "فِي السَّنَةِ عِيدَانِ."
+  },
+  {
+   "t": "mcq",
+   "q": "Which word means “a foot”?",
+   "opts": [
+    "رِجْلٌ",
+    "رَجُلٌ",
+    "يَدٌ",
+    "عَيْنٌ"
+   ],
+   "a": 0
+  }
+ ]
+}
